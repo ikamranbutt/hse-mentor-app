@@ -1,0 +1,6 @@
+.voice-controls{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:-6px 0 15px}
+.voice-controls button{display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;border:1px solid #cfe0e2;border-radius:13px;background:#f1f7f7;color:#315360;cursor:pointer;transition:transform .18s,border-color .18s}
+.voice-controls button:hover{transform:translateY(-2px);border-color:#59b9af}.voice-controls button span{font-size:18px}.voice-controls button b{font-size:11px}
+.voice-controls button.recording{border-color:#db5c5c;background:#fff0f0;color:#9c3535;animation:recordPulse 1s infinite}.voice-controls button:disabled{opacity:.7}
+.voice-error{margin:-5px 0 13px;padding:10px;border-radius:10px;background:#fff5e5;color:#8b601c;font-size:11px;line-height:1.4}
+@keyframes recordPulse{50%{box-shadow:0 0 0 5px #df5a5a20;transform:scale(.98)}}

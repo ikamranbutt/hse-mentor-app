@@ -8,6 +8,7 @@ import './motion.css';
 import './hero.css';
 import './curriculum.css';
 import './interview.css';
+import './voice.css';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode><App /></React.StrictMode>
