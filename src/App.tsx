@@ -1,6 +1,7 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { catalog } from './data/catalog';
 import type { Lesson, Module, Question } from './types';
+import Interview from './Interview';
 
 function ModuleCard({ module, onOpen }: { module: Module; onOpen: () => void }) {
   return <button className={`module-card ${module.level}`} onClick={onOpen}>
@@ -74,12 +75,25 @@ function Header({ onBack }: { onBack: () => void }) {
 }
 
 function LessonView({ lesson, nextLesson, isCompleted, onComplete, onNext, onBack }: { lesson: Lesson; nextLesson?: Lesson; isCompleted: boolean; onComplete: () => void; onNext: () => void; onBack: () => void }) {
-  const [remaining, setRemaining] = useState(isCompleted ? 0 : lesson.estimatedMinutes * 60);
+  const timerKey = `hse-mentor-reading-${lesson.id}`;
+  const [remaining, setRemaining] = useState(() => {
+    if (isCompleted) return 0;
+    const saved = Number(localStorage.getItem(timerKey));
+    return Number.isFinite(saved) && saved > 0 ? saved : lesson.estimatedMinutes * 60;
+  });
+  const remainingRef = useRef(remaining);
+  useEffect(() => { remainingRef.current = remaining; localStorage.setItem(timerKey, String(remaining)); }, [remaining, timerKey]);
   useEffect(() => {
     if (isCompleted || remaining <= 0) return;
     const timer = window.setInterval(() => setRemaining(value => Math.max(0, value - 1)), 1000);
     return () => window.clearInterval(timer);
   }, [isCompleted, remaining]);
+  useEffect(() => {
+    const save = () => localStorage.setItem(timerKey, String(remainingRef.current));
+    window.addEventListener('pagehide', save);
+    window.addEventListener('beforeunload', save);
+    return () => { save(); window.removeEventListener('pagehide', save); window.removeEventListener('beforeunload', save); };
+  }, [timerKey]);
   useEffect(() => { if (remaining === 0 && !isCompleted) onComplete(); }, [remaining, isCompleted, onComplete]);
   const mins = Math.floor(remaining / 60).toString().padStart(2, '0');
   const secs = (remaining % 60).toString().padStart(2, '0');
@@ -172,6 +186,7 @@ export default function App() {
   const [selected, setSelected] = useState<Module | null>(null);
   const [lesson, setLesson] = useState<Lesson | null>(null);
   const [exam, setExam] = useState(false);
+  const [interview, setInterview] = useState(false);
   const [lockedMessage, setLockedMessage] = useState('');
   const [completed, setCompleted] = useState<string[]>(() => {
     try { return JSON.parse(localStorage.getItem('hse-mentor-completed-lessons') || '[]'); }
@@ -192,6 +207,7 @@ export default function App() {
     lessons: catalog.reduce((n, m) => n + m.lessons.length, 0),
     questions: catalog.reduce((n, m) => n + m.finalAssessment.length + m.lessons.reduce((q, l) => q + l.questions.length, 0), 0)
   }), []);
+  if (interview) return <Interview onBack={() => setInterview(false)} />;
   if (selected && lesson) {
     const nextLesson = selected.lessons.find(item => item.order === lesson.order + 1);
     return <LessonView lesson={lesson} nextLesson={nextLesson} isCompleted={completed.includes(lesson.id)} onComplete={() => completeLesson(lesson.id)} onNext={() => nextLesson ? setLesson(nextLesson) : setLesson(null)} onBack={() => setLesson(null)} />;
@@ -226,6 +242,6 @@ export default function App() {
         <div className="module-grid">{catalog.filter(m => m.level === level.key).map(m => <ModuleCard key={m.id} module={m} onOpen={() => setSelected(m)} />)}</div>
       </section>)}
     </section>
-    <nav className="bottom-nav"><button className="active">⌂<span>Learn</span></button><button>✓<span>Practice</span></button><button>◎<span>Progress</span></button><button>☻<span>Profile</span></button></nav>
+    <nav className="bottom-nav"><button className="active">⌂<span>Learn</span></button><button onClick={() => setInterview(true)}>◉<span>Interview</span></button><button>◎<span>Progress</span></button><button>☻<span>Profile</span></button></nav>
   </main>;
 }
