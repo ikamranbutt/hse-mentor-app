@@ -1,0 +1,10 @@
+{
+  "name": "HSE Mentor",
+  "short_name": "HSE Mentor",
+  "description": "Practical health and safety learning platform",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f8fa",
+  "theme_color": "#123b5d",
+  "icons": []
+}
