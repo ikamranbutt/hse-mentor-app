@@ -5,6 +5,7 @@ import { interviewQuestions, type InterviewQuestion } from './data/interview';
 type AgentResult = { score: number; matched: string[]; missing: string[] };
 const levels: InterviewQuestion['level'][] = ['Basic', 'Intermediate', 'Advanced', 'Management'];
 const SESSION_LENGTH = 10;
+const HISTORY_KEY = 'hse-mentor-agent-question-history';
 
 export default function LiveAgent({ onBack }: { onBack: () => void }) {
   const [name, setName] = useState('');
@@ -67,8 +68,12 @@ export default function LiveAgent({ onBack }: { onBack: () => void }) {
       setAnswer(existing => existing ? `${existing} ${spoken}` : spoken);
     } catch (reason) { setError(reason instanceof Error ? reason.message : 'Please type your answer.'); }
   };
+  const recentQuestions = () => { try { return JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]') as string[]; } catch { return []; } };
+  const rememberQuestion = (id: string) => localStorage.setItem(HISTORY_KEY, JSON.stringify([...recentQuestions().filter(item => item !== id), id].slice(-30)));
   const pickQuestion = (level: InterviewQuestion['level'], excluded: string[], first = false) => {
-    let candidates = interviewQuestions.filter(q => q.level === level && !excluded.includes(q.id) && (!first || q.type === 'Knowledge'));
+    const blocked = [...excluded, ...recentQuestions()];
+    let candidates = interviewQuestions.filter(q => q.level === level && !blocked.includes(q.id) && (!first || q.type === 'Practical Scenario'));
+    if (!candidates.length) candidates = interviewQuestions.filter(q => q.level === level && !excluded.includes(q.id));
     if (!candidates.length) candidates = interviewQuestions.filter(q => !excluded.includes(q.id));
     return candidates[Math.floor(Math.random() * candidates.length)];
   };
@@ -76,6 +81,7 @@ export default function LiveAgent({ onBack }: { onBack: () => void }) {
     const cleanName = name.trim();
     if (!cleanName) return;
     const first = pickQuestion('Basic', [], true);
+    rememberQuestion(first.id);
     setName(cleanName); setStarted(true); setCurrent(first); setAsked([first.id]); setScores([]); setAnswer(''); setResult(null); setFinished(false);
     window.setTimeout(() => speak(`Welcome ${cleanName}. I am your HSE interview agent. Let us start with a simple question. ${first.prompt}`), 250);
   };
@@ -105,6 +111,7 @@ export default function LiveAgent({ onBack }: { onBack: () => void }) {
     const currentLevel = levels.indexOf(current.level);
     const targetIndex = result.score >= 70 ? Math.min(3, currentLevel + 1) : result.score < 35 ? Math.max(0, currentLevel - 1) : currentLevel;
     const next = pickQuestion(levels[targetIndex], asked);
+    rememberQuestion(next.id);
     setScores(nextScores); setCurrent(next); setAsked([...asked, next.id]); setAnswer(''); setResult(null); setError('');
     window.setTimeout(() => speak(`Thank you, ${name}. Your next ${next.type.toLowerCase()} question is: ${next.prompt}`), 250);
     scrollTo({ top: 0, behavior: 'smooth' });
