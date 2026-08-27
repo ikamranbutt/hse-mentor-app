@@ -1,0 +1,1082 @@
+{
+  "id": "management-module-17",
+  "order": 17,
+  "level": "management",
+  "title": "HSE Leadership and Safety Culture",
+  "description": "Lead visible, fair and learning-focused safety performance.",
+  "passingScore": 80,
+  "lessons": [
+    {
+      "id": "l17-1-leadership-commitment-and-credibility",
+      "order": 1,
+      "title": "Leadership Commitment and Credibility",
+      "estimatedMinutes": 2,
+      "summary": "Apply leadership commitment and credibility through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Leadership Commitment and Credibility is a core part of lead visible, fair and learning-focused safety performance.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting leadership commitment and credibility have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply leadership commitment and credibility through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l17-1-leadership-commitment-and-credibility-q1",
+          "prompt": "What is the best first approach to leadership commitment and credibility?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l17-1-leadership-commitment-and-credibility-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l17-1-leadership-commitment-and-credibility-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l17-2-visible-leadership-in-the-field",
+      "order": 2,
+      "title": "Visible Leadership in the Field",
+      "estimatedMinutes": 2,
+      "summary": "Apply visible leadership in the field through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Visible Leadership in the Field is a core part of lead visible, fair and learning-focused safety performance.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting visible leadership in the field have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply visible leadership in the field through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l17-2-visible-leadership-in-the-field-q1",
+          "prompt": "What is the best first approach to visible leadership in the field?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l17-2-visible-leadership-in-the-field-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l17-2-visible-leadership-in-the-field-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l17-3-worker-consultation-and-participation",
+      "order": 3,
+      "title": "Worker Consultation and Participation",
+      "estimatedMinutes": 2,
+      "summary": "Apply worker consultation and participation through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Worker Consultation and Participation is a core part of lead visible, fair and learning-focused safety performance.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting worker consultation and participation have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply worker consultation and participation through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l17-3-worker-consultation-and-participation-q1",
+          "prompt": "What is the best first approach to worker consultation and participation?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l17-3-worker-consultation-and-participation-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l17-3-worker-consultation-and-participation-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l17-4-psychological-safety-and-speaking-up",
+      "order": 4,
+      "title": "Psychological Safety and Speaking Up",
+      "estimatedMinutes": 2,
+      "summary": "Apply psychological safety and speaking up through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Psychological Safety and Speaking Up is a core part of lead visible, fair and learning-focused safety performance.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting psychological safety and speaking up have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply psychological safety and speaking up through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l17-4-psychological-safety-and-speaking-up-q1",
+          "prompt": "What is the best first approach to psychological safety and speaking up?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l17-4-psychological-safety-and-speaking-up-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l17-4-psychological-safety-and-speaking-up-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l17-5-just-culture-and-accountability",
+      "order": 5,
+      "title": "Just Culture and Accountability",
+      "estimatedMinutes": 2,
+      "summary": "Apply just culture and accountability through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Just Culture and Accountability is a core part of lead visible, fair and learning-focused safety performance.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting just culture and accountability have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply just culture and accountability through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l17-5-just-culture-and-accountability-q1",
+          "prompt": "What is the best first approach to just culture and accountability?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l17-5-just-culture-and-accountability-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l17-5-just-culture-and-accountability-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l17-6-behaviour-and-system-influences",
+      "order": 6,
+      "title": "Behaviour and System Influences",
+      "estimatedMinutes": 2,
+      "summary": "Apply behaviour and system influences through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Behaviour and System Influences is a core part of lead visible, fair and learning-focused safety performance.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting behaviour and system influences have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply behaviour and system influences through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l17-6-behaviour-and-system-influences-q1",
+          "prompt": "What is the best first approach to behaviour and system influences?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l17-6-behaviour-and-system-influences-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l17-6-behaviour-and-system-influences-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l17-7-coaching-and-safety-conversations",
+      "order": 7,
+      "title": "Coaching and Safety Conversations",
+      "estimatedMinutes": 2,
+      "summary": "Apply coaching and safety conversations through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Coaching and Safety Conversations is a core part of lead visible, fair and learning-focused safety performance.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting coaching and safety conversations have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply coaching and safety conversations through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l17-7-coaching-and-safety-conversations-q1",
+          "prompt": "What is the best first approach to coaching and safety conversations?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l17-7-coaching-and-safety-conversations-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l17-7-coaching-and-safety-conversations-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l17-8-decision-making-under-pressure",
+      "order": 8,
+      "title": "Decision-making Under Pressure",
+      "estimatedMinutes": 2,
+      "summary": "Apply decision-making under pressure through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Decision-making Under Pressure is a core part of lead visible, fair and learning-focused safety performance.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting decision-making under pressure have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply decision-making under pressure through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l17-8-decision-making-under-pressure-q1",
+          "prompt": "What is the best first approach to decision-making under pressure?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l17-8-decision-making-under-pressure-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l17-8-decision-making-under-pressure-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l17-9-learning-culture-and-organizational-memory",
+      "order": 9,
+      "title": "Learning Culture and Organizational Memory",
+      "estimatedMinutes": 2,
+      "summary": "Apply learning culture and organizational memory through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Learning Culture and Organizational Memory is a core part of lead visible, fair and learning-focused safety performance.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting learning culture and organizational memory have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply learning culture and organizational memory through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l17-9-learning-culture-and-organizational-memory-q1",
+          "prompt": "What is the best first approach to learning culture and organizational memory?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l17-9-learning-culture-and-organizational-memory-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l17-9-learning-culture-and-organizational-memory-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l17-10-leading-sustainable-change",
+      "order": 10,
+      "title": "Leading Sustainable Change",
+      "estimatedMinutes": 2,
+      "summary": "Apply leading sustainable change through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Leading Sustainable Change is a core part of lead visible, fair and learning-focused safety performance.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting leading sustainable change have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply leading sustainable change through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l17-10-leading-sustainable-change-q1",
+          "prompt": "What is the best first approach to leading sustainable change?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l17-10-leading-sustainable-change-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l17-10-leading-sustainable-change-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    }
+  ],
+  "finalAssessment": [
+    {
+      "id": "m17-exam-q1",
+      "prompt": "What is the best first approach to leadership commitment and credibility?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q2",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q3",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q4",
+      "prompt": "What is the best first approach to visible leadership in the field?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q5",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q6",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q7",
+      "prompt": "What is the best first approach to worker consultation and participation?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q8",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q9",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q10",
+      "prompt": "What is the best first approach to psychological safety and speaking up?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q11",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q12",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q13",
+      "prompt": "What is the best first approach to just culture and accountability?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q14",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q15",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q16",
+      "prompt": "What is the best first approach to behaviour and system influences?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q17",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q18",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q19",
+      "prompt": "What is the best first approach to coaching and safety conversations?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q20",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q21",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q22",
+      "prompt": "What is the best first approach to decision-making under pressure?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q23",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q24",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m17-exam-q25",
+      "prompt": "What is the best first approach to learning culture and organizational memory?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    }
+  ]
+}

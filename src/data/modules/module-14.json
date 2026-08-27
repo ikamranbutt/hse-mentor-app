@@ -1,0 +1,1082 @@
+{
+  "id": "advanced-module-14",
+  "order": 14,
+  "level": "advanced",
+  "title": "Environmental Protection and Sustainability",
+  "description": "Control environmental aspects, waste, spills and resource impacts.",
+  "passingScore": 80,
+  "lessons": [
+    {
+      "id": "l14-1-environmental-aspects-and-impacts",
+      "order": 1,
+      "title": "Environmental Aspects and Impacts",
+      "estimatedMinutes": 2,
+      "summary": "Apply environmental aspects and impacts through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Environmental Aspects and Impacts is a core part of control environmental aspects, waste, spills and resource impacts.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting environmental aspects and impacts have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply environmental aspects and impacts through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l14-1-environmental-aspects-and-impacts-q1",
+          "prompt": "What is the best first approach to environmental aspects and impacts?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l14-1-environmental-aspects-and-impacts-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l14-1-environmental-aspects-and-impacts-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l14-2-legal-and-permit-obligations",
+      "order": 2,
+      "title": "Legal and Permit Obligations",
+      "estimatedMinutes": 2,
+      "summary": "Apply legal and permit obligations through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Legal and Permit Obligations is a core part of control environmental aspects, waste, spills and resource impacts.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting legal and permit obligations have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply legal and permit obligations through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l14-2-legal-and-permit-obligations-q1",
+          "prompt": "What is the best first approach to legal and permit obligations?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l14-2-legal-and-permit-obligations-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l14-2-legal-and-permit-obligations-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l14-3-waste-hierarchy-and-segregation",
+      "order": 3,
+      "title": "Waste Hierarchy and Segregation",
+      "estimatedMinutes": 2,
+      "summary": "Apply waste hierarchy and segregation through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Waste Hierarchy and Segregation is a core part of control environmental aspects, waste, spills and resource impacts.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting waste hierarchy and segregation have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply waste hierarchy and segregation through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l14-3-waste-hierarchy-and-segregation-q1",
+          "prompt": "What is the best first approach to waste hierarchy and segregation?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l14-3-waste-hierarchy-and-segregation-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l14-3-waste-hierarchy-and-segregation-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l14-4-hazardous-waste-control",
+      "order": 4,
+      "title": "Hazardous-Waste Control",
+      "estimatedMinutes": 2,
+      "summary": "Apply hazardous-waste control through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Hazardous-Waste Control is a core part of control environmental aspects, waste, spills and resource impacts.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting hazardous-waste control have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply hazardous-waste control through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l14-4-hazardous-waste-control-q1",
+          "prompt": "What is the best first approach to hazardous-waste control?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l14-4-hazardous-waste-control-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l14-4-hazardous-waste-control-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l14-5-spill-prevention-and-response",
+      "order": 5,
+      "title": "Spill Prevention and Response",
+      "estimatedMinutes": 2,
+      "summary": "Apply spill prevention and response through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Spill Prevention and Response is a core part of control environmental aspects, waste, spills and resource impacts.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting spill prevention and response have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply spill prevention and response through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l14-5-spill-prevention-and-response-q1",
+          "prompt": "What is the best first approach to spill prevention and response?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l14-5-spill-prevention-and-response-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l14-5-spill-prevention-and-response-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l14-6-air-emissions-and-dust-control",
+      "order": 6,
+      "title": "Air Emissions and Dust Control",
+      "estimatedMinutes": 2,
+      "summary": "Apply air emissions and dust control through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Air Emissions and Dust Control is a core part of control environmental aspects, waste, spills and resource impacts.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting air emissions and dust control have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply air emissions and dust control through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l14-6-air-emissions-and-dust-control-q1",
+          "prompt": "What is the best first approach to air emissions and dust control?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l14-6-air-emissions-and-dust-control-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l14-6-air-emissions-and-dust-control-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l14-7-water-drainage-and-pollution-prevention",
+      "order": 7,
+      "title": "Water, Drainage and Pollution Prevention",
+      "estimatedMinutes": 2,
+      "summary": "Apply water, drainage and pollution prevention through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Water, Drainage and Pollution Prevention is a core part of control environmental aspects, waste, spills and resource impacts.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting water, drainage and pollution prevention have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply water, drainage and pollution prevention through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l14-7-water-drainage-and-pollution-prevention-q1",
+          "prompt": "What is the best first approach to water, drainage and pollution prevention?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l14-7-water-drainage-and-pollution-prevention-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l14-7-water-drainage-and-pollution-prevention-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l14-8-noise-and-community-impact",
+      "order": 8,
+      "title": "Noise and Community Impact",
+      "estimatedMinutes": 2,
+      "summary": "Apply noise and community impact through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Noise and Community Impact is a core part of control environmental aspects, waste, spills and resource impacts.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting noise and community impact have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply noise and community impact through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l14-8-noise-and-community-impact-q1",
+          "prompt": "What is the best first approach to noise and community impact?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l14-8-noise-and-community-impact-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l14-8-noise-and-community-impact-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l14-9-resource-efficiency-and-carbon-awareness",
+      "order": 9,
+      "title": "Resource Efficiency and Carbon Awareness",
+      "estimatedMinutes": 2,
+      "summary": "Apply resource efficiency and carbon awareness through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Resource Efficiency and Carbon Awareness is a core part of control environmental aspects, waste, spills and resource impacts.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting resource efficiency and carbon awareness have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply resource efficiency and carbon awareness through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l14-9-resource-efficiency-and-carbon-awareness-q1",
+          "prompt": "What is the best first approach to resource efficiency and carbon awareness?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l14-9-resource-efficiency-and-carbon-awareness-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l14-9-resource-efficiency-and-carbon-awareness-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l14-10-environmental-inspection-and-reporting",
+      "order": 10,
+      "title": "Environmental Inspection and Reporting",
+      "estimatedMinutes": 2,
+      "summary": "Apply environmental inspection and reporting through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Environmental Inspection and Reporting is a core part of control environmental aspects, waste, spills and resource impacts.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting environmental inspection and reporting have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply environmental inspection and reporting through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l14-10-environmental-inspection-and-reporting-q1",
+          "prompt": "What is the best first approach to environmental inspection and reporting?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l14-10-environmental-inspection-and-reporting-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l14-10-environmental-inspection-and-reporting-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    }
+  ],
+  "finalAssessment": [
+    {
+      "id": "m14-exam-q1",
+      "prompt": "What is the best first approach to environmental aspects and impacts?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q2",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q3",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q4",
+      "prompt": "What is the best first approach to legal and permit obligations?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q5",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q6",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q7",
+      "prompt": "What is the best first approach to waste hierarchy and segregation?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q8",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q9",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q10",
+      "prompt": "What is the best first approach to hazardous-waste control?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q11",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q12",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q13",
+      "prompt": "What is the best first approach to spill prevention and response?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q14",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q15",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q16",
+      "prompt": "What is the best first approach to air emissions and dust control?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q17",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q18",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q19",
+      "prompt": "What is the best first approach to water, drainage and pollution prevention?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q20",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q21",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q22",
+      "prompt": "What is the best first approach to noise and community impact?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q23",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q24",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m14-exam-q25",
+      "prompt": "What is the best first approach to resource efficiency and carbon awareness?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    }
+  ]
+}

@@ -1,0 +1,1082 @@
+{
+  "id": "advanced-module-13",
+  "order": 13,
+  "level": "advanced",
+  "title": "Occupational Health and Industrial Hygiene",
+  "description": "Recognize, assess and control workplace health exposures.",
+  "passingScore": 80,
+  "lessons": [
+    {
+      "id": "l13-1-occupational-health-risk-principles",
+      "order": 1,
+      "title": "Occupational Health Risk Principles",
+      "estimatedMinutes": 2,
+      "summary": "Apply occupational health risk principles through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Occupational Health Risk Principles is a core part of recognize, assess and control workplace health exposures.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting occupational health risk principles have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply occupational health risk principles through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l13-1-occupational-health-risk-principles-q1",
+          "prompt": "What is the best first approach to occupational health risk principles?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l13-1-occupational-health-risk-principles-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l13-1-occupational-health-risk-principles-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l13-2-routes-and-duration-of-exposure",
+      "order": 2,
+      "title": "Routes and Duration of Exposure",
+      "estimatedMinutes": 2,
+      "summary": "Apply routes and duration of exposure through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Routes and Duration of Exposure is a core part of recognize, assess and control workplace health exposures.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting routes and duration of exposure have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply routes and duration of exposure through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l13-2-routes-and-duration-of-exposure-q1",
+          "prompt": "What is the best first approach to routes and duration of exposure?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l13-2-routes-and-duration-of-exposure-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l13-2-routes-and-duration-of-exposure-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l13-3-noise-and-hearing-conservation",
+      "order": 3,
+      "title": "Noise and Hearing Conservation",
+      "estimatedMinutes": 2,
+      "summary": "Apply noise and hearing conservation through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Noise and Hearing Conservation is a core part of recognize, assess and control workplace health exposures.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting noise and hearing conservation have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply noise and hearing conservation through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l13-3-noise-and-hearing-conservation-q1",
+          "prompt": "What is the best first approach to noise and hearing conservation?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l13-3-noise-and-hearing-conservation-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l13-3-noise-and-hearing-conservation-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l13-4-respirable-dust-and-silica",
+      "order": 4,
+      "title": "Respirable Dust and Silica",
+      "estimatedMinutes": 2,
+      "summary": "Apply respirable dust and silica through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Respirable Dust and Silica is a core part of recognize, assess and control workplace health exposures.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting respirable dust and silica have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply respirable dust and silica through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l13-4-respirable-dust-and-silica-q1",
+          "prompt": "What is the best first approach to respirable dust and silica?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l13-4-respirable-dust-and-silica-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l13-4-respirable-dust-and-silica-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l13-5-chemicals-and-toxic-substances",
+      "order": 5,
+      "title": "Chemicals and Toxic Substances",
+      "estimatedMinutes": 2,
+      "summary": "Apply chemicals and toxic substances through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Chemicals and Toxic Substances is a core part of recognize, assess and control workplace health exposures.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting chemicals and toxic substances have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply chemicals and toxic substances through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l13-5-chemicals-and-toxic-substances-q1",
+          "prompt": "What is the best first approach to chemicals and toxic substances?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l13-5-chemicals-and-toxic-substances-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l13-5-chemicals-and-toxic-substances-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l13-6-heat-stress-and-hydration",
+      "order": 6,
+      "title": "Heat Stress and Hydration",
+      "estimatedMinutes": 2,
+      "summary": "Apply heat stress and hydration through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Heat Stress and Hydration is a core part of recognize, assess and control workplace health exposures.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting heat stress and hydration have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply heat stress and hydration through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l13-6-heat-stress-and-hydration-q1",
+          "prompt": "What is the best first approach to heat stress and hydration?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l13-6-heat-stress-and-hydration-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l13-6-heat-stress-and-hydration-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l13-7-ergonomics-and-musculoskeletal-risk",
+      "order": 7,
+      "title": "Ergonomics and Musculoskeletal Risk",
+      "estimatedMinutes": 2,
+      "summary": "Apply ergonomics and musculoskeletal risk through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Ergonomics and Musculoskeletal Risk is a core part of recognize, assess and control workplace health exposures.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting ergonomics and musculoskeletal risk have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply ergonomics and musculoskeletal risk through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l13-7-ergonomics-and-musculoskeletal-risk-q1",
+          "prompt": "What is the best first approach to ergonomics and musculoskeletal risk?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l13-7-ergonomics-and-musculoskeletal-risk-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l13-7-ergonomics-and-musculoskeletal-risk-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l13-8-respiratory-protection-programs",
+      "order": 8,
+      "title": "Respiratory Protection Programs",
+      "estimatedMinutes": 2,
+      "summary": "Apply respiratory protection programs through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Respiratory Protection Programs is a core part of recognize, assess and control workplace health exposures.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting respiratory protection programs have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply respiratory protection programs through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l13-8-respiratory-protection-programs-q1",
+          "prompt": "What is the best first approach to respiratory protection programs?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l13-8-respiratory-protection-programs-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l13-8-respiratory-protection-programs-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l13-9-exposure-monitoring-and-health-surveillance",
+      "order": 9,
+      "title": "Exposure Monitoring and Health Surveillance",
+      "estimatedMinutes": 2,
+      "summary": "Apply exposure monitoring and health surveillance through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Exposure Monitoring and Health Surveillance is a core part of recognize, assess and control workplace health exposures.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting exposure monitoring and health surveillance have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply exposure monitoring and health surveillance through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l13-9-exposure-monitoring-and-health-surveillance-q1",
+          "prompt": "What is the best first approach to exposure monitoring and health surveillance?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l13-9-exposure-monitoring-and-health-surveillance-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l13-9-exposure-monitoring-and-health-surveillance-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l13-10-psychosocial-risk-and-worker-wellbeing",
+      "order": 10,
+      "title": "Psychosocial Risk and Worker Wellbeing",
+      "estimatedMinutes": 2,
+      "summary": "Apply psychosocial risk and worker wellbeing through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Psychosocial Risk and Worker Wellbeing is a core part of recognize, assess and control workplace health exposures.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting psychosocial risk and worker wellbeing have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply psychosocial risk and worker wellbeing through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l13-10-psychosocial-risk-and-worker-wellbeing-q1",
+          "prompt": "What is the best first approach to psychosocial risk and worker wellbeing?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l13-10-psychosocial-risk-and-worker-wellbeing-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l13-10-psychosocial-risk-and-worker-wellbeing-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    }
+  ],
+  "finalAssessment": [
+    {
+      "id": "m13-exam-q1",
+      "prompt": "What is the best first approach to occupational health risk principles?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q2",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q3",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q4",
+      "prompt": "What is the best first approach to routes and duration of exposure?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q5",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q6",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q7",
+      "prompt": "What is the best first approach to noise and hearing conservation?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q8",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q9",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q10",
+      "prompt": "What is the best first approach to respirable dust and silica?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q11",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q12",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q13",
+      "prompt": "What is the best first approach to chemicals and toxic substances?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q14",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q15",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q16",
+      "prompt": "What is the best first approach to heat stress and hydration?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q17",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q18",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q19",
+      "prompt": "What is the best first approach to ergonomics and musculoskeletal risk?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q20",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q21",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q22",
+      "prompt": "What is the best first approach to respiratory protection programs?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q23",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q24",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m13-exam-q25",
+      "prompt": "What is the best first approach to exposure monitoring and health surveillance?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    }
+  ]
+}

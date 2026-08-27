@@ -3,6 +3,7 @@ import re
 from pathlib import Path
 
 DATA = Path(__file__).resolve().parents[1] / 'src' / 'data' / 'modules.json'
+SPLIT_DIR = DATA.parent / 'modules'
 
 roadmap = [
  (6,'intermediate','Work at Height and Fall Protection','Plan, control and supervise work at height using prevention and protection principles.',[
@@ -84,6 +85,11 @@ def build_module(order, level, title, description, lessons):
 modules=json.loads(DATA.read_text(encoding='utf-8'))
 modules=modules[:5]+[build_module(*item) for item in roadmap]
 DATA.write_text(json.dumps(modules,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+SPLIT_DIR.mkdir(parents=True, exist_ok=True)
+for module in modules:
+    (SPLIT_DIR / f'module-{module["order"]:02d}.json').write_text(
+        json.dumps(module,ensure_ascii=False,indent=2)+'\n',encoding='utf-8'
+    )
 print(f'Built {len(modules)} modules, {sum(len(m["lessons"]) for m in modules)} lessons, '
       f'{sum(sum(len(l["questions"]) for l in m["lessons"]) for m in modules)} practice questions, '
       f'{sum(len(m["finalAssessment"]) for m in modules)} exam questions')

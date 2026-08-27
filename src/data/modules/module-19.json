@@ -1,0 +1,1082 @@
+{
+  "id": "management-module-19",
+  "order": 19,
+  "level": "management",
+  "title": "Contractor and Project HSE Management",
+  "description": "Control HSE through design, procurement, mobilization, execution and closeout.",
+  "passingScore": 80,
+  "lessons": [
+    {
+      "id": "l19-1-hse-in-project-planning-and-design",
+      "order": 1,
+      "title": "HSE in Project Planning and Design",
+      "estimatedMinutes": 2,
+      "summary": "Apply hse in project planning and design through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "HSE in Project Planning and Design is a core part of control HSE through design, procurement, mobilization, execution and closeout.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting hse in project planning and design have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply hse in project planning and design through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l19-1-hse-in-project-planning-and-design-q1",
+          "prompt": "What is the best first approach to hse in project planning and design?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l19-1-hse-in-project-planning-and-design-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l19-1-hse-in-project-planning-and-design-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l19-2-contractor-prequalification",
+      "order": 2,
+      "title": "Contractor Prequalification",
+      "estimatedMinutes": 2,
+      "summary": "Apply contractor prequalification through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Contractor Prequalification is a core part of control HSE through design, procurement, mobilization, execution and closeout.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting contractor prequalification have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply contractor prequalification through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l19-2-contractor-prequalification-q1",
+          "prompt": "What is the best first approach to contractor prequalification?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l19-2-contractor-prequalification-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l19-2-contractor-prequalification-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l19-3-tender-and-contract-hse-requirements",
+      "order": 3,
+      "title": "Tender and Contract HSE Requirements",
+      "estimatedMinutes": 2,
+      "summary": "Apply tender and contract hse requirements through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Tender and Contract HSE Requirements is a core part of control HSE through design, procurement, mobilization, execution and closeout.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting tender and contract hse requirements have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply tender and contract hse requirements through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l19-3-tender-and-contract-hse-requirements-q1",
+          "prompt": "What is the best first approach to tender and contract hse requirements?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l19-3-tender-and-contract-hse-requirements-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l19-3-tender-and-contract-hse-requirements-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l19-4-mobilization-readiness-review",
+      "order": 4,
+      "title": "Mobilization Readiness Review",
+      "estimatedMinutes": 2,
+      "summary": "Apply mobilization readiness review through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Mobilization Readiness Review is a core part of control HSE through design, procurement, mobilization, execution and closeout.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting mobilization readiness review have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply mobilization readiness review through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l19-4-mobilization-readiness-review-q1",
+          "prompt": "What is the best first approach to mobilization readiness review?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l19-4-mobilization-readiness-review-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l19-4-mobilization-readiness-review-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l19-5-roles-interfaces-and-coordination",
+      "order": 5,
+      "title": "Roles, Interfaces and Coordination",
+      "estimatedMinutes": 2,
+      "summary": "Apply roles, interfaces and coordination through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Roles, Interfaces and Coordination is a core part of control HSE through design, procurement, mobilization, execution and closeout.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting roles, interfaces and coordination have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply roles, interfaces and coordination through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l19-5-roles-interfaces-and-coordination-q1",
+          "prompt": "What is the best first approach to roles, interfaces and coordination?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l19-5-roles-interfaces-and-coordination-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l19-5-roles-interfaces-and-coordination-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l19-6-construction-phase-hse-plans",
+      "order": 6,
+      "title": "Construction Phase HSE Plans",
+      "estimatedMinutes": 2,
+      "summary": "Apply construction phase hse plans through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Construction Phase HSE Plans is a core part of control HSE through design, procurement, mobilization, execution and closeout.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting construction phase hse plans have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply construction phase hse plans through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l19-6-construction-phase-hse-plans-q1",
+          "prompt": "What is the best first approach to construction phase hse plans?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l19-6-construction-phase-hse-plans-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l19-6-construction-phase-hse-plans-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l19-7-subcontractor-control",
+      "order": 7,
+      "title": "Subcontractor Control",
+      "estimatedMinutes": 2,
+      "summary": "Apply subcontractor control through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Subcontractor Control is a core part of control HSE through design, procurement, mobilization, execution and closeout.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting subcontractor control have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply subcontractor control through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l19-7-subcontractor-control-q1",
+          "prompt": "What is the best first approach to subcontractor control?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l19-7-subcontractor-control-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l19-7-subcontractor-control-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l19-8-change-schedule-and-production-pressure",
+      "order": 8,
+      "title": "Change, Schedule and Production Pressure",
+      "estimatedMinutes": 2,
+      "summary": "Apply change, schedule and production pressure through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Change, Schedule and Production Pressure is a core part of control HSE through design, procurement, mobilization, execution and closeout.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting change, schedule and production pressure have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply change, schedule and production pressure through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l19-8-change-schedule-and-production-pressure-q1",
+          "prompt": "What is the best first approach to change, schedule and production pressure?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l19-8-change-schedule-and-production-pressure-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l19-8-change-schedule-and-production-pressure-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l19-9-commissioning-and-handover-safety",
+      "order": 9,
+      "title": "Commissioning and Handover Safety",
+      "estimatedMinutes": 2,
+      "summary": "Apply commissioning and handover safety through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Commissioning and Handover Safety is a core part of control HSE through design, procurement, mobilization, execution and closeout.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting commissioning and handover safety have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply commissioning and handover safety through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l19-9-commissioning-and-handover-safety-q1",
+          "prompt": "What is the best first approach to commissioning and handover safety?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l19-9-commissioning-and-handover-safety-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l19-9-commissioning-and-handover-safety-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l19-10-demobilization-and-lessons-learned",
+      "order": 10,
+      "title": "Demobilization and Lessons Learned",
+      "estimatedMinutes": 2,
+      "summary": "Apply demobilization and lessons learned through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Demobilization and Lessons Learned is a core part of control HSE through design, procurement, mobilization, execution and closeout.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting demobilization and lessons learned have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply demobilization and lessons learned through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l19-10-demobilization-and-lessons-learned-q1",
+          "prompt": "What is the best first approach to demobilization and lessons learned?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l19-10-demobilization-and-lessons-learned-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l19-10-demobilization-and-lessons-learned-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    }
+  ],
+  "finalAssessment": [
+    {
+      "id": "m19-exam-q1",
+      "prompt": "What is the best first approach to hse in project planning and design?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q2",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q3",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q4",
+      "prompt": "What is the best first approach to contractor prequalification?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q5",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q6",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q7",
+      "prompt": "What is the best first approach to tender and contract hse requirements?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q8",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q9",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q10",
+      "prompt": "What is the best first approach to mobilization readiness review?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q11",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q12",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q13",
+      "prompt": "What is the best first approach to roles, interfaces and coordination?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q14",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q15",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q16",
+      "prompt": "What is the best first approach to construction phase hse plans?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q17",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q18",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q19",
+      "prompt": "What is the best first approach to subcontractor control?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q20",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q21",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q22",
+      "prompt": "What is the best first approach to change, schedule and production pressure?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q23",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q24",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m19-exam-q25",
+      "prompt": "What is the best first approach to commissioning and handover safety?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    }
+  ]
+}

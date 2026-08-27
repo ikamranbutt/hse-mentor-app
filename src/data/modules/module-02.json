@@ -1,0 +1,1172 @@
+{
+  "id": "foundation-module-2",
+  "order": 2,
+  "level": "foundation",
+  "title": "Hazard Identification and Risk Assessment",
+  "description": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
+  "passingScore": 80,
+  "lessons": [
+    {
+      "id": "f-m2-l1",
+      "order": 1,
+      "title": "Introduction to Hazard Identification",
+      "estimatedMinutes": 2,
+      "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Learning Objectives",
+          "points": [
+            "Explain proactive hazard identification.",
+            "Recognize why hazards must be found before harm occurs.",
+            "Identify information sources used during hazard identification."
+          ]
+        },
+        {
+          "heading": "What Hazard Identification Means",
+          "points": [
+            "Hazard identification is the systematic process of finding conditions, activities, substances, equipment and behaviours that could cause injury, illness, damage or loss. It must cover routine, non-routine and emergency work."
+          ]
+        },
+        {
+          "heading": "Why It Matters",
+          "points": [
+            "Finding and correcting hazards before an incident is more effective than reacting after harm. A strong process includes worker participation because workers often understand day-to-day conditions, task changes and practical control problems."
+          ]
+        },
+        {
+          "heading": "Useful Information Sources",
+          "points": [
+            "Workplace inspections; task observation; worker consultation; incident, near-miss and illness records; equipment manuals; Safety Data Sheets; legal and client requirements; maintenance records; exposure monitoring; change-management reviews; and emergency planning."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A workshop has no recent injuries, so management assumes it is safe. During inspection, workers identify a removed machine guard, damaged cable and blocked exit. Absence of injury does not prove absence of hazards; each finding requires immediate control and follow-up."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m2-l1-q1",
+          "prompt": "What is hazard identification?",
+          "options": [
+            "Waiting for an injury",
+            "Systematically finding sources of potential harm",
+            "Completing payroll",
+            "Only checking PPE"
+          ],
+          "correctIndex": 1,
+          "explanation": "It proactively finds conditions or activities that may cause harm."
+        },
+        {
+          "id": "f-m2-l1-q2",
+          "prompt": "Which work must be considered?",
+          "options": [
+            "Routine work only",
+            "Emergency work only",
+            "Routine, non-routine and emergency work",
+            "Office work only"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hazards may arise in every operating condition."
+        },
+        {
+          "id": "f-m2-l1-q3",
+          "prompt": "Why involve workers?",
+          "options": [
+            "They understand actual task conditions",
+            "They replace management",
+            "They approve all laws",
+            "They remove the need for inspections"
+          ],
+          "correctIndex": 0,
+          "explanation": "Worker knowledge improves hazard recognition and practical controls."
+        }
+      ]
+    },
+    {
+      "id": "f-m2-l2",
+      "order": 2,
+      "title": "Hazard, Unsafe Act and Unsafe Condition",
+      "estimatedMinutes": 2,
+      "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Learning Objectives",
+          "points": [
+            "Distinguish the three terms.",
+            "Describe observations without blame.",
+            "Recognize underlying system factors."
+          ]
+        },
+        {
+          "heading": "Hazard",
+          "points": [
+            "A hazard is anything with potential to cause harm, such as electricity, a moving vehicle, a chemical or an open edge."
+          ]
+        },
+        {
+          "heading": "Unsafe Condition",
+          "points": [
+            "An unsafe condition is a physical or environmental state that increases risk, such as a missing guardrail, oil spill, defective tool or blocked exit."
+          ]
+        },
+        {
+          "heading": "Unsafe Act or Behaviour",
+          "points": [
+            "An unsafe act is behaviour that departs from an established safe method, such as bypassing a guard or entering an exclusion zone. Investigations should not stop at blaming an individual; training, supervision, design, workload, tools and organizational pressures must also be examined."
+          ]
+        },
+        {
+          "heading": "Neutral Observation Language",
+          "points": [
+            "Record what was seen: 'Worker entered the lifting exclusion zone while the load was suspended.' Avoid labels such as careless or stupid. Facts support fair investigation."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A worker removes eye protection because goggles repeatedly fog. The act is unsafe, but the assessment must also examine ventilation, goggle selection, anti-fog options, task design, supervision and worker consultation."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m2-l2-q1",
+          "prompt": "Which is an unsafe condition?",
+          "options": [
+            "Blocked emergency exit",
+            "Following a procedure",
+            "Attending induction",
+            "Reporting a defect"
+          ],
+          "correctIndex": 0,
+          "explanation": "A blocked exit is a dangerous physical condition."
+        },
+        {
+          "id": "f-m2-l2-q2",
+          "prompt": "Which is an unsafe act?",
+          "options": [
+            "A fixed guard",
+            "Entering a barricaded area without authority",
+            "A labelled container",
+            "A tested alarm"
+          ],
+          "correctIndex": 1,
+          "explanation": "The behaviour departs from the safe restriction."
+        },
+        {
+          "id": "f-m2-l2-q3",
+          "prompt": "Why avoid blame-only investigation?",
+          "options": [
+            "People are never involved",
+            "System factors may contribute and must be corrected",
+            "Reports need no facts",
+            "Rules are optional"
+          ],
+          "correctIndex": 1,
+          "explanation": "Lasting prevention requires examination of underlying causes."
+        }
+      ]
+    },
+    {
+      "id": "f-m2-l3",
+      "order": 3,
+      "title": "Methods of Identifying Hazards",
+      "estimatedMinutes": 2,
+      "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Learning Objectives",
+          "points": [
+            "Use several identification methods.",
+            "Recognize less obvious health hazards.",
+            "Consider non-routine and changing work."
+          ]
+        },
+        {
+          "heading": "Workplace Inspection",
+          "points": [
+            "Walk through the area using observation and a suitable checklist. Speak with workers and check access, equipment, substances, housekeeping, guarding, emergency arrangements and work practices."
+          ]
+        },
+        {
+          "heading": "Task Observation and JHA/JSA",
+          "points": [
+            "Break the task into logical steps, identify hazards at each step, then select controls. Observe the real job rather than relying only on paperwork."
+          ]
+        },
+        {
+          "heading": "Review of Records",
+          "points": [
+            "Use incidents, near misses, first-aid cases, occupational illness, maintenance defects, complaints and exposure data to find patterns."
+          ]
+        },
+        {
+          "heading": "Documents and Specialist Input",
+          "points": [
+            "Review manuals, SDS, drawings, permits, monitoring results and applicable requirements. Obtain competent specialist advice when hazards such as structural stability, electricity, chemicals or occupational hygiene exceed local competence."
+          ]
+        },
+        {
+          "heading": "Change and Non-routine Review",
+          "points": [
+            "Assess maintenance, start-up, shutdown, cleaning, breakdowns, temporary work, new equipment, new substances, weather and simultaneous operations."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A team assesses normal machine operation but ignores cleaning. During cleaning, guards are open and stored energy remains. A separate non-routine review and safe isolation method are required."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m2-l3-q1",
+          "prompt": "Which method examines each task step?",
+          "options": [
+            "JHA/JSA",
+            "Payroll review",
+            "Attendance sheet",
+            "Fire register"
+          ],
+          "correctIndex": 0,
+          "explanation": "A job hazard analysis connects hazards and controls to task steps."
+        },
+        {
+          "id": "f-m2-l3-q2",
+          "prompt": "Which record can reveal recurring hazards?",
+          "options": [
+            "Near-miss reports",
+            "Lunch menu",
+            "Uniform size",
+            "Parking permit"
+          ],
+          "correctIndex": 0,
+          "explanation": "Near-miss trends can expose failed or missing controls."
+        },
+        {
+          "id": "f-m2-l3-q3",
+          "prompt": "When is specialist advice needed?",
+          "options": [
+            "Whenever no one wants to work",
+            "When hazards exceed available competence",
+            "Only after an injury",
+            "Never"
+          ],
+          "correctIndex": 1,
+          "explanation": "Risk assessment must be supported by suitable competence."
+        }
+      ]
+    },
+    {
+      "id": "f-m2-l4",
+      "order": 4,
+      "title": "Who Might Be Harmed and How",
+      "estimatedMinutes": 2,
+      "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Learning Objectives",
+          "points": [
+            "Identify exposed groups.",
+            "Describe credible harm and exposure routes.",
+            "Consider vulnerable persons."
+          ]
+        },
+        {
+          "heading": "People to Consider",
+          "points": [
+            "Employees, contractors, subcontractors, visitors, members of the public, drivers, cleaners, maintenance staff, emergency responders, remote workers and anyone affected by adjacent work."
+          ]
+        },
+        {
+          "heading": "Vulnerable or Higher-risk Groups",
+          "points": [
+            "New or young workers, inexperienced persons, pregnant workers, people with disabilities or medical restrictions, lone workers, night workers, language/literacy limitations and persons unfamiliar with the site may need additional controls."
+          ]
+        },
+        {
+          "heading": "How Harm May Occur",
+          "points": [
+            "State the exposure and consequence clearly: inhalation of silica dust may cause lung disease; contact with a live conductor may cause shock or burns; a falling object may strike persons below."
+          ]
+        },
+        {
+          "heading": "Exposure Pattern",
+          "points": [
+            "Consider who is exposed, how often, for how long, by which route and how many people could be affected."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "Roof work is assessed only for installers. The revised assessment also considers people below, building occupants, delivery drivers, maintenance staff and rescuers, with exclusion zones, access control and communication."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m2-l4-q1",
+          "prompt": "Who should a risk assessment consider?",
+          "options": [
+            "Only employees",
+            "Anyone who may be affected",
+            "Only supervisors",
+            "Only visitors"
+          ],
+          "correctIndex": 1,
+          "explanation": "All potentially affected persons must be considered."
+        },
+        {
+          "id": "f-m2-l4-q2",
+          "prompt": "Which group may need additional controls?",
+          "options": [
+            "New workers",
+            "Only managers",
+            "Only inspectors",
+            "Nobody"
+          ],
+          "correctIndex": 0,
+          "explanation": "Inexperience can increase vulnerability."
+        },
+        {
+          "id": "f-m2-l4-q3",
+          "prompt": "Which description is clearest?",
+          "options": [
+            "Chemical is bad",
+            "Inhalation of vapour may cause respiratory harm",
+            "Be careful",
+            "Risk present"
+          ],
+          "correctIndex": 1,
+          "explanation": "It identifies exposure route and possible harm."
+        }
+      ]
+    },
+    {
+      "id": "f-m2-l5",
+      "order": 5,
+      "title": "Likelihood and Severity",
+      "estimatedMinutes": 2,
+      "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Learning Objectives",
+          "points": [
+            "Rate likelihood and severity consistently.",
+            "Use evidence rather than guesswork.",
+            "Recognize limits of risk scores."
+          ]
+        },
+        {
+          "heading": "Likelihood",
+          "points": [
+            "Likelihood estimates how probable harm is, considering exposure frequency and duration, number of people, task conditions, control reliability, human interaction and incident history."
+          ]
+        },
+        {
+          "heading": "Severity",
+          "points": [
+            "Severity estimates the credible consequence, such as minor injury, lost-time injury, permanent disability, single fatality or multiple fatalities. Use a defined company matrix; labels vary between organizations."
+          ]
+        },
+        {
+          "heading": "Risk Rating",
+          "points": [
+            "A common method multiplies Likelihood by Severity. The score helps prioritize action but does not replace professional judgment or legal requirements. A low probability of fatal harm still requires strong control."
+          ]
+        },
+        {
+          "heading": "Evidence and Consistency",
+          "points": [
+            "Use observations, records, monitoring, manufacturer data and competent input. Document assumptions and apply the chosen matrix consistently."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "An open roof edge could cause a fatal fall. Even if workers approach it infrequently, severity remains very high. The edge requires effective protection rather than accepting a low-frequency exposure."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m2-l5-q1",
+          "prompt": "What does likelihood estimate?",
+          "options": [
+            "Cost",
+            "Probability of harm",
+            "Worker age",
+            "Document length"
+          ],
+          "correctIndex": 1,
+          "explanation": "Likelihood concerns how probable the event or exposure is."
+        },
+        {
+          "id": "f-m2-l5-q2",
+          "prompt": "What does severity estimate?",
+          "options": [
+            "Credible consequence",
+            "Inspection frequency",
+            "Training duration",
+            "Number of forms"
+          ],
+          "correctIndex": 0,
+          "explanation": "Severity addresses how serious the harm could be."
+        },
+        {
+          "id": "f-m2-l5-q3",
+          "prompt": "Can a risk score replace judgment?",
+          "options": [
+            "Yes",
+            "No",
+            "Only for PPE",
+            "Only for offices"
+          ],
+          "correctIndex": 1,
+          "explanation": "Scores support decisions but cannot replace competent assessment."
+        }
+      ]
+    },
+    {
+      "id": "f-m2-l6",
+      "order": 6,
+      "title": "Using a 5x5 Risk Matrix",
+      "estimatedMinutes": 2,
+      "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Learning Objectives",
+          "points": [
+            "Calculate a basic 5x5 score.",
+            "Interpret bands using an approved matrix.",
+            "Avoid false precision."
+          ]
+        },
+        {
+          "heading": "Typical Scale",
+          "points": [
+            "Likelihood and Severity may each be rated from 1 to 5. Example likelihood: Rare, Unlikely, Possible, Likely, Almost Certain. Example severity: Insignificant, Minor, Moderate, Major, Catastrophic. Always use the definitions approved by the organization."
+          ]
+        },
+        {
+          "heading": "Calculation",
+          "points": [
+            "Risk score = Likelihood x Severity. Example: Likelihood 4 and Severity 5 produce 20. The organization's matrix determines whether that score is classified as High or Extreme and what action is required."
+          ]
+        },
+        {
+          "heading": "Action Principle",
+          "points": [
+            "Higher risks normally require more urgent action and stronger authorization. Uncontrolled intolerable work must not start or continue."
+          ]
+        },
+        {
+          "heading": "Limitations",
+          "points": [
+            "Numbers may create false confidence. Two assessors can choose different ratings unless definitions, evidence and competent review are used. Never lower a score merely to obtain approval."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A lifting task is rated 2 x 5 = 10 after assuming barricades exist. Site inspection finds no barricade. The assessor must rate actual conditions, introduce interim control and reassess before work."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m2-l6-q1",
+          "prompt": "What is 4 x 5?",
+          "options": [
+            "9",
+            "20",
+            "25",
+            "45"
+          ],
+          "correctIndex": 1,
+          "explanation": "The basic product is 20."
+        },
+        {
+          "id": "f-m2-l6-q2",
+          "prompt": "Which matrix definitions should be used?",
+          "options": [
+            "Any internet matrix",
+            "The organization's approved definitions",
+            "Personal preference",
+            "Yesterday's weather"
+          ],
+          "correctIndex": 1,
+          "explanation": "Consistent approved definitions are essential."
+        },
+        {
+          "id": "f-m2-l6-q3",
+          "prompt": "What if an intolerable risk is uncontrolled?",
+          "options": [
+            "Start quickly",
+            "Do not start or continue",
+            "Reduce the written score",
+            "Use only a sign"
+          ],
+          "correctIndex": 1,
+          "explanation": "Work requires effective control before proceeding."
+        }
+      ]
+    },
+    {
+      "id": "f-m2-l7",
+      "order": 7,
+      "title": "Initial and Residual Risk",
+      "estimatedMinutes": 2,
+      "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Learning Objectives",
+          "points": [
+            "Distinguish initial and residual risk.",
+            "Assess controls honestly.",
+            "Recognize that risk cannot be transferred to paperwork."
+          ]
+        },
+        {
+          "heading": "Initial Risk",
+          "points": [
+            "Initial risk is the level assessed before proposed additional controls. Company systems differ on whether existing controls are included; the selected definition must be stated and used consistently."
+          ]
+        },
+        {
+          "heading": "Residual Risk",
+          "points": [
+            "Residual risk is the remaining risk after specified controls are implemented. It must reflect controls that are suitable, available, verified and maintained - not controls that exist only on paper."
+          ]
+        },
+        {
+          "heading": "Control Effect on Ratings",
+          "points": [
+            "Many controls reduce likelihood. Some controls can reduce severity, for example separating people from an energy source or limiting hazardous inventory. Do not automatically reduce both values."
+          ]
+        },
+        {
+          "heading": "Verification",
+          "points": [
+            "Before accepting residual risk, confirm control ownership, completion date, competence, inspection, monitoring and communication. If controls fail or conditions change, reassess."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A roof-edge task is initially 4 x 5 = 20. A designed guardrail may reduce likelihood significantly while fall severity remains 5. The residual rating must use the approved matrix and verified guardrail condition."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m2-l7-q1",
+          "prompt": "What is residual risk?",
+          "options": [
+            "Risk before controls",
+            "Risk remaining after implemented controls",
+            "Financial loss",
+            "A deleted hazard"
+          ],
+          "correctIndex": 1,
+          "explanation": "It is the remaining assessed risk after controls."
+        },
+        {
+          "id": "f-m2-l7-q2",
+          "prompt": "Should both likelihood and severity always be reduced?",
+          "options": [
+            "Yes",
+            "No",
+            "Only for paperwork",
+            "Only after an incident"
+          ],
+          "correctIndex": 1,
+          "explanation": "A control may affect one factor but not the other."
+        },
+        {
+          "id": "f-m2-l7-q3",
+          "prompt": "Can an unimplemented future control justify a low residual rating?",
+          "options": [
+            "Yes",
+            "No",
+            "Only if cheap",
+            "Only if signed"
+          ],
+          "correctIndex": 1,
+          "explanation": "Residual ratings must reflect real, verified controls."
+        }
+      ]
+    },
+    {
+      "id": "f-m2-l8",
+      "order": 8,
+      "title": "Selecting Controls Using the Hierarchy",
+      "estimatedMinutes": 2,
+      "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Learning Objectives",
+          "points": [
+            "Apply the control hierarchy.",
+            "Select controls for the actual task.",
+            "Assign and verify actions."
+          ]
+        },
+        {
+          "heading": "Preferred Order",
+          "points": [
+            "Consider elimination, substitution, engineering controls, administrative controls and PPE in that order. Elimination, substitution and engineering are generally more reliable because they depend less on continuous human action."
+          ]
+        },
+        {
+          "heading": "Control Quality",
+          "points": [
+            "Controls should be specific, practical, compatible with the work, maintained and capable of reducing exposure. 'Be careful' is not an adequate control."
+          ]
+        },
+        {
+          "heading": "Interim and Permanent Controls",
+          "points": [
+            "Use interim protection when permanent solutions take time, but track permanent action. Urgent serious hazards require immediate protection or work stoppage."
+          ]
+        },
+        {
+          "heading": "Action Planning",
+          "points": [
+            "Record the action, responsible person, target date, resources, verification method and completion status. Consult workers before finalizing practical controls."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "Pedestrians share a route with forklifts. A PPE-only response is weak. Better controls include eliminating shared movement, physical separation, one-way routes, barriers, controlled crossings, speed control, trained operators and high-visibility clothing as supporting PPE."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m2-l8-q1",
+          "prompt": "Which control is preferred over training alone?",
+          "options": [
+            "Physical separation",
+            "A reminder",
+            "A poster",
+            "A warning email"
+          ],
+          "correctIndex": 0,
+          "explanation": "Engineering separation is less dependent on behaviour."
+        },
+        {
+          "id": "f-m2-l8-q2",
+          "prompt": "Is 'be careful' a sufficient control?",
+          "options": [
+            "Yes",
+            "No",
+            "Only at night",
+            "Only for managers"
+          ],
+          "correctIndex": 1,
+          "explanation": "Controls must be specific and effective."
+        },
+        {
+          "id": "f-m2-l8-q3",
+          "prompt": "What must an action plan include?",
+          "options": [
+            "Owner and target date",
+            "Only colour",
+            "Only hazard title",
+            "Worker salary"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ownership and timing support completion and verification."
+        }
+      ]
+    },
+    {
+      "id": "f-m2-l9",
+      "order": 9,
+      "title": "Recording and Reviewing Risk Assessments",
+      "estimatedMinutes": 2,
+      "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Learning Objectives",
+          "points": [
+            "Record significant findings clearly.",
+            "Communicate controls.",
+            "Identify review triggers."
+          ]
+        },
+        {
+          "heading": "What to Record",
+          "points": [
+            "Task and location; persons at risk; hazards and possible harm; existing controls; initial rating; further controls; action owner and target date; residual rating; assessor, approval, date and review information according to the organization system."
+          ]
+        },
+        {
+          "heading": "Communication and Implementation",
+          "points": [
+            "A signed form is not enough. Relevant people must understand controls before work. Verify implementation through inspection, supervision, observation and monitoring."
+          ]
+        },
+        {
+          "heading": "Review Triggers",
+          "points": [
+            "Review after incidents or near misses; changes in people, process, equipment, substances, layout or law; evidence controls are ineffective; new information; significant weather or site changes; and at the defined periodic interval."
+          ]
+        },
+        {
+          "heading": "Document Control",
+          "points": [
+            "Use current approved versions, clear revision status and accessible records. Withdraw obsolete versions and preserve required records."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A risk assessment is signed but workers have not seen it and the equipment has changed. Stop and review the assessment, involve the team, update controls and brief everyone before restarting."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m2-l9-q1",
+          "prompt": "Is a signature alone evidence controls work?",
+          "options": [
+            "Yes",
+            "No",
+            "Only for managers",
+            "Only on paper"
+          ],
+          "correctIndex": 1,
+          "explanation": "Implementation and verification are required."
+        },
+        {
+          "id": "f-m2-l9-q2",
+          "prompt": "Which event triggers review?",
+          "options": [
+            "Equipment change",
+            "No change ever",
+            "Lunch break",
+            "Salary payment"
+          ],
+          "correctIndex": 0,
+          "explanation": "Changes can introduce new hazards or invalidate controls."
+        },
+        {
+          "id": "f-m2-l9-q3",
+          "prompt": "What should happen to obsolete versions?",
+          "options": [
+            "Remain in active use",
+            "Be withdrawn from active use",
+            "Be mixed with current versions",
+            "Be unsigned"
+          ],
+          "correctIndex": 1,
+          "explanation": "Document control prevents outdated instructions."
+        }
+      ]
+    },
+    {
+      "id": "f-m2-l10",
+      "order": 10,
+      "title": "Practical Risk Assessment Scenario",
+      "estimatedMinutes": 2,
+      "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Learning Objectives",
+          "points": [
+            "Apply the complete process.",
+            "Write task-specific controls.",
+            "Evaluate residual risk after verification."
+          ]
+        },
+        {
+          "heading": "Scenario: Guardrail Installation on a Roof",
+          "points": [
+            "The team will deliver materials, access the roof, move components, install guardrails using hand and power tools, and clear the area. Persons at risk include installers, occupants, people below, visitors and rescuers."
+          ]
+        },
+        {
+          "heading": "Key Hazards",
+          "points": [
+            "Falls from edges or fragile surfaces; dropped objects; unsafe access; manual handling; power tools; electricity; weather; poor communication; restricted rescue; and unauthorized entry below."
+          ]
+        },
+        {
+          "heading": "Control Strategy",
+          "points": [
+            "Where practicable, eliminate exposure by pre-assembly at ground level. Verify roof condition, drawings and safe access. Provide collective edge protection or an approved fall-protection system, exclusion zone, secured tools/materials, mechanical handling aids, inspected tools, competent workers, permit/briefing, weather limits and a task-specific rescue plan."
+          ]
+        },
+        {
+          "heading": "Assessment and Review",
+          "points": [
+            "Use the approved matrix to rate actual initial conditions. Assign actions and verify them before work. Rate residual risk without automatically reducing severity. Monitor the task and stop if access, weather, roof condition, equipment, personnel or scope changes."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "During installation, wind increases and loose packaging begins to move. The supervisor stops work, secures materials, checks the defined weather limits and reviews conditions before authorizing restart."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m2-l10-q1",
+          "prompt": "Who may be harmed by dropped tools?",
+          "options": [
+            "Only installers",
+            "People below and others entering the area",
+            "Nobody with helmets",
+            "Only the supervisor"
+          ],
+          "correctIndex": 1,
+          "explanation": "The assessment must include everyone exposed below."
+        },
+        {
+          "id": "f-m2-l10-q2",
+          "prompt": "What should happen when wind exceeds the safe limit?",
+          "options": [
+            "Work faster",
+            "Stop and reassess",
+            "Remove barricades",
+            "Lower the written score"
+          ],
+          "correctIndex": 1,
+          "explanation": "Changed weather can invalidate controls."
+        },
+        {
+          "id": "f-m2-l10-q3",
+          "prompt": "What must happen before residual risk is accepted?",
+          "options": [
+            "Controls are verified",
+            "The form is colourful",
+            "Work has started",
+            "Only PPE is listed"
+          ],
+          "correctIndex": 0,
+          "explanation": "Residual risk must reflect implemented controls."
+        }
+      ]
+    }
+  ],
+  "finalAssessment": [
+    {
+      "id": "f-m2-exam-q1",
+      "prompt": "What is the purpose of hazard identification?",
+      "options": [
+        "React after injury",
+        "Find potential harm before incidents",
+        "Replace training",
+        "Approve payroll"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Find potential harm before incidents"
+    },
+    {
+      "id": "f-m2-exam-q2",
+      "prompt": "Which work must be included?",
+      "options": [
+        "Routine only",
+        "Non-routine only",
+        "Routine, non-routine and emergencies",
+        "Office only"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Routine, non-routine and emergencies"
+    },
+    {
+      "id": "f-m2-exam-q3",
+      "prompt": "Which is an unsafe condition?",
+      "options": [
+        "Blocked exit",
+        "Attending training",
+        "Reporting a defect",
+        "Following isolation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Blocked exit"
+    },
+    {
+      "id": "f-m2-exam-q4",
+      "prompt": "Why use neutral observation language?",
+      "options": [
+        "To hide facts",
+        "To support fair evidence-based review",
+        "To blame people",
+        "To shorten every report"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: To support fair evidence-based review"
+    },
+    {
+      "id": "f-m2-exam-q5",
+      "prompt": "Which method breaks work into steps?",
+      "options": [
+        "JHA/JSA",
+        "Payroll",
+        "Medical leave",
+        "Attendance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: JHA/JSA"
+    },
+    {
+      "id": "f-m2-exam-q6",
+      "prompt": "Which source can reveal recurring hazards?",
+      "options": [
+        "Near-miss trends",
+        "Uniform colours",
+        "Parking map",
+        "Canteen list"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Near-miss trends"
+    },
+    {
+      "id": "f-m2-exam-q7",
+      "prompt": "Who should be considered in an assessment?",
+      "options": [
+        "Employees only",
+        "Anyone who may be affected",
+        "Managers only",
+        "Inspectors only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Anyone who may be affected"
+    },
+    {
+      "id": "f-m2-exam-q8",
+      "prompt": "Which group may need additional controls?",
+      "options": [
+        "New workers",
+        "Only directors",
+        "Nobody",
+        "Only visitors"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: New workers"
+    },
+    {
+      "id": "f-m2-exam-q9",
+      "prompt": "What does likelihood measure?",
+      "options": [
+        "Probability",
+        "Document size",
+        "Cost",
+        "Job title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Probability"
+    },
+    {
+      "id": "f-m2-exam-q10",
+      "prompt": "What does severity measure?",
+      "options": [
+        "Credible consequence",
+        "Inspection date",
+        "Training hours",
+        "Weather only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Credible consequence"
+    },
+    {
+      "id": "f-m2-exam-q11",
+      "prompt": "What is 3 x 5?",
+      "options": [
+        "8",
+        "15",
+        "20",
+        "35"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: 15"
+    },
+    {
+      "id": "f-m2-exam-q12",
+      "prompt": "Which matrix should be used?",
+      "options": [
+        "Any matrix",
+        "The approved organizational matrix",
+        "A personal scale",
+        "No definitions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: The approved organizational matrix"
+    },
+    {
+      "id": "f-m2-exam-q13",
+      "prompt": "What is initial risk?",
+      "options": [
+        "Remaining risk after verified controls",
+        "Risk before proposed additional controls under the stated system",
+        "Only financial risk",
+        "A closed action"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Risk before proposed additional controls under the stated system"
+    },
+    {
+      "id": "f-m2-exam-q14",
+      "prompt": "What is residual risk?",
+      "options": [
+        "Risk remaining after implemented controls",
+        "Risk before work",
+        "A hazard list",
+        "A training score"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Risk remaining after implemented controls"
+    },
+    {
+      "id": "f-m2-exam-q15",
+      "prompt": "Should likelihood and severity always both reduce?",
+      "options": [
+        "Yes",
+        "No",
+        "Only on Fridays",
+        "Only for PPE"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: No"
+    },
+    {
+      "id": "f-m2-exam-q16",
+      "prompt": "What is the highest control level?",
+      "options": [
+        "PPE",
+        "Administrative",
+        "Elimination",
+        "Training"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Elimination"
+    },
+    {
+      "id": "f-m2-exam-q17",
+      "prompt": "Which is an engineering control?",
+      "options": [
+        "Physical barrier",
+        "Toolbox talk",
+        "Gloves",
+        "Procedure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Physical barrier"
+    },
+    {
+      "id": "f-m2-exam-q18",
+      "prompt": "Is 'be careful' a sufficient control?",
+      "options": [
+        "Yes",
+        "No",
+        "Only indoors",
+        "Only for supervisors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: No"
+    },
+    {
+      "id": "f-m2-exam-q19",
+      "prompt": "What should an action record include?",
+      "options": [
+        "Owner and target date",
+        "Only a colour",
+        "Salary",
+        "Lunch time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Owner and target date"
+    },
+    {
+      "id": "f-m2-exam-q20",
+      "prompt": "Is a signed assessment enough?",
+      "options": [
+        "Yes",
+        "No - controls must be communicated and implemented",
+        "Only for low risk",
+        "Only with a stamp"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: No - controls must be communicated and implemented"
+    },
+    {
+      "id": "f-m2-exam-q21",
+      "prompt": "Which triggers assessment review?",
+      "options": [
+        "Equipment change",
+        "Nothing",
+        "Payday",
+        "Weekend"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Equipment change"
+    },
+    {
+      "id": "f-m2-exam-q22",
+      "prompt": "What should happen to obsolete documents?",
+      "options": [
+        "Remain active",
+        "Be withdrawn from active use",
+        "Be mixed together",
+        "Be verbally changed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Be withdrawn from active use"
+    },
+    {
+      "id": "f-m2-exam-q23",
+      "prompt": "Who is at risk from dropped tools?",
+      "options": [
+        "People below",
+        "Nobody with PPE",
+        "Only the installer",
+        "Only management"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: People below"
+    },
+    {
+      "id": "f-m2-exam-q24",
+      "prompt": "What should happen when conditions change significantly?",
+      "options": [
+        "Continue",
+        "Stop and reassess",
+        "Reduce the score",
+        "Ignore it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Stop and reassess"
+    },
+    {
+      "id": "f-m2-exam-q25",
+      "prompt": "When may residual risk be accepted?",
+      "options": [
+        "Before controls exist",
+        "After controls are implemented and verified",
+        "When the form is signed only",
+        "After work finishes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: After controls are implemented and verified"
+    }
+  ]
+}

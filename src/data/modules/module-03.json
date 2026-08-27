@@ -1,0 +1,932 @@
+{
+  "id": "foundation-module-3",
+  "order": 3,
+  "level": "foundation",
+  "title": "Core Workplace Safety Practices",
+  "description": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
+  "passingScore": 80,
+  "lessons": [
+    {
+      "id": "f-m3-l1",
+      "order": 1,
+      "title": "Personal Protective Equipment",
+      "estimatedMinutes": 2,
+      "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Core Learning",
+          "points": [
+            "PPE reduces exposure but does not remove the hazard. Select it from the risk assessment after considering higher controls.",
+            "Common PPE includes head, eye, face, hand, foot, hearing, respiratory, high-visibility and fall-protection equipment. Each item protects against specific hazards.",
+            "Confirm suitability, certification where required, correct fit, compatibility, pre-use condition, cleaning, storage, inspection and replacement. Never modify PPE."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A worker uses general gloves with a corrosive liquid. Stop and check the SDS and assessment for compatible glove material, eye/face protection, clothing and emergency washing."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m3-l1-q1",
+          "prompt": "What determines PPE selection?",
+          "options": [
+            "Colour",
+            "Risk assessment and hazard",
+            "Worker preference only",
+            "Price only"
+          ],
+          "correctIndex": 1,
+          "explanation": "PPE must match the actual hazard and exposure."
+        },
+        {
+          "id": "f-m3-l1-q2",
+          "prompt": "Can PPE replace elimination?",
+          "options": [
+            "Yes",
+            "No",
+            "Only outdoors",
+            "Only for visitors"
+          ],
+          "correctIndex": 1,
+          "explanation": "Higher controls should be used where practicable."
+        },
+        {
+          "id": "f-m3-l1-q3",
+          "prompt": "What should happen before use?",
+          "options": [
+            "Inspect and confirm fit",
+            "Modify it",
+            "Share without cleaning",
+            "Ignore expiry"
+          ],
+          "correctIndex": 0,
+          "explanation": "PPE must be suitable and serviceable."
+        }
+      ]
+    },
+    {
+      "id": "f-m3-l2",
+      "order": 2,
+      "title": "Housekeeping, Slips and Trips",
+      "estimatedMinutes": 2,
+      "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Core Learning",
+          "points": [
+            "Slips may result from wet, oily, dusty or unsuitable surfaces. Trips may result from cables, waste, uneven floors, poor lighting or blocked routes.",
+            "Use suitable flooring and drainage, prevent leaks, clean spills promptly, route cables safely, provide lighting, segregate storage and keep access, stairs and exits clear.",
+            "Housekeeping is continuous. Assign responsibility, provide waste facilities and inspect work areas during and after tasks. Barricade a spill until fully controlled."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "Oil leaks into a walkway. Stop access, control the source, barricade, clean with the correct spill materials, dispose of waste properly and verify the surface is safe."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m3-l2-q1",
+          "prompt": "What should happen to a spill?",
+          "options": [
+            "Ignore it",
+            "Control, barricade and clean it promptly",
+            "Cover with paper",
+            "Wait for rain"
+          ],
+          "correctIndex": 1,
+          "explanation": "Immediate control prevents exposure."
+        },
+        {
+          "id": "f-m3-l2-q2",
+          "prompt": "Where may materials be stored?",
+          "options": [
+            "In emergency exits",
+            "In designated stable storage",
+            "On stairs",
+            "Across walkways"
+          ],
+          "correctIndex": 1,
+          "explanation": "Storage must not obstruct safe access."
+        },
+        {
+          "id": "f-m3-l2-q3",
+          "prompt": "When is housekeeping required?",
+          "options": [
+            "Only month end",
+            "Continuously",
+            "After an injury",
+            "Only during audits"
+          ],
+          "correctIndex": 1,
+          "explanation": "Conditions change throughout work."
+        }
+      ]
+    },
+    {
+      "id": "f-m3-l3",
+      "order": 3,
+      "title": "Manual Handling and Ergonomics",
+      "estimatedMinutes": 2,
+      "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Core Learning",
+          "points": [
+            "Manual handling includes lifting, lowering, pushing, pulling, carrying or moving a load by hand or bodily force. Repetition, force, posture, load and environment affect risk.",
+            "Avoid hazardous handling where practicable. Use hoists, trolleys, pallet trucks, lift tables or redesign. Reduce weight, distance, frequency and awkward reaches.",
+            "If manual handling remains, plan the route, obtain a secure grip, keep the load close, avoid twisting, coordinate team lifts and stop if the load is unstable or beyond capability."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "Two workers try to carry a long heavy component up stairs. Reassess and use suitable mechanical assistance or a planned lifting method rather than relying on strength."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m3-l3-q1",
+          "prompt": "What is the preferred first step?",
+          "options": [
+            "Lift faster",
+            "Avoid hazardous manual handling",
+            "Wear two gloves",
+            "Twist carefully"
+          ],
+          "correctIndex": 1,
+          "explanation": "Eliminating the lift is more reliable."
+        },
+        {
+          "id": "f-m3-l3-q2",
+          "prompt": "Which increases risk?",
+          "options": [
+            "Awkward twisting",
+            "Mechanical aid",
+            "Clear route",
+            "Reduced weight"
+          ],
+          "correctIndex": 0,
+          "explanation": "Twisting increases musculoskeletal load."
+        },
+        {
+          "id": "f-m3-l3-q3",
+          "prompt": "What if a load is beyond capability?",
+          "options": [
+            "Attempt it",
+            "Stop and obtain assistance or equipment",
+            "Drag it alone",
+            "Throw it"
+          ],
+          "correctIndex": 1,
+          "explanation": "The task must be redesigned or assisted."
+        }
+      ]
+    },
+    {
+      "id": "f-m3-l4",
+      "order": 4,
+      "title": "Hand and Power Tool Safety",
+      "estimatedMinutes": 2,
+      "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Core Learning",
+          "points": [
+            "Use the correct tool for the task. Inspect handles, guards, switches, discs, bits, cables, plugs, hoses and accessories before use.",
+            "Do not remove guards or bypass dead-man controls. Secure the work, maintain stable posture, control sparks and flying particles, and keep others outside the hazard area.",
+            "Remove defective tools from service, identify them clearly and allow only authorized competent persons to repair. Isolate energy before changing accessories according to instructions."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A grinder has a missing guard and cracked disc. Stop, isolate and tag it out. Replace/repair through the authorized process and inspect before return to service."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m3-l4-q1",
+          "prompt": "May a grinder run without its guard?",
+          "options": [
+            "Yes",
+            "No",
+            "Only briefly",
+            "Only outdoors"
+          ],
+          "correctIndex": 1,
+          "explanation": "The guard is a required engineering control."
+        },
+        {
+          "id": "f-m3-l4-q2",
+          "prompt": "Who repairs defective tools?",
+          "options": [
+            "Any worker",
+            "Authorized competent person",
+            "Visitor",
+            "Store helper"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unauthorized repairs create additional hazards."
+        },
+        {
+          "id": "f-m3-l4-q3",
+          "prompt": "What happens to a cracked disc?",
+          "options": [
+            "Use slowly",
+            "Remove from service",
+            "Tape it",
+            "Wet it"
+          ],
+          "correctIndex": 1,
+          "explanation": "Damaged abrasive wheels may fail violently."
+        }
+      ]
+    },
+    {
+      "id": "f-m3-l5",
+      "order": 5,
+      "title": "Electrical Safety",
+      "estimatedMinutes": 2,
+      "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Core Learning",
+          "points": [
+            "Electrical hazards include contact with live parts, damaged insulation, poor grounding, overloaded circuits, wet conditions, overhead lines and unauthorized work.",
+            "De-energize and isolate where practicable. Verify isolation using the approved procedure and suitable test equipment. Electrical work requires authorized qualified persons.",
+            "Inspect portable equipment, use appropriate protection devices, keep connections dry, manage cables and maintain safe clearance from overhead or buried services."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A cable joint lies in standing water. Stop use, isolate safely, control access and arrange inspection by an authorized electrical person."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m3-l5-q1",
+          "prompt": "Who performs electrical repairs?",
+          "options": [
+            "Any operator",
+            "Authorized qualified person",
+            "First aider",
+            "Driver"
+          ],
+          "correctIndex": 1,
+          "explanation": "Electrical work requires competence and authorization."
+        },
+        {
+          "id": "f-m3-l5-q2",
+          "prompt": "What should happen near standing water?",
+          "options": [
+            "Continue",
+            "Stop and control the electrical hazard",
+            "Add paper",
+            "Wear ordinary gloves"
+          ],
+          "correctIndex": 1,
+          "explanation": "Water can increase shock risk."
+        },
+        {
+          "id": "f-m3-l5-q3",
+          "prompt": "Can isolation be assumed?",
+          "options": [
+            "Yes",
+            "No, it must be verified",
+            "Only at night",
+            "Only by colour"
+          ],
+          "correctIndex": 1,
+          "explanation": "Verification prevents contact with live energy."
+        }
+      ]
+    },
+    {
+      "id": "f-m3-l6",
+      "order": 6,
+      "title": "Fire Safety and Hot Work",
+      "estimatedMinutes": 2,
+      "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Core Learning",
+          "points": [
+            "Fire needs fuel, oxygen and an ignition source. Control combustible material, flammable storage, electrical faults, smoking and hot-work sparks.",
+            "Hot work requires the applicable authorization, area inspection, removal or protection of combustibles, suitable extinguishing equipment, ventilation, fire watch where required and post-work monitoring.",
+            "Raise the alarm and evacuate. Use an extinguisher only if trained, authorized, the fire is small, the correct unit is available and a safe escape remains."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "Grinding sparks travel beyond the barricade toward packaging. Stop work, extend control of the spark path, remove/protect combustibles and revalidate hot-work controls."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m3-l6-q1",
+          "prompt": "What three elements support fire?",
+          "options": [
+            "Fuel, oxygen, ignition",
+            "Water, PPE, signs",
+            "Heat, permit, gloves",
+            "Smoke, alarm, exit"
+          ],
+          "correctIndex": 0,
+          "explanation": "Removing an element can prevent or control fire."
+        },
+        {
+          "id": "f-m3-l6-q2",
+          "prompt": "What if sparks reach combustibles?",
+          "options": [
+            "Continue",
+            "Stop and correct controls",
+            "Add a poster",
+            "Work faster"
+          ],
+          "correctIndex": 1,
+          "explanation": "Uncontrolled ignition exposure requires stoppage."
+        },
+        {
+          "id": "f-m3-l6-q3",
+          "prompt": "When may an extinguisher be used?",
+          "options": [
+            "Always",
+            "Only under safe trained conditions",
+            "Without alarm",
+            "When exit is blocked"
+          ],
+          "correctIndex": 1,
+          "explanation": "Personal safety and evacuation come first."
+        }
+      ]
+    },
+    {
+      "id": "f-m3-l7",
+      "order": 7,
+      "title": "Work at Height",
+      "estimatedMinutes": 2,
+      "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Core Learning",
+          "points": [
+            "Plan work at height using the hierarchy: avoid height where practicable, prevent falls with collective protection, then minimize distance and consequences using suitable systems.",
+            "Verify safe access, platforms, edges, openings, fragile surfaces, weather, falling objects, competence, inspection, anchorage and rescue before work.",
+            "Personal fall arrest requires compatible equipment, adequate clearance and a prompt rescue plan. A harness alone does not make the work safe."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "Installers reach an unprotected roof edge with no rescue plan. Stop work and provide approved access, edge protection or designed fall protection, exclusion below and rescue readiness."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m3-l7-q1",
+          "prompt": "What is preferred first?",
+          "options": [
+            "Avoid work at height",
+            "Use harness only",
+            "Work faster",
+            "Add a sign"
+          ],
+          "correctIndex": 0,
+          "explanation": "Avoidance eliminates fall exposure."
+        },
+        {
+          "id": "f-m3-l7-q2",
+          "prompt": "Does a harness alone make work safe?",
+          "options": [
+            "Yes",
+            "No",
+            "Only below 2 m",
+            "Only indoors"
+          ],
+          "correctIndex": 1,
+          "explanation": "A complete compatible system and rescue are needed."
+        },
+        {
+          "id": "f-m3-l7-q3",
+          "prompt": "What must be checked below?",
+          "options": [
+            "Dropped-object exposure",
+            "Nothing",
+            "Only parking",
+            "Salary records"
+          ],
+          "correctIndex": 0,
+          "explanation": "People below may be struck."
+        }
+      ]
+    },
+    {
+      "id": "f-m3-l8",
+      "order": 8,
+      "title": "Lifting Operations",
+      "estimatedMinutes": 2,
+      "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Core Learning",
+          "points": [
+            "Plan lifting by competent persons. Confirm load weight, centre of gravity, lifting points, equipment capacity, configuration, ground conditions, route and environmental limits.",
+            "Use certified/inspected cranes and accessories, competent operators, riggers and signalers, suitable rigging, tag lines where appropriate and a controlled exclusion zone.",
+            "Never stand under suspended loads or enter the lifting zone without authorization. Stop for loss of communication, instability, people/equipment intrusion or changed conditions."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A forklift enters the crane exclusion zone while a load is suspended. The signaler gives the stop signal; lifting resumes only after the area is clear and controlled."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m3-l8-q1",
+          "prompt": "Who plans the lift?",
+          "options": [
+            "Competent person",
+            "Any visitor",
+            "Storekeeper only",
+            "Nobody"
+          ],
+          "correctIndex": 0,
+          "explanation": "Planning requires suitable lifting competence."
+        },
+        {
+          "id": "f-m3-l8-q2",
+          "prompt": "May anyone stand under a suspended load?",
+          "options": [
+            "Yes",
+            "No",
+            "Only with helmet",
+            "Only briefly"
+          ],
+          "correctIndex": 1,
+          "explanation": "Suspended loads can fall without warning."
+        },
+        {
+          "id": "f-m3-l8-q3",
+          "prompt": "What if communication is lost?",
+          "options": [
+            "Continue",
+            "Stop the lift",
+            "Guess signals",
+            "Increase speed"
+          ],
+          "correctIndex": 1,
+          "explanation": "Reliable communication is essential."
+        }
+      ]
+    },
+    {
+      "id": "f-m3-l9",
+      "order": 9,
+      "title": "Mobile Plant and Pedestrian Safety",
+      "estimatedMinutes": 2,
+      "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Core Learning",
+          "points": [
+            "Separate vehicles and pedestrians using site layout, barriers, one-way routes, controlled crossings and designated walkways wherever practicable.",
+            "Use trained authorized operators, pre-use checks, suitable visibility aids, speed limits, parking controls and a trained banksman where the assessment requires one.",
+            "Pedestrians must use defined routes and never enter blind spots or operating zones without communication and authorization. Mobile phones and distraction increase risk."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A reversing delivery vehicle has limited visibility and people cross behind it. Stop movement, clear the area and use the planned route and competent banksman."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m3-l9-q1",
+          "prompt": "What is the strongest traffic control?",
+          "options": [
+            "Physical separation",
+            "High-vis only",
+            "A poster",
+            "Verbal warning only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Separation reduces interaction."
+        },
+        {
+          "id": "f-m3-l9-q2",
+          "prompt": "Who operates mobile plant?",
+          "options": [
+            "Authorized trained operator",
+            "Any worker",
+            "Visitor",
+            "Banksman"
+          ],
+          "correctIndex": 0,
+          "explanation": "Operator competence and authorization are required."
+        },
+        {
+          "id": "f-m3-l9-q3",
+          "prompt": "What should happen in a blind spot?",
+          "options": [
+            "Walk behind quickly",
+            "Keep out and establish communication/control",
+            "Use phone",
+            "Assume seen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Operators may not see pedestrians."
+        }
+      ]
+    },
+    {
+      "id": "f-m3-l10",
+      "order": 10,
+      "title": "Chemical Safety and SDS",
+      "estimatedMinutes": 2,
+      "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Core Learning",
+          "points": [
+            "Chemical exposure may occur by inhalation, skin/eye contact, ingestion or injection. Process-generated dust, fume, vapour, mist and gas must also be assessed.",
+            "Use current labels and Safety Data Sheets. The standardized SDS provides identification, hazards, composition, first aid, firefighting, spill response, handling/storage, exposure controls and other information.",
+            "Eliminate or substitute where possible, use closed systems and ventilation, control quantities and storage, segregate incompatibles, plan spills and select PPE from the assessment and SDS."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "An unlabelled liquid is found in a drink bottle. Do not use or smell it. Isolate the container and have it identified and managed under the chemical procedure."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m3-l10-q1",
+          "prompt": "What should happen to an unknown chemical?",
+          "options": [
+            "Smell it",
+            "Isolate and identify it safely",
+            "Pour it away",
+            "Use gloves only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unknown substances require controlled identification."
+        },
+        {
+          "id": "f-m3-l10-q2",
+          "prompt": "Where is hazard and first-aid information found?",
+          "options": [
+            "SDS",
+            "Attendance sheet",
+            "Invoice",
+            "Permit register"
+          ],
+          "correctIndex": 0,
+          "explanation": "The SDS communicates chemical safety information."
+        },
+        {
+          "id": "f-m3-l10-q3",
+          "prompt": "Is PPE the only chemical control?",
+          "options": [
+            "Yes",
+            "No",
+            "Only for liquids",
+            "Only for gases"
+          ],
+          "correctIndex": 1,
+          "explanation": "Substitution and engineering controls are preferred where practicable."
+        }
+      ]
+    }
+  ],
+  "finalAssessment": [
+    {
+      "id": "f-m3-exam-q1",
+      "prompt": "What must PPE match?",
+      "options": [
+        "Hazard and task",
+        "Colour",
+        "Salary",
+        "Weather only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Hazard and task"
+    },
+    {
+      "id": "f-m3-exam-q2",
+      "prompt": "Can PPE replace higher controls?",
+      "options": [
+        "Yes",
+        "No",
+        "Always",
+        "Only at night"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: No"
+    },
+    {
+      "id": "f-m3-exam-q3",
+      "prompt": "What is the correct spill response?",
+      "options": [
+        "Ignore",
+        "Control source, barricade and clean safely",
+        "Cover with paper",
+        "Walk through"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Control source, barricade and clean safely"
+    },
+    {
+      "id": "f-m3-exam-q4",
+      "prompt": "Where should materials be stored?",
+      "options": [
+        "Exit",
+        "Designated stable area",
+        "Stairs",
+        "Walkway"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Designated stable area"
+    },
+    {
+      "id": "f-m3-exam-q5",
+      "prompt": "What is preferred for hazardous manual handling?",
+      "options": [
+        "Avoid or mechanize",
+        "Lift faster",
+        "Twist",
+        "Carry farther"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Avoid or mechanize"
+    },
+    {
+      "id": "f-m3-exam-q6",
+      "prompt": "Which posture increases risk?",
+      "options": [
+        "Twisting",
+        "Neutral posture",
+        "Load close",
+        "Clear route"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Twisting"
+    },
+    {
+      "id": "f-m3-exam-q7",
+      "prompt": "May a guard be removed from a power tool?",
+      "options": [
+        "Yes",
+        "No",
+        "Only briefly",
+        "Only outside"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: No"
+    },
+    {
+      "id": "f-m3-exam-q8",
+      "prompt": "What happens to a defective tool?",
+      "options": [
+        "Continue",
+        "Remove from service",
+        "Hide it",
+        "Loan it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Remove from service"
+    },
+    {
+      "id": "f-m3-exam-q9",
+      "prompt": "Who performs electrical repairs?",
+      "options": [
+        "Authorized qualified person",
+        "Any user",
+        "Driver",
+        "First aider"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Authorized qualified person"
+    },
+    {
+      "id": "f-m3-exam-q10",
+      "prompt": "What must happen after isolation?",
+      "options": [
+        "Verification",
+        "Assumption",
+        "Painting",
+        "Storage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Verification"
+    },
+    {
+      "id": "f-m3-exam-q11",
+      "prompt": "What supports fire?",
+      "options": [
+        "Fuel oxygen ignition",
+        "Water signs PPE",
+        "Alarm route drill",
+        "Permit helmet glove"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Fuel oxygen ignition"
+    },
+    {
+      "id": "f-m3-exam-q12",
+      "prompt": "What if hot-work sparks reach combustibles?",
+      "options": [
+        "Continue",
+        "Stop and correct controls",
+        "Add PPE only",
+        "Work faster"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Stop and correct controls"
+    },
+    {
+      "id": "f-m3-exam-q13",
+      "prompt": "What is the first work-at-height option?",
+      "options": [
+        "Avoid height",
+        "Harness only",
+        "Ladder always",
+        "Sign"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Avoid height"
+    },
+    {
+      "id": "f-m3-exam-q14",
+      "prompt": "What does fall arrest also require?",
+      "options": [
+        "Clearance and rescue",
+        "Helmet only",
+        "Gloves",
+        "Fire watch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Clearance and rescue"
+    },
+    {
+      "id": "f-m3-exam-q15",
+      "prompt": "Who plans lifting operations?",
+      "options": [
+        "Competent person",
+        "Visitor",
+        "Any worker",
+        "Driver only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Competent person"
+    },
+    {
+      "id": "f-m3-exam-q16",
+      "prompt": "May people stand under suspended loads?",
+      "options": [
+        "Yes",
+        "No",
+        "With helmet",
+        "For one minute"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: No"
+    },
+    {
+      "id": "f-m3-exam-q17",
+      "prompt": "What if lift communication is lost?",
+      "options": [
+        "Continue",
+        "Stop",
+        "Guess",
+        "Speed up"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Stop"
+    },
+    {
+      "id": "f-m3-exam-q18",
+      "prompt": "Best pedestrian/vehicle control?",
+      "options": [
+        "Physical separation",
+        "High-vis only",
+        "Poster",
+        "Horn only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Physical separation"
+    },
+    {
+      "id": "f-m3-exam-q19",
+      "prompt": "Who operates mobile plant?",
+      "options": [
+        "Authorized trained operator",
+        "Any worker",
+        "Banksman",
+        "Visitor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Authorized trained operator"
+    },
+    {
+      "id": "f-m3-exam-q20",
+      "prompt": "What should pedestrians do near blind spots?",
+      "options": [
+        "Keep out and communicate",
+        "Assume seen",
+        "Use phone",
+        "Run behind"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Keep out and communicate"
+    },
+    {
+      "id": "f-m3-exam-q21",
+      "prompt": "What identifies chemical first-aid information?",
+      "options": [
+        "SDS",
+        "Timesheet",
+        "Invoice",
+        "Badge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: SDS"
+    },
+    {
+      "id": "f-m3-exam-q22",
+      "prompt": "What should happen to an unknown liquid?",
+      "options": [
+        "Smell it",
+        "Isolate and identify safely",
+        "Use it",
+        "Drain it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Isolate and identify safely"
+    },
+    {
+      "id": "f-m3-exam-q23",
+      "prompt": "Which is a chemical exposure route?",
+      "options": [
+        "Inhalation",
+        "Payroll",
+        "Training",
+        "Inspection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Inhalation"
+    },
+    {
+      "id": "f-m3-exam-q24",
+      "prompt": "When is housekeeping required?",
+      "options": [
+        "Continuously",
+        "Only monthly",
+        "Only after injury",
+        "Never"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Continuously"
+    },
+    {
+      "id": "f-m3-exam-q25",
+      "prompt": "When conditions change significantly?",
+      "options": [
+        "Stop and reassess",
+        "Continue",
+        "Reduce score",
+        "Ignore"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Stop and reassess"
+    }
+  ]
+}

@@ -1,0 +1,1082 @@
+{
+  "id": "advanced-module-12",
+  "order": 12,
+  "level": "advanced",
+  "title": "Incident Investigation and Root Cause Analysis",
+  "description": "Preserve evidence, analyze causes and develop actions that prevent recurrence.",
+  "passingScore": 80,
+  "lessons": [
+    {
+      "id": "l12-1-immediate-response-and-scene-control",
+      "order": 1,
+      "title": "Immediate Response and Scene Control",
+      "estimatedMinutes": 2,
+      "summary": "Apply immediate response and scene control through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Immediate Response and Scene Control is a core part of preserve evidence, analyze causes and develop actions that prevent recurrence.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting immediate response and scene control have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply immediate response and scene control through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l12-1-immediate-response-and-scene-control-q1",
+          "prompt": "What is the best first approach to immediate response and scene control?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l12-1-immediate-response-and-scene-control-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l12-1-immediate-response-and-scene-control-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l12-2-evidence-collection-and-records",
+      "order": 2,
+      "title": "Evidence Collection and Records",
+      "estimatedMinutes": 2,
+      "summary": "Apply evidence collection and records through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Evidence Collection and Records is a core part of preserve evidence, analyze causes and develop actions that prevent recurrence.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting evidence collection and records have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply evidence collection and records through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l12-2-evidence-collection-and-records-q1",
+          "prompt": "What is the best first approach to evidence collection and records?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l12-2-evidence-collection-and-records-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l12-2-evidence-collection-and-records-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l12-3-witness-interviews",
+      "order": 3,
+      "title": "Witness Interviews",
+      "estimatedMinutes": 2,
+      "summary": "Apply witness interviews through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Witness Interviews is a core part of preserve evidence, analyze causes and develop actions that prevent recurrence.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting witness interviews have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply witness interviews through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l12-3-witness-interviews-q1",
+          "prompt": "What is the best first approach to witness interviews?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l12-3-witness-interviews-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l12-3-witness-interviews-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l12-4-event-timelines-and-mapping",
+      "order": 4,
+      "title": "Event Timelines and Mapping",
+      "estimatedMinutes": 2,
+      "summary": "Apply event timelines and mapping through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Event Timelines and Mapping is a core part of preserve evidence, analyze causes and develop actions that prevent recurrence.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting event timelines and mapping have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply event timelines and mapping through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l12-4-event-timelines-and-mapping-q1",
+          "prompt": "What is the best first approach to event timelines and mapping?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l12-4-event-timelines-and-mapping-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l12-4-event-timelines-and-mapping-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l12-5-immediate-and-underlying-causes",
+      "order": 5,
+      "title": "Immediate and Underlying Causes",
+      "estimatedMinutes": 2,
+      "summary": "Apply immediate and underlying causes through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Immediate and Underlying Causes is a core part of preserve evidence, analyze causes and develop actions that prevent recurrence.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting immediate and underlying causes have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply immediate and underlying causes through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l12-5-immediate-and-underlying-causes-q1",
+          "prompt": "What is the best first approach to immediate and underlying causes?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l12-5-immediate-and-underlying-causes-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l12-5-immediate-and-underlying-causes-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l12-6-five-whys-and-cause-trees",
+      "order": 6,
+      "title": "Five Whys and Cause Trees",
+      "estimatedMinutes": 2,
+      "summary": "Apply five whys and cause trees through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Five Whys and Cause Trees is a core part of preserve evidence, analyze causes and develop actions that prevent recurrence.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting five whys and cause trees have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply five whys and cause trees through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l12-6-five-whys-and-cause-trees-q1",
+          "prompt": "What is the best first approach to five whys and cause trees?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l12-6-five-whys-and-cause-trees-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l12-6-five-whys-and-cause-trees-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l12-7-barrier-and-control-failure-analysis",
+      "order": 7,
+      "title": "Barrier and Control Failure Analysis",
+      "estimatedMinutes": 2,
+      "summary": "Apply barrier and control failure analysis through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Barrier and Control Failure Analysis is a core part of preserve evidence, analyze causes and develop actions that prevent recurrence.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting barrier and control failure analysis have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply barrier and control failure analysis through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l12-7-barrier-and-control-failure-analysis-q1",
+          "prompt": "What is the best first approach to barrier and control failure analysis?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l12-7-barrier-and-control-failure-analysis-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l12-7-barrier-and-control-failure-analysis-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l12-8-human-factors-without-blame",
+      "order": 8,
+      "title": "Human Factors Without Blame",
+      "estimatedMinutes": 2,
+      "summary": "Apply human factors without blame through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Human Factors Without Blame is a core part of preserve evidence, analyze causes and develop actions that prevent recurrence.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting human factors without blame have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply human factors without blame through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l12-8-human-factors-without-blame-q1",
+          "prompt": "What is the best first approach to human factors without blame?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l12-8-human-factors-without-blame-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l12-8-human-factors-without-blame-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l12-9-corrective-action-quality",
+      "order": 9,
+      "title": "Corrective-Action Quality",
+      "estimatedMinutes": 2,
+      "summary": "Apply corrective-action quality through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Corrective-Action Quality is a core part of preserve evidence, analyze causes and develop actions that prevent recurrence.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting corrective-action quality have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply corrective-action quality through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l12-9-corrective-action-quality-q1",
+          "prompt": "What is the best first approach to corrective-action quality?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l12-9-corrective-action-quality-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l12-9-corrective-action-quality-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    },
+    {
+      "id": "l12-10-learning-communication-and-closure",
+      "order": 10,
+      "title": "Learning, Communication and Closure",
+      "estimatedMinutes": 2,
+      "summary": "Apply learning, communication and closure through competent planning, verified controls, clear communication and reassessment whenever conditions change.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Application",
+          "points": [
+            "Learning, Communication and Closure is a core part of preserve evidence, analyze causes and develop actions that prevent recurrence.",
+            "The process must match the actual task, people, equipment, location, environment and applicable organizational requirements.",
+            "Only trained, competent and authorized people should perform duties that require formal competence or authorization."
+          ]
+        },
+        {
+          "heading": "Practical Control Process",
+          "points": [
+            "Define the scope, identify credible hazards and people who may be affected, then verify controls before exposure begins.",
+            "Give priority to elimination, substitution and engineered protection before relying on procedures, training or PPE.",
+            "Communicate roles and stop-work conditions clearly, supervise the work and keep required evidence or records."
+          ]
+        },
+        {
+          "heading": "Field Scenario",
+          "points": [
+            "During a field check, the team finds that conditions affecting learning, communication and closure have changed. Work is paused, the change is assessed, controls are corrected and the team is re-briefed before authorization to restart.",
+            "Never continue only because a permit, checklist or earlier assessment exists; documents support control but do not replace physical verification."
+          ]
+        },
+        {
+          "heading": "Lesson Summary",
+          "points": [
+            "Apply learning, communication and closure through competent planning, verified controls, clear communication and reassessment whenever conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "l12-10-learning-communication-and-closure-q1",
+          "prompt": "What is the best first approach to learning, communication and closure?",
+          "options": [
+            "Start immediately",
+            "Define the task and assess actual hazards",
+            "Rely only on PPE",
+            "Copy an unrelated form"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning must reflect the real work and conditions."
+        },
+        {
+          "id": "l12-10-learning-communication-and-closure-q2",
+          "prompt": "What should happen when conditions or scope change significantly?",
+          "options": [
+            "Continue under the old plan",
+            "Reduce supervision",
+            "Stop and reassess",
+            "Wait until the job is finished"
+          ],
+          "correctIndex": 2,
+          "explanation": "Change may invalidate the existing controls."
+        },
+        {
+          "id": "l12-10-learning-communication-and-closure-q3",
+          "prompt": "What confirms that a control is effective?",
+          "options": [
+            "Field verification and monitoring",
+            "A signature alone",
+            "A verbal assumption",
+            "The document title"
+          ],
+          "correctIndex": 0,
+          "explanation": "Controls must be implemented and verified in practice."
+        }
+      ]
+    }
+  ],
+  "finalAssessment": [
+    {
+      "id": "m12-exam-q1",
+      "prompt": "What is the best first approach to immediate response and scene control?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q2",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q3",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q4",
+      "prompt": "What is the best first approach to evidence collection and records?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q5",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q6",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q7",
+      "prompt": "What is the best first approach to witness interviews?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q8",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q9",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q10",
+      "prompt": "What is the best first approach to event timelines and mapping?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q11",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q12",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q13",
+      "prompt": "What is the best first approach to immediate and underlying causes?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q14",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q15",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q16",
+      "prompt": "What is the best first approach to five whys and cause trees?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q17",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q18",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q19",
+      "prompt": "What is the best first approach to barrier and control failure analysis?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q20",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q21",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q22",
+      "prompt": "What is the best first approach to human factors without blame?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q23",
+      "prompt": "What should happen when conditions or scope change significantly?",
+      "options": [
+        "Continue under the old plan",
+        "Reduce supervision",
+        "Stop and reassess",
+        "Wait until the job is finished"
+      ],
+      "correctIndex": 2,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q24",
+      "prompt": "What confirms that a control is effective?",
+      "options": [
+        "Field verification and monitoring",
+        "A signature alone",
+        "A verbal assumption",
+        "The document title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    },
+    {
+      "id": "m12-exam-q25",
+      "prompt": "What is the best first approach to corrective-action quality?",
+      "options": [
+        "Start immediately",
+        "Define the task and assess actual hazards",
+        "Rely only on PPE",
+        "Copy an unrelated form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Result details are protected. Review the related lesson before another attempt."
+    }
+  ]
+}

@@ -1,0 +1,1198 @@
+{
+  "id": "foundation-module-1",
+  "order": 1,
+  "level": "foundation",
+  "title": "Introduction to Workplace Safety",
+  "description": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
+  "passingScore": 80,
+  "lessons": [
+    {
+      "id": "f-m1-l1",
+      "order": 1,
+      "title": "What Is Health and Safety?",
+      "estimatedMinutes": 2,
+      "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Learning Objective",
+          "points": [
+            "Explain workplace health and safety.",
+            "Understand why safety is important.",
+            "Recognize that safety is a shared responsibility.",
+            "Take basic action after noticing danger."
+          ]
+        },
+        {
+          "heading": "Core Lesson",
+          "points": [
+            "Workplace health and safety means protecting people from injuries, illnesses and other harm caused by work. It includes safe workplaces, hazard identification, risk control, safe equipment, training, emergency preparation and reporting.",
+            "Health protects people from illness or long-term harm such as noise-induced hearing loss, dust exposure, chemicals, poor posture and stress. Safety protects people from immediate events such as falls, electric shock, fire, moving equipment and machinery incidents.",
+            "Safety is not only PPE. PPE is one part of a complete system and is normally the last level in the Hierarchy of Controls."
+          ]
+        },
+        {
+          "heading": "Why It Matters",
+          "points": [
+            "Prevents injuries and occupational illness.",
+            "Saves lives and protects property.",
+            "Reduces delays and financial loss.",
+            "Builds worker confidence and productivity.",
+            "Supports legal and organizational compliance.",
+            "Helps everyone return home safely."
+          ]
+        },
+        {
+          "heading": "Shared Responsibility",
+          "points": [
+            "Employers must provide a safe workplace, assess risks, provide suitable equipment, information, training, supervision, PPE and emergency arrangements. Workers must follow instructions, use equipment correctly, wear required PPE, report hazards and avoid unsafe acts."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "Ahmed finds a damaged electrical cable with visible internal wires. He must stop using it, prevent others from using it, attach a Do Not Use identification where the procedure allows, and report it. Only an authorized person may inspect or repair it."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m1-l1-q1",
+          "prompt": "What is the main purpose of workplace health and safety?",
+          "options": [
+            "Complete work faster",
+            "Prevent people from being harmed by work",
+            "Punish workers",
+            "Reduce employees"
+          ],
+          "correctIndex": 1,
+          "explanation": "It protects people from work-related injury, illness and harm."
+        },
+        {
+          "id": "f-m1-l1-q2",
+          "prompt": "Which is a workplace health hazard?",
+          "options": [
+            "Long-term excessive noise",
+            "A clean exit",
+            "An inspected tool",
+            "A salary payment"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noise exposure can permanently damage hearing."
+        },
+        {
+          "id": "f-m1-l1-q3",
+          "prompt": "What should you do with a seriously damaged cable?",
+          "options": [
+            "Use it carefully",
+            "Repair it without authority",
+            "Stop using and report it",
+            "Cover it with paper"
+          ],
+          "correctIndex": 2,
+          "explanation": "Damaged equipment must be taken out of use and controlled."
+        }
+      ]
+    },
+    {
+      "id": "f-m1-l2",
+      "order": 2,
+      "title": "Hazard and Risk Difference",
+      "estimatedMinutes": 2,
+      "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Key Definitions",
+          "points": [
+            "A hazard is anything with the potential to cause injury, illness, property damage, environmental damage or business interruption.",
+            "Risk is the combination of the chance that harm will occur and how serious the harm could be. A common simple approach is: Risk = Likelihood x Severity."
+          ]
+        },
+        {
+          "heading": "Examples",
+          "points": [
+            "Open roof edge (hazard): a person could fall and suffer fatal injury (risk).",
+            "Damaged cable (hazard): electric shock, burns or fire (risk).",
+            "Moving forklift (hazard): a worker could be struck or crushed (risk).",
+            "Excessive noise (hazard): permanent hearing damage (risk).",
+            "Easy memory rule: Hazard asks, 'What can cause harm?' Risk asks, 'How could harm occur, how likely is it, and how serious could it be?'"
+          ]
+        },
+        {
+          "heading": "Risk Can Change",
+          "points": [
+            "A chemical remains a hazard, but its risk may be reduced when it is sealed, labelled, correctly stored and handled under controlled conditions. Controls may reduce likelihood, severity, or both, depending on the hazard."
+          ]
+        },
+        {
+          "heading": "Basic Risk Assessment",
+          "points": [
+            "Identify hazards.",
+            "Decide who may be harmed and how.",
+            "Review existing controls.",
+            "Evaluate likelihood and severity.",
+            "Add further controls.",
+            "Record and communicate the assessment.",
+            "Review when work or conditions change."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m1-l2-q1",
+          "prompt": "What is a hazard?",
+          "options": [
+            "Cost of an incident",
+            "Anything with potential to cause harm",
+            "An inspection form",
+            "Number of workers"
+          ],
+          "correctIndex": 1,
+          "explanation": "A hazard is a source or condition with potential to cause harm."
+        },
+        {
+          "id": "f-m1-l2-q2",
+          "prompt": "Which two factors commonly evaluate risk?",
+          "options": [
+            "Salary and experience",
+            "Weather and hours",
+            "Likelihood and severity",
+            "Training and supervision"
+          ],
+          "correctIndex": 2,
+          "explanation": "Risk considers probability and consequence."
+        },
+        {
+          "id": "f-m1-l2-q3",
+          "prompt": "Which correctly identifies a damaged cable?",
+          "options": [
+            "Hazard: shock; risk: cable",
+            "Hazard: cable; risk: shock, burns or fire",
+            "Hazard: worker; risk: electricity",
+            "Hazard: inspection; risk: maintenance"
+          ],
+          "correctIndex": 1,
+          "explanation": "The damaged cable is the hazard; harm is the risk outcome."
+        }
+      ]
+    },
+    {
+      "id": "f-m1-l3",
+      "order": 3,
+      "title": "Common Workplace Hazards",
+      "estimatedMinutes": 2,
+      "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Physical Hazards",
+          "points": [
+            "Examples: Noise, vibration, heat, cold, poor lighting, radiation and slippery surfaces.",
+            "Possible harm: Hearing damage, heat stress, falls and long-term illness."
+          ]
+        },
+        {
+          "heading": "Mechanical and Safety Hazards",
+          "points": [
+            "Examples: Unguarded machines, rotating parts, sharp tools, suspended loads, vehicles, excavations and work at height.",
+            "Possible harm: Cuts, crushing, amputation, falls and fatal injury."
+          ]
+        },
+        {
+          "heading": "Electrical Hazards",
+          "points": [
+            "Examples: Damaged cables, exposed conductors, overloads, poor grounding, wet conditions and overhead lines.",
+            "Possible harm: Shock, burns, fire, explosion and death."
+          ]
+        },
+        {
+          "heading": "Chemical Hazards",
+          "points": [
+            "Examples: Solvents, paint, cement, fuel, fumes, gases and acids.",
+            "Possible harm: Burns, poisoning, breathing problems, cancer, fire or explosion."
+          ]
+        },
+        {
+          "heading": "Biological Hazards",
+          "points": [
+            "Examples: Bacteria, viruses, mould, contaminated water, waste and used needles.",
+            "Possible harm: Infection, allergy, skin disease and respiratory illness."
+          ]
+        },
+        {
+          "heading": "Ergonomic Hazards",
+          "points": [
+            "Examples: Heavy lifting, repetition, awkward posture, overhead work and poor workstation design.",
+            "Possible harm: Back injury, strain, joint pain and fatigue."
+          ]
+        },
+        {
+          "heading": "Fire and Explosion Hazards",
+          "points": [
+            "Examples: Ignition sources, fuels, gas leaks, hot work and poor flammable storage.",
+            "Possible harm: Burns, smoke inhalation, explosion, damage and death."
+          ]
+        },
+        {
+          "heading": "Psychosocial Hazards",
+          "points": [
+            "Examples: Excessive workload, fatigue, bullying, poor communication and uncontrolled lone work.",
+            "Possible harm: Stress, anxiety, poor concentration and unsafe decisions."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A worker is grinding in poor ventilation. The guard is missing, the cable is damaged and flammable material is nearby. This one task contains mechanical, electrical, health, noise, flying-particle and fire hazards. Stop the task until all hazards are controlled."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m1-l3-q1",
+          "prompt": "Which is an ergonomic hazard?",
+          "options": [
+            "Heavy lifting with awkward posture",
+            "Correctly guarded machine",
+            "Clear exit",
+            "Labelled container"
+          ],
+          "correctIndex": 0,
+          "explanation": "Poor lifting posture may cause musculoskeletal injury."
+        },
+        {
+          "id": "f-m1-l3-q2",
+          "prompt": "Which is an electrical hazard?",
+          "options": [
+            "Scheduled break",
+            "Cable with exposed wires",
+            "Clean walkway",
+            "Closed toolbox"
+          ],
+          "correctIndex": 1,
+          "explanation": "Exposed conductors can cause shock, burns or fire."
+        },
+        {
+          "id": "f-m1-l3-q3",
+          "prompt": "Grinding is taking place near flammable material. What should happen first?",
+          "options": [
+            "Continue with gloves",
+            "Move people away",
+            "Stop and control the fire hazard",
+            "Finish faster"
+          ],
+          "correctIndex": 2,
+          "explanation": "Uncontrolled hot work must stop."
+        }
+      ]
+    },
+    {
+      "id": "f-m1-l4",
+      "order": 4,
+      "title": "Employer and Employee Responsibilities",
+      "estimatedMinutes": 2,
+      "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Employer Responsibilities",
+          "points": [
+            "Provide and maintain a workplace that is safe so far as reasonably practicable.",
+            "Identify hazards, assess risks and implement suitable controls.",
+            "Provide safe plant, tools, access and systems of work.",
+            "Provide information, instruction, training and competent supervision.",
+            "Consult workers and communicate relevant safety information.",
+            "Provide emergency arrangements, first aid and suitable welfare facilities.",
+            "Provide required PPE without using it as a substitute for higher-level controls.",
+            "Investigate incidents and improve controls."
+          ]
+        },
+        {
+          "heading": "Employee Responsibilities",
+          "points": [
+            "Take reasonable care of their own health and safety and that of others.",
+            "Follow procedures, permits, training and supervisor instructions.",
+            "Use equipment and PPE correctly and never defeat safety devices.",
+            "Attend required training and ask when instructions are unclear.",
+            "Report hazards, defects, near misses, incidents and symptoms of occupational illness.",
+            "Do not work while impaired by alcohol, drugs, severe fatigue or a condition that creates danger.",
+            "Stop and report serious and immediate danger in line with company procedure.",
+            "Cooperate with investigations and corrective actions."
+          ]
+        },
+        {
+          "heading": "Supervisor Responsibilities",
+          "points": [
+            "Supervisors translate plans into safe work. They confirm competence, permits, equipment condition, controls, communication and emergency readiness before work, then monitor the activity and stop deviations."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A supervisor tells an untrained worker to operate a MEWP to save time. The worker should not operate it. The employer must provide competent operators and safe systems; the supervisor must verify competence; the worker must refuse unauthorized operation and report the situation."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m1-l4-q1",
+          "prompt": "Who is responsible for workplace safety?",
+          "options": [
+            "Only the HSE team",
+            "Only management",
+            "Everyone according to their role",
+            "Only workers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Safety duties are shared, although authority and duties differ."
+        },
+        {
+          "id": "f-m1-l4-q2",
+          "prompt": "What should a worker do when instructions are unclear?",
+          "options": [
+            "Guess",
+            "Ask for clarification before starting",
+            "Copy another worker secretly",
+            "Ignore the procedure"
+          ],
+          "correctIndex": 1,
+          "explanation": "Work should not start without understanding the safe method."
+        },
+        {
+          "id": "f-m1-l4-q3",
+          "prompt": "Which is a supervisor responsibility?",
+          "options": [
+            "Ignore small deviations",
+            "Confirm competence and controls",
+            "Allow any person to operate equipment",
+            "Remove safety devices"
+          ],
+          "correctIndex": 1,
+          "explanation": "Supervisors must verify readiness and monitor work."
+        }
+      ]
+    },
+    {
+      "id": "f-m1-l5",
+      "order": 5,
+      "title": "Reporting Hazards, Near Misses and Incidents",
+      "estimatedMinutes": 2,
+      "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Important Definitions",
+          "points": [
+            "Hazard report: information about an unsafe condition or act before harm occurs. Near miss: an unplanned event that did not cause injury or damage but had the potential to do so. Incident: an unplanned event that caused or could have caused injury, illness, damage or loss. Emergency reporting follows the site's emergency procedure and takes priority."
+          ]
+        },
+        {
+          "heading": "Why Reporting Matters",
+          "points": [
+            "Allows action before someone is harmed.",
+            "Reveals recurring problems and weak controls.",
+            "Supports investigation and organizational learning.",
+            "Helps meet company and legal notification duties.",
+            "Creates a positive reporting culture when handled fairly."
+          ]
+        },
+        {
+          "heading": "Basic Reporting Process",
+          "points": [
+            "If there is immediate danger, stop work and warn affected people.",
+            "Raise the alarm or contact emergency services according to site procedure.",
+            "Provide first aid only within your training and protect yourself.",
+            "Make the area safe without creating another risk.",
+            "Inform the supervisor or responsible person immediately.",
+            "Record facts: what, where, when, who, conditions and immediate action.",
+            "Preserve the scene and evidence when safe and required.",
+            "Support investigation; do not blame, hide facts or change evidence.",
+            "Track corrective actions to closure."
+          ]
+        },
+        {
+          "heading": "Quality of a Report",
+          "points": [
+            "Write facts, not assumptions. Use clear location, time, activity, observed condition and immediate action. Avoid emotional or blaming language. Photos may help when permitted, safe and compliant with privacy and site rules."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A spanner falls from a scaffold but misses a worker. No one is injured. This is a near miss and must be reported. The area should be controlled, work stopped, tool tethering and toe boards checked, and causes investigated before restarting."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m1-l5-q1",
+          "prompt": "What is a near miss?",
+          "options": [
+            "A planned drill",
+            "An event with no harm but potential for harm",
+            "A minor injury only",
+            "A completed permit"
+          ],
+          "correctIndex": 1,
+          "explanation": "Near misses provide an opportunity to prevent future injury."
+        },
+        {
+          "id": "f-m1-l5-q2",
+          "prompt": "What should be written in a report?",
+          "options": [
+            "Rumours",
+            "Facts and immediate actions",
+            "Personal blame",
+            "Unverified conclusions"
+          ],
+          "correctIndex": 1,
+          "explanation": "Accurate facts support a fair investigation."
+        },
+        {
+          "id": "f-m1-l5-q3",
+          "prompt": "A tool falls but injures nobody. What should happen?",
+          "options": [
+            "Ignore it",
+            "Hide it",
+            "Report and investigate the near miss",
+            "Only replace the tool"
+          ],
+          "correctIndex": 2,
+          "explanation": "The event had serious potential and controls may have failed."
+        }
+      ]
+    },
+    {
+      "id": "f-m1-l6",
+      "order": 6,
+      "title": "Basic Emergency Actions",
+      "estimatedMinutes": 3,
+      "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Emergency Priorities",
+          "points": [
+            "Protect yourself - do not become another casualty.",
+            "Raise the alarm immediately.",
+            "Call the correct emergency contact and provide clear information.",
+            "Stop work and isolate energy only if trained, authorized and safe.",
+            "Help others only within your competence.",
+            "Evacuate by the designated route to the assembly point.",
+            "Follow instructions from emergency wardens and responders.",
+            "Do not re-enter until officially authorized."
+          ]
+        },
+        {
+          "heading": "Information to Communicate",
+          "points": [
+            "Your name and contact method.",
+            "Exact location and access point.",
+            "Type of emergency.",
+            "Number and condition of casualties, if known.",
+            "Hazards still present, such as fire, gas, electricity or unstable structure.",
+            "Assistance already provided."
+          ]
+        },
+        {
+          "heading": "Fire",
+          "points": [
+            "Raise the alarm, stop work and evacuate. Use an extinguisher only if trained, the fire is small and manageable, the correct extinguisher is available, there is a safe escape route, and site procedure permits. Never fight a fire that is spreading or producing dangerous smoke."
+          ]
+        },
+        {
+          "heading": "Medical Emergency",
+          "points": [
+            "Call for help, make the area safe and send someone to guide responders. Do not move a casualty unless leaving them creates greater danger. Provide first aid only within your training. Do not give food, drink or medication unless directed by qualified medical personnel."
+          ]
+        },
+        {
+          "heading": "Gas Release or Unknown Atmosphere",
+          "points": [
+            "Do not enter or attempt a rescue without the correct training, authorization and equipment. Raise the alarm, move crosswind or upwind as instructed, avoid ignition sources and report to the designated assembly point."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A fire alarm sounds while a worker is using a power tool. The worker should stop safely if this can be done immediately, leave by the designated route, avoid lifts, go to the assembly point and remain available for the roll call. Personal belongings must not delay evacuation."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m1-l6-q1",
+          "prompt": "What is the first priority in an emergency?",
+          "options": [
+            "Collect belongings",
+            "Protect yourself and raise the alarm",
+            "Take photographs",
+            "Finish the task"
+          ],
+          "correctIndex": 1,
+          "explanation": "A responder must avoid becoming another casualty and alert others."
+        },
+        {
+          "id": "f-m1-l6-q2",
+          "prompt": "When may a worker use a fire extinguisher?",
+          "options": [
+            "For every fire",
+            "Only when trained, conditions are safe and procedure permits",
+            "When smoke blocks the exit",
+            "Without raising the alarm"
+          ],
+          "correctIndex": 1,
+          "explanation": "Firefighting is only appropriate under controlled, permitted conditions."
+        },
+        {
+          "id": "f-m1-l6-q3",
+          "prompt": "When may people re-enter after evacuation?",
+          "options": [
+            "When they feel safe",
+            "After ten minutes",
+            "Only after official authorization",
+            "When a colleague returns"
+          ],
+          "correctIndex": 2,
+          "explanation": "Emergency control personnel decide when re-entry is safe."
+        }
+      ]
+    },
+    {
+      "id": "f-m1-l7",
+      "order": 7,
+      "title": "Hierarchy of Controls",
+      "estimatedMinutes": 2,
+      "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose",
+          "points": [
+            "The Hierarchy of Controls ranks risk-control methods from most effective to least effective. Higher-level controls act on the hazard itself and should be considered before relying on behaviour or PPE."
+          ]
+        },
+        {
+          "heading": "1. Elimination",
+          "points": [
+            "Remove the hazard completely, such as completing an assembly at ground level instead of working at height."
+          ]
+        },
+        {
+          "heading": "2. Substitution",
+          "points": [
+            "Replace the hazard with a safer option, such as using a less hazardous chemical."
+          ]
+        },
+        {
+          "heading": "3. Engineering Controls",
+          "points": [
+            "Physically separate people from danger using guardrails, machine guards, ventilation or enclosures."
+          ]
+        },
+        {
+          "heading": "4. Administrative Controls",
+          "points": [
+            "Change how work is performed using procedures, permits, training, signs, supervision or job rotation."
+          ]
+        },
+        {
+          "heading": "5. PPE",
+          "points": [
+            "Protect the individual with suitable helmets, gloves, eye, hearing, respiratory or fall-protection equipment."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "Workers create dust while cutting material. First consider pre-cut material, then a lower-dust method, on-tool extraction or wet cutting, restricted access, training, supervision and suitable respiratory and eye protection. More than one control may be required."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m1-l7-q1",
+          "prompt": "Which is the most effective control level?",
+          "options": [
+            "PPE",
+            "Administrative control",
+            "Elimination",
+            "Warning sign"
+          ],
+          "correctIndex": 2,
+          "explanation": "Elimination removes the hazard completely."
+        },
+        {
+          "id": "f-m1-l7-q2",
+          "prompt": "Which is an engineering control?",
+          "options": [
+            "Guardrail",
+            "Training",
+            "Gloves",
+            "Toolbox talk"
+          ],
+          "correctIndex": 0,
+          "explanation": "A guardrail physically separates people from a fall hazard."
+        },
+        {
+          "id": "f-m1-l7-q3",
+          "prompt": "Why should PPE not be the only control when higher controls are practicable?",
+          "options": [
+            "PPE is always illegal",
+            "PPE relies on correct human use and does not remove the hazard",
+            "PPE has no value",
+            "Workers choose any PPE"
+          ],
+          "correctIndex": 1,
+          "explanation": "PPE is important but less reliable than removing or isolating the hazard."
+        }
+      ]
+    },
+    {
+      "id": "f-m1-l8",
+      "order": 8,
+      "title": "Personal Protective Equipment (PPE)",
+      "estimatedMinutes": 2,
+      "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Purpose and Types",
+          "points": [
+            "PPE is equipment worn or held to reduce exposure to a specific hazard. It supports stronger controls and is normally the last level in the Hierarchy of Controls.",
+            "Safety helmet and required chin strap.",
+            "Safety footwear.",
+            "Safety glasses, goggles or face shield.",
+            "Task-specific gloves.",
+            "Hearing protection.",
+            "High-visibility clothing.",
+            "Suitable respiratory protective equipment.",
+            "Full-body harness and compatible fall-protection equipment."
+          ]
+        },
+        {
+          "heading": "Correct Selection and Use",
+          "points": [
+            "Base selection on the risk assessment and manufacturer information.",
+            "Confirm correct size, fit and compatibility.",
+            "Inspect before use and at required intervals.",
+            "Never modify or use damaged/expired PPE.",
+            "Clean and store equipment correctly.",
+            "Understand limitations and replacement requirements."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "Ordinary fabric gloves are selected for a corrosive chemical. This is unsafe. The Safety Data Sheet and risk assessment must identify compatible glove material, eye/face protection, clothing, emergency washing and other controls."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m1-l8-q1",
+          "prompt": "Where does PPE normally sit in the Hierarchy of Controls?",
+          "options": [
+            "First",
+            "Second",
+            "Last",
+            "Outside the hierarchy"
+          ],
+          "correctIndex": 2,
+          "explanation": "PPE is normally the final control level."
+        },
+        {
+          "id": "f-m1-l8-q2",
+          "prompt": "What should happen before using PPE?",
+          "options": [
+            "Only check colour",
+            "Inspect it and confirm suitability and fit",
+            "Borrow any item",
+            "Modify it"
+          ],
+          "correctIndex": 1,
+          "explanation": "PPE must be suitable, compatible, fitted and serviceable."
+        },
+        {
+          "id": "f-m1-l8-q3",
+          "prompt": "Can every glove protect against every hazard?",
+          "options": [
+            "Yes",
+            "Only new gloves can",
+            "No, selection must match the hazard",
+            "Colour determines protection"
+          ],
+          "correctIndex": 2,
+          "explanation": "PPE materials have specific capabilities and limitations."
+        }
+      ]
+    },
+    {
+      "id": "f-m1-l9",
+      "order": 9,
+      "title": "Safe Systems of Work and Permit to Work",
+      "estimatedMinutes": 2,
+      "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Safe System of Work",
+          "points": [
+            "A safe system of work is a formal method for completing a task safely. It considers people, equipment, materials, environment, sequence, controls and emergencies. It may include a risk assessment, method statement, procedure, competent supervision and briefing."
+          ]
+        },
+        {
+          "heading": "Permit to Work",
+          "points": [
+            "A permit to work is documented authorization for specified high-risk work under defined conditions and for a limited period. It does not make work safe by itself; all required controls must be implemented and verified.",
+            "Hot work",
+            "Confined-space entry",
+            "Electrical isolation",
+            "Excavation",
+            "Roof access or work at height where required",
+            "Line breaking or work on hazardous systems"
+          ]
+        },
+        {
+          "heading": "Before, During and After Work",
+          "points": [
+            "Confirm task, location, scope and validity.",
+            "Verify risk assessment and approved method.",
+            "Confirm competence, tools, equipment, PPE and supervision.",
+            "Complete required isolation, testing, barricading and emergency preparation.",
+            "Stop if conditions change or permit requirements cannot be met.",
+            "On completion, make the area safe and formally close or hand back the permit."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A hot-work permit covers Area A, but the team moves to Area B. Stop work. The existing permit may not cover the new location or hazards and must be reviewed before restarting."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m1-l9-q1",
+          "prompt": "What does a permit to work provide?",
+          "options": [
+            "A no-incident guarantee",
+            "Documented authorization under defined conditions",
+            "Permission to ignore controls",
+            "Unlimited approval"
+          ],
+          "correctIndex": 1,
+          "explanation": "A permit defines authorized work, conditions and limits."
+        },
+        {
+          "id": "f-m1-l9-q2",
+          "prompt": "What should happen when conditions change?",
+          "options": [
+            "Continue carefully",
+            "Stop and obtain review",
+            "Change the permit personally",
+            "Ignore it"
+          ],
+          "correctIndex": 1,
+          "explanation": "Changes may invalidate controls or authorization."
+        },
+        {
+          "id": "f-m1-l9-q3",
+          "prompt": "Does a permit alone make work safe?",
+          "options": [
+            "Yes",
+            "Only for hot work",
+            "No, controls must be implemented and verified",
+            "Only when signed"
+          ],
+          "correctIndex": 2,
+          "explanation": "The permit cannot replace physical implementation of controls."
+        }
+      ]
+    },
+    {
+      "id": "f-m1-l10",
+      "order": 10,
+      "title": "Safety Signs and Workplace Communication",
+      "estimatedMinutes": 2,
+      "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
+      "contentStatus": "ready",
+      "sections": [
+        {
+          "heading": "Safety Sign Types",
+          "points": [
+            "Prohibition: an action is not allowed, such as No Smoking.",
+            "Warning: a hazard or danger exists, such as High Voltage.",
+            "Mandatory: an action must be followed, such as Wear Eye Protection.",
+            "Safe condition: emergency exits, first aid or safe routes.",
+            "Fire equipment: extinguishers, hose reels or alarm points."
+          ]
+        },
+        {
+          "heading": "Other Communication Methods",
+          "points": [
+            "Induction and task training.",
+            "Toolbox talks and pre-task briefings.",
+            "Risk assessments, method statements and permits.",
+            "Barricades, labels, tags and floor markings.",
+            "Radios and agreed hand signals.",
+            "Shift handovers, alerts and emergency alarms."
+          ]
+        },
+        {
+          "heading": "Effective Communication",
+          "points": [
+            "Communication must be clear and suitable for language, literacy, noise and visibility conditions. Critical instructions should be confirmed through questions or repeat-back. Signs support controls but do not replace guarding, isolation, training or supervision."
+          ]
+        },
+        {
+          "heading": "Practical Scenario",
+          "points": [
+            "A crane operator cannot see the load and receives signals from two people. Stop the lift. One authorized signaler must be identified, communication agreed and emergency stop signals understood."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "f-m1-l10-q1",
+          "prompt": "What does a mandatory sign communicate?",
+          "options": [
+            "An action that must be followed",
+            "A cafeteria",
+            "A past incident",
+            "An optional activity"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mandatory signs identify required actions."
+        },
+        {
+          "id": "f-m1-l10-q2",
+          "prompt": "Can a warning sign replace a machine guard?",
+          "options": [
+            "Yes",
+            "Only at night",
+            "No, it does not physically control the hazard",
+            "Only for trained workers"
+          ],
+          "correctIndex": 2,
+          "explanation": "A sign warns but does not isolate the hazard."
+        },
+        {
+          "id": "f-m1-l10-q3",
+          "prompt": "How can understanding of a critical instruction be confirmed?",
+          "options": [
+            "Assume silence means agreement",
+            "Use questions or repeat-back",
+            "Speak once",
+            "Post it without briefing"
+          ],
+          "correctIndex": 1,
+          "explanation": "Feedback confirms that the message was understood."
+        }
+      ]
+    }
+  ],
+  "finalAssessment": [
+    {
+      "id": "f-m1-exam-q1",
+      "prompt": "What is the primary purpose of workplace health and safety?",
+      "options": [
+        "Increase speed",
+        "Prevent work-related harm",
+        "Reduce staffing",
+        "Replace supervision"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Safety prevents injury, illness and other work-related harm."
+    },
+    {
+      "id": "f-m1-exam-q2",
+      "prompt": "Which statement best defines a hazard?",
+      "options": [
+        "The chance of harm",
+        "Anything with potential to cause harm",
+        "A completed form",
+        "Only an unsafe act"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: A hazard is a source or condition with potential to cause harm."
+    },
+    {
+      "id": "f-m1-exam-q3",
+      "prompt": "Risk is commonly evaluated using which two factors?",
+      "options": [
+        "Likelihood and severity",
+        "Cost and time",
+        "Age and role",
+        "Training and salary"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Likelihood and severity estimate probability and consequence."
+    },
+    {
+      "id": "f-m1-exam-q4",
+      "prompt": "Which is an ergonomic hazard?",
+      "options": [
+        "Awkward repetitive lifting",
+        "A guarded machine",
+        "A marked exit",
+        "A sealed container"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Awkward repetitive lifting can cause musculoskeletal injury."
+    },
+    {
+      "id": "f-m1-exam-q5",
+      "prompt": "What should happen to a tool with a serious defect?",
+      "options": [
+        "Use carefully",
+        "Remove from use and report",
+        "Loan it to another team",
+        "Repair without authority"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Defective tools must be controlled and reported."
+    },
+    {
+      "id": "f-m1-exam-q6",
+      "prompt": "Who has workplace safety responsibilities?",
+      "options": [
+        "Only managers",
+        "Only HSE staff",
+        "Everyone according to role",
+        "Only equipment operators"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Duties are shared but differ according to authority and role."
+    },
+    {
+      "id": "f-m1-exam-q7",
+      "prompt": "What should a worker do if not trained for a task?",
+      "options": [
+        "Try slowly",
+        "Ask for training and authorization",
+        "Copy another worker",
+        "Hide the issue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: No one should perform work without required competence and authorization."
+    },
+    {
+      "id": "f-m1-exam-q8",
+      "prompt": "What is a near miss?",
+      "options": [
+        "An event with potential for harm but no actual harm",
+        "A planned inspection",
+        "Only property damage",
+        "A training exercise"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: A near miss caused no harm but had harmful potential."
+    },
+    {
+      "id": "f-m1-exam-q9",
+      "prompt": "Which report wording is best?",
+      "options": [
+        "The careless worker nearly killed us",
+        "At 10:15, a spanner fell from Level 2 into the barricaded area; work stopped",
+        "Someone always makes mistakes here",
+        "It was probably the supervisor's fault"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Good reports use exact, neutral and verifiable facts."
+    },
+    {
+      "id": "f-m1-exam-q10",
+      "prompt": "What should happen first when serious immediate danger is discovered?",
+      "options": [
+        "Continue until break",
+        "Stop, warn people and report",
+        "Post online",
+        "Wait until tomorrow"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Immediate danger requires prompt control, warning and reporting."
+    },
+    {
+      "id": "f-m1-exam-q11",
+      "prompt": "What is normally the last level in the Hierarchy of Controls?",
+      "options": [
+        "Elimination",
+        "Substitution",
+        "Engineering",
+        "PPE"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct answer: PPE is normally the final and least reliable level."
+    },
+    {
+      "id": "f-m1-exam-q12",
+      "prompt": "During evacuation, where should workers go?",
+      "options": [
+        "Car park of their choice",
+        "Designated assembly point",
+        "Nearest office",
+        "Home immediately"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Assembly points support accountability and emergency control."
+    },
+    {
+      "id": "f-m1-exam-q13",
+      "prompt": "Who should carry out electrical repairs?",
+      "options": [
+        "Any experienced worker",
+        "Only an authorized qualified person",
+        "The equipment user",
+        "A first aider"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Electrical repairs require qualified authorization."
+    },
+    {
+      "id": "f-m1-exam-q14",
+      "prompt": "When may a casualty be moved?",
+      "options": [
+        "Always immediately",
+        "Only when trained/necessary or leaving them creates greater danger",
+        "To take a photograph",
+        "Whenever they ask for water"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Unnecessary movement may worsen injuries; immediate danger may justify movement."
+    },
+    {
+      "id": "f-m1-exam-q15",
+      "prompt": "When may workers re-enter after an emergency?",
+      "options": [
+        "When the alarm stops",
+        "After official authorization",
+        "After collecting PPE",
+        "When one person returns"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Only emergency control personnel may authorize re-entry."
+    },
+    {
+      "id": "f-m1-exam-q16",
+      "prompt": "What is the highest level in the Hierarchy of Controls?",
+      "options": [
+        "PPE",
+        "Administrative",
+        "Elimination",
+        "Engineering"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: Elimination removes the hazard completely."
+    },
+    {
+      "id": "f-m1-exam-q17",
+      "prompt": "Which is an engineering control?",
+      "options": [
+        "Training",
+        "Machine guard",
+        "Gloves",
+        "Warning poster"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: A machine guard separates people from danger."
+    },
+    {
+      "id": "f-m1-exam-q18",
+      "prompt": "Why is PPE less reliable than elimination?",
+      "options": [
+        "It depends on correct selection and use",
+        "It is always expensive",
+        "It needs no training",
+        "It removes every hazard"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: PPE depends on correct selection, fit, use and maintenance."
+    },
+    {
+      "id": "f-m1-exam-q19",
+      "prompt": "What must PPE selection be based on?",
+      "options": [
+        "Favourite colour",
+        "Risk assessment and hazard",
+        "Lowest price",
+        "Another trade's choice"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: PPE must match the assessed hazard and task."
+    },
+    {
+      "id": "f-m1-exam-q20",
+      "prompt": "What is a permit to work?",
+      "options": [
+        "A replacement for supervision",
+        "Authorization for specified work and conditions",
+        "Permanent approval",
+        "Training certificate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: A permit documents authorization, scope, controls and limits."
+    },
+    {
+      "id": "f-m1-exam-q21",
+      "prompt": "What should happen if permit conditions change?",
+      "options": [
+        "Continue",
+        "Stop and obtain review",
+        "Alter it without authority",
+        "Wait until completion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Changes may invalidate the permit and controls."
+    },
+    {
+      "id": "f-m1-exam-q22",
+      "prompt": "Which sign states an action must be followed?",
+      "options": [
+        "Mandatory",
+        "Warning",
+        "Fire equipment",
+        "Prohibition"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Mandatory signs state required actions."
+    },
+    {
+      "id": "f-m1-exam-q23",
+      "prompt": "Can a safety sign replace a physical guard?",
+      "options": [
+        "Yes",
+        "No",
+        "Only indoors",
+        "Only with PPE"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Signs do not physically isolate hazards."
+    },
+    {
+      "id": "f-m1-exam-q24",
+      "prompt": "How can a critical message be confirmed?",
+      "options": [
+        "Assume understanding",
+        "Repeat-back or questions",
+        "Speak faster",
+        "Avoid questions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: Questions and repeat-back verify understanding."
+    },
+    {
+      "id": "f-m1-exam-q25",
+      "prompt": "Who should signal a crane operator during a controlled lift?",
+      "options": [
+        "Any worker",
+        "Several people",
+        "The identified authorized signaler",
+        "A visitor"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct answer: One authorized signaler prevents conflicting instructions."
+    }
+  ]
+}
