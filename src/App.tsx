@@ -236,6 +236,13 @@ export default function App() {
     { key: 'management', title: 'Management Level', subtitle: 'Leadership and systems' }
   ];
   return <main><SafetyHero modules={totals.modules} lessons={totals.lessons} questions={totals.questions} />
+    <section className="home-interview-launch" onClick={() => setInterview(true)}>
+      <div className="home-agent-icon"><span>HSE</span><i /><i /><i /></div>
+      <div className="home-interview-copy"><small>NEW · LIVE VOICE PRACTICE</small><h2>Mock HSE Interview</h2><p>Your personal interview agent asks random questions, listens to your answers and gives instant feedback.</p>
+        <div><span>Basic</span><b>→</b><span>Scenario</span><b>→</b><span>Management</span></div>
+      </div>
+      <button className="home-interview-button">Start Interview <b>›</b></button>
+    </section>
     <section className="section learning-path"><div className="section-title"><h2>Your complete learning path</h2><span>4 Levels</span></div>
       {levels.map((level, index) => <section className={`level-group level-${level.key}`} key={level.key}>
         <header><div className="level-number">{index + 1}</div><div><span>{level.subtitle}</span><h2>{level.title}</h2></div><strong>{catalog.filter(m => m.level === level.key).length} Modules</strong></header>
