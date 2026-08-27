@@ -6,6 +6,7 @@ import './exam.css';
 import './progress.css';
 import './motion.css';
 import './hero.css';
+import './curriculum.css';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode><App /></React.StrictMode>

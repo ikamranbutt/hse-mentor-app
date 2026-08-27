@@ -3,14 +3,14 @@ import { catalog } from './data/catalog';
 import type { Lesson, Module, Question } from './types';
 
 function ModuleCard({ module, onOpen }: { module: Module; onOpen: () => void }) {
-  return <button className="module-card" onClick={onOpen}>
-    <span className="module-number">MODULE {module.order}</span>
+  return <button className={`module-card ${module.level}`} onClick={onOpen}>
+    <span className="module-number">{module.level.toUpperCase()} · MODULE {module.order}</span>
     <h3>{module.title}</h3>
     <div className="module-meta"><span>{module.lessons.length} lessons</span><span>{module.finalAssessment.length} exam questions</span></div>
   </button>;
 }
 
-function SafetyHero({ modules, lessons }: { modules: number; lessons: number }) {
+function SafetyHero({ modules, lessons, questions }: { modules: number; lessons: number; questions: number }) {
   return <section className="safety-hero">
     <svg className="site-silhouette" viewBox="0 0 800 260" aria-hidden="true">
       <g fill="none" stroke="currentColor" strokeWidth="3"><path d="M38 228V88h92v140M38 120h92M65 88V45h38v43M210 228V52M170 52h226M210 52l65 176M328 52v35M315 87h26M480 228V115h104v113M480 148h104M622 228V82h122v146M622 120h122" /><path d="M0 228h800M95 228l42-70 42 70M540 228l37-57 37 57" /></g>
@@ -47,7 +47,7 @@ function SafetyHero({ modules, lessons }: { modules: number; lessons: number }) 
         </svg>
       </div>
     </div>
-    <div className="hero-stats"><strong>{modules}<small>Modules</small></strong><strong>{lessons}<small>Lessons</small></strong><strong>275<small>Questions</small></strong></div>
+    <div className="hero-stats"><strong>{modules}<small>Modules</small></strong><strong>{lessons}<small>Lessons</small></strong><strong>{questions}<small>Questions</small></strong></div>
     <div className="safety-stripe"><span>PLAN</span><i /> <span>LEARN</span><i /> <span>CONTROL</span><i /> <span>PROTECT</span></div>
   </section>;
 }
@@ -187,7 +187,11 @@ export default function App() {
     setLockedMessage(message);
     window.setTimeout(() => setLockedMessage(''), 2800);
   };
-  const totals = useMemo(() => ({ modules: catalog.length, lessons: catalog.reduce((n, m) => n + m.lessons.length, 0) }), []);
+  const totals = useMemo(() => ({
+    modules: catalog.length,
+    lessons: catalog.reduce((n, m) => n + m.lessons.length, 0),
+    questions: catalog.reduce((n, m) => n + m.finalAssessment.length + m.lessons.reduce((q, l) => q + l.questions.length, 0), 0)
+  }), []);
   if (selected && lesson) {
     const nextLesson = selected.lessons.find(item => item.order === lesson.order + 1);
     return <LessonView lesson={lesson} nextLesson={nextLesson} isCompleted={completed.includes(lesson.id)} onComplete={() => completeLesson(lesson.id)} onNext={() => nextLesson ? setLesson(nextLesson) : setLesson(null)} onBack={() => setLesson(null)} />;
@@ -209,8 +213,19 @@ export default function App() {
     })}<button className={examUnlocked ? 'exam-button' : 'exam-button exam-locked'} onClick={() => examUnlocked ? setExam(true) : showLocked('Complete all 10 lessons before starting the final assessment.')}><span>{examUnlocked ? 'FINAL ASSESSMENT' : '🔒 FINAL ASSESSMENT LOCKED'}</span><strong>{examUnlocked ? '25 Questions · 80% to pass' : 'Complete all lessons to unlock'}</strong></button></section>
   </main>;
   }
-  return <main><SafetyHero modules={totals.modules} lessons={totals.lessons} />
-    <section className="section"><div className="section-title"><h2>Your learning path</h2><span>Foundation</span></div><div className="module-grid">{catalog.map(m => <ModuleCard key={m.id} module={m} onOpen={() => setSelected(m)} />)}</div></section>
+  const levels: { key: Module['level']; title: string; subtitle: string }[] = [
+    { key: 'foundation', title: 'Foundation Level', subtitle: 'Essential knowledge' },
+    { key: 'intermediate', title: 'Intermediate Level', subtitle: 'Operational control' },
+    { key: 'advanced', title: 'Advanced Level', subtitle: 'Technical expertise' },
+    { key: 'management', title: 'Management Level', subtitle: 'Leadership and systems' }
+  ];
+  return <main><SafetyHero modules={totals.modules} lessons={totals.lessons} questions={totals.questions} />
+    <section className="section learning-path"><div className="section-title"><h2>Your complete learning path</h2><span>4 Levels</span></div>
+      {levels.map((level, index) => <section className={`level-group level-${level.key}`} key={level.key}>
+        <header><div className="level-number">{index + 1}</div><div><span>{level.subtitle}</span><h2>{level.title}</h2></div><strong>{catalog.filter(m => m.level === level.key).length} Modules</strong></header>
+        <div className="module-grid">{catalog.filter(m => m.level === level.key).map(m => <ModuleCard key={m.id} module={m} onOpen={() => setSelected(m)} />)}</div>
+      </section>)}
+    </section>
     <nav className="bottom-nav"><button className="active">⌂<span>Learn</span></button><button>✓<span>Practice</span></button><button>◎<span>Progress</span></button><button>☻<span>Profile</span></button></nav>
   </main>;
 }
