@@ -3,6 +3,7 @@ import { catalog } from './data/catalog';
 import type { Lesson, Module, Question } from './types';
 import Interview from './Interview';
 import LiveAgent from './LiveAgent';
+import RiskAssessment from './RiskAssessment';
 
 function ModuleCard({ module, onOpen }: { module: Module; onOpen: () => void }) {
   return <button className={`module-card ${module.level}`} onClick={onOpen}>
@@ -189,6 +190,7 @@ export default function App() {
   const [exam, setExam] = useState(false);
   const [interview, setInterview] = useState(false);
   const [liveAgent, setLiveAgent] = useState(false);
+  const [riskAssessment, setRiskAssessment] = useState(false);
   const [lockedMessage, setLockedMessage] = useState('');
   const [completed, setCompleted] = useState<string[]>(() => {
     try { return JSON.parse(localStorage.getItem('hse-mentor-completed-lessons') || '[]'); }
@@ -210,6 +212,7 @@ export default function App() {
     questions: catalog.reduce((n, m) => n + m.finalAssessment.length + m.lessons.reduce((q, l) => q + l.questions.length, 0), 0)
   }), []);
   if (liveAgent) return <LiveAgent onBack={() => setLiveAgent(false)} />;
+  if (riskAssessment) return <RiskAssessment onBack={() => setRiskAssessment(false)} />;
   if (interview) return <Interview onBack={() => setInterview(false)} />;
   if (selected && lesson) {
     const nextLesson = selected.lessons.find(item => item.order === lesson.order + 1);
@@ -245,6 +248,9 @@ export default function App() {
         <div><span>Basic</span><b>→</b><span>Scenario</span><b>→</b><span>Management</span></div>
       </div>
       <button className="home-interview-button">Start Interview <b>›</b></button>
+    </section>
+    <section className="home-interview-launch ra-launch" onClick={() => setRiskAssessment(true)}>
+      <div className="home-agent-icon"><span>5×5</span></div><div className="home-interview-copy"><small>NEW · SAFETY DOCUMENT TOOL</small><h2>Risk Assessment Maker</h2><p>Enter your work activity and prepare an editable risk assessment with hazards, controls and risk ratings.</p></div><button className="home-interview-button">Create RA <b>›</b></button>
     </section>
     <section className="section learning-path"><div className="section-title"><h2>Your complete learning path</h2><span>4 Levels</span></div>
       {levels.map((level, index) => <section className={`level-group level-${level.key}`} key={level.key}>
