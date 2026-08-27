@@ -5,7 +5,7 @@ import type { Lesson, Module, Question } from './types';
 function ModuleCard({ module, onOpen }: { module: Module; onOpen: () => void }) {
   return <button className="module-card" onClick={onOpen}>
     <span className="module-number">MODULE {module.order}</span>
-    <h3>{module.title}</h3><p>{module.description}</p>
+    <h3>{module.title}</h3>
     <div className="module-meta"><span>{module.lessons.length} lessons</span><span>{module.finalAssessment.length} exam questions</span></div>
   </button>;
 }

@@ -1,0 +1,16 @@
+.module-card,.lesson-row,.content-card,.question-card,.exam-button,.next-lesson-panel,.stats strong{animation:cardRise .48s both cubic-bezier(.2,.75,.3,1)}
+.module-card:nth-child(1),.lesson-row:nth-child(1),.content-card:nth-child(1){animation-delay:.04s}
+.module-card:nth-child(2),.lesson-row:nth-child(2),.content-card:nth-child(2){animation-delay:.08s}
+.module-card:nth-child(3),.lesson-row:nth-child(3),.content-card:nth-child(3){animation-delay:.12s}
+.module-card:nth-child(4),.lesson-row:nth-child(4),.content-card:nth-child(4){animation-delay:.16s}
+.module-card:nth-child(5),.lesson-row:nth-child(5),.content-card:nth-child(5){animation-delay:.2s}
+.module-card{overflow:hidden;position:relative;min-height:126px;transition:transform .22s cubic-bezier(.2,.8,.3,1),box-shadow .22s,border-color .22s}
+.module-card:before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 25%,#ffffffa8 48%,transparent 70%);transform:translateX(-130%);transition:transform .65s ease;pointer-events:none}
+.module-card:hover{transform:translateY(-5px);box-shadow:0 14px 32px #123b5d1b;border-color:#94ccc8}.module-card:hover:before{transform:translateX(130%)}
+.module-card:active,.lesson-row:active,.exam-button:active,.options button:active,.exam-options button:active,.primary:active,.secondary:active{transform:scale(.965);transition-duration:.08s}
+.lesson-row,.content-card,.question-card,.exam-button,.next-lesson-panel{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.lesson-row:not(.lesson-locked):hover,.content-card:hover,.question-card:hover,.next-lesson-panel.unlocked:hover{transform:translateY(-3px);box-shadow:0 12px 28px #123b5d17}
+.content-card:hover{border-color:#9fcfcb}.question-card:hover{border-color:#aacfd1}.exam-button:hover{transform:translateY(-3px);box-shadow:0 13px 28px #123b5d36}
+.stats strong:nth-child(1){animation-delay:.1s}.stats strong:nth-child(2){animation-delay:.17s}.stats strong:nth-child(3){animation-delay:.24s}
+@keyframes cardRise{from{opacity:0;transform:translateY(16px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(prefers-reduced-motion:reduce){.module-card,.lesson-row,.content-card,.question-card,.exam-button,.next-lesson-panel,.stats strong{animation:none}.module-card:before{display:none}}
