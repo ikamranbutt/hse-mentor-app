@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { SpeechRecognition } from '@capacitor-community/speech-recognition';
 import { interviewQuestions } from './data/interview';
+import LiveAgent from './LiveAgent';
 
 type Result = { score: number; matched: string[]; missing: string[] };
 
@@ -14,6 +15,7 @@ export default function Interview({ onBack }: { onBack: () => void }) {
   const [finished, setFinished] = useState(false);
   const [listening, setListening] = useState(false);
   const [voiceError, setVoiceError] = useState('');
+  const [agentMode, setAgentMode] = useState(false);
   const question = interviewQuestions[current];
   const overall = useMemo(() => scores.length ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length) : 0, [scores]);
 
@@ -76,11 +78,16 @@ export default function Interview({ onBack }: { onBack: () => void }) {
   };
   const restart = () => { setStarted(true); setCurrent(0); setAnswer(''); setResult(null); setScores([]); setFinished(false); setVoiceError(''); saveSession(0, []); };
 
+  if (agentMode) return <LiveAgent onBack={() => setAgentMode(false)} />;
+
   if (!started) return <main className="interview-page"><InterviewHeader onBack={onBack} />
     <section className="interview-intro"><div className="interview-mic">◉</div><span>HSE MOCK INTERVIEW</span><h1>From Basic Knowledge<br />to Management Decisions</h1><p>Answer in your own words. The mentor will check essential safety points, identify what is missing and show a strong sample answer.</p>
       <div className="interview-levels"><b>Basic</b><i>→</i><b>Intermediate</b><i>→</i><b>Advanced</b><i>→</i><b>Management</b></div>
       <ul><li>24 progressive interview questions</li><li>Knowledge and practical site scenarios</li><li>Instant structured feedback and scoring</li><li>Your position is saved automatically</li></ul>
-      <button className="primary interview-start" onClick={restart}>Start Mock Interview</button>
+      <div className="interview-start-options">
+        <button className="primary interview-start" onClick={() => setAgentMode(true)}><span>🎙</span> Start Live HSE Agent<small>Random voice questions · Adaptive difficulty</small></button>
+        <button className="secondary interview-start" onClick={restart}>Start Written Mock Interview<small>24 structured questions · Saved progress</small></button>
+      </div>
     </section></main>;
 
   if (finished) {
