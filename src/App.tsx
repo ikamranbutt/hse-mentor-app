@@ -31,7 +31,7 @@ function Header({ onBack }: { onBack: () => void }) {
   return <header className="topbar"><button className="back" onClick={onBack}>←</button><div><strong>HSE Mentor</strong><small>Foundation Level</small></div></header>;
 }
 
-function LessonView({ lesson, isCompleted, onComplete, onBack }: { lesson: Lesson; isCompleted: boolean; onComplete: () => void; onBack: () => void }) {
+function LessonView({ lesson, nextLesson, isCompleted, onComplete, onNext, onBack }: { lesson: Lesson; nextLesson?: Lesson; isCompleted: boolean; onComplete: () => void; onNext: () => void; onBack: () => void }) {
   const [remaining, setRemaining] = useState(isCompleted ? 0 : lesson.estimatedMinutes * 60);
   useEffect(() => {
     if (isCompleted || remaining <= 0) return;
@@ -55,6 +55,12 @@ function LessonView({ lesson, isCompleted, onComplete, onBack }: { lesson: Lesso
       </article>)}
       <div className="quiz-heading"><span>PRACTICE</span><h2>Check your understanding</h2><p>Select one answer. The correct answer and explanation appear immediately.</p></div>
       {lesson.questions.map((question, index) => <QuestionCard key={question.id} question={question} number={index + 1} />)}
+      <section className={isCompleted ? 'next-lesson-panel unlocked' : 'next-lesson-panel locked'}>
+        <div className="next-state-icon">{isCompleted ? '✓' : '🔒'}</div>
+        <div><small>{nextLesson ? 'NEXT LESSON' : 'MODULE LESSONS'}</small><h2>{nextLesson ? nextLesson.title : 'All lessons completed'}</h2>
+          <p>{isCompleted ? nextLesson ? 'Reading time completed. Your next lesson is ready.' : 'Return to the module and start your final assessment.' : `Complete the remaining ${mins}:${secs} reading time to unlock.`}</p></div>
+        <button className="primary" disabled={!isCompleted} onClick={onNext}>{nextLesson ? 'Start Next Lesson →' : 'Back to Module →'}</button>
+      </section>
     </section>
   </main>;
 }
@@ -140,7 +146,10 @@ export default function App() {
     window.setTimeout(() => setLockedMessage(''), 2800);
   };
   const totals = useMemo(() => ({ modules: catalog.length, lessons: catalog.reduce((n, m) => n + m.lessons.length, 0) }), []);
-  if (selected && lesson) return <LessonView lesson={lesson} isCompleted={completed.includes(lesson.id)} onComplete={() => completeLesson(lesson.id)} onBack={() => setLesson(null)} />;
+  if (selected && lesson) {
+    const nextLesson = selected.lessons.find(item => item.order === lesson.order + 1);
+    return <LessonView lesson={lesson} nextLesson={nextLesson} isCompleted={completed.includes(lesson.id)} onComplete={() => completeLesson(lesson.id)} onNext={() => nextLesson ? setLesson(nextLesson) : setLesson(null)} onBack={() => setLesson(null)} />;
+  }
   if (selected && exam) return <ExamView module={selected} onBack={() => setExam(false)} />;
   if (selected) {
     const completedInModule = selected.lessons.filter(item => completed.includes(item.id)).length;

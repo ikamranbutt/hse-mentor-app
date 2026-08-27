@@ -19,3 +19,9 @@
 @keyframes timerDrop{from{opacity:0;transform:translateY(-15px)}to{opacity:1;transform:none}}@keyframes clockPulse{50%{transform:scale(1.08);background:#ffffff2e}}
 @keyframes unlockPop{0%{transform:scale(.45) rotate(-15deg)}70%{transform:scale(1.15) rotate(4deg)}100%{transform:scale(1) rotate(0)}}@keyframes completeGlow{0%{transform:scale(.97);box-shadow:0 0 0 #12a59400}60%{transform:scale(1.01);box-shadow:0 0 30px #12a59465}100%{transform:scale(1)}}
 @keyframes toastIn{from{opacity:0;transform:translate(-50%,-18px) scale(.95)}to{opacity:1;transform:translate(-50%,0) scale(1)}}
+.next-lesson-panel{display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:center;margin-top:22px;padding:20px;border-radius:19px;border:1px solid #d6e4e6;background:#fff;box-shadow:0 10px 28px #123b5d12;transition:all .35s ease}
+.next-lesson-panel.locked{background:#edf2f3;opacity:.78}.next-state-icon{display:grid;place-items:center;width:52px;height:52px;border-radius:16px;background:#dbe5e7;font-size:22px}
+.next-lesson-panel small{font-size:10px;font-weight:900;letter-spacing:.11em;color:#7a9098}.next-lesson-panel h2{font-size:18px;margin:4px 0}.next-lesson-panel p{font-size:12px;line-height:1.45;color:#6d828b;margin:0}
+.next-lesson-panel button{grid-column:1/-1;margin-top:4px;min-height:50px}.next-lesson-panel.unlocked{border-color:#7bc9aa;background:linear-gradient(135deg,#f3fcf7,#fff);animation:panelUnlock .7s ease}
+.next-lesson-panel.unlocked .next-state-icon{background:#1da16e;color:#fff;animation:unlockPop .65s ease}.next-lesson-panel.unlocked small{color:#16845e}
+@keyframes panelUnlock{0%{opacity:.65;transform:translateY(10px);box-shadow:0 0 0 #12a59400}60%{transform:translateY(-3px);box-shadow:0 0 30px #12a59432}100%{opacity:1;transform:none}}

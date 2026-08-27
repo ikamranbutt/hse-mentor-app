@@ -11,7 +11,7 @@
         "id": "f-m1-l1",
         "order": 1,
         "title": "What Is Health and Safety?",
-        "estimatedMinutes": 6,
+        "estimatedMinutes": 2,
         "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
         "contentStatus": "ready",
         "sections": [
@@ -99,7 +99,7 @@
         "id": "f-m1-l2",
         "order": 2,
         "title": "Hazard and Risk Difference",
-        "estimatedMinutes": 7,
+        "estimatedMinutes": 2,
         "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
         "contentStatus": "ready",
         "sections": [
@@ -182,7 +182,7 @@
         "id": "f-m1-l3",
         "order": 3,
         "title": "Common Workplace Hazards",
-        "estimatedMinutes": 9,
+        "estimatedMinutes": 2,
         "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
         "contentStatus": "ready",
         "sections": [
@@ -292,7 +292,7 @@
         "id": "f-m1-l4",
         "order": 4,
         "title": "Employer and Employee Responsibilities",
-        "estimatedMinutes": 8,
+        "estimatedMinutes": 2,
         "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
         "contentStatus": "ready",
         "sections": [
@@ -378,7 +378,7 @@
         "id": "f-m1-l5",
         "order": 5,
         "title": "Reporting Hazards, Near Misses and Incidents",
-        "estimatedMinutes": 8,
+        "estimatedMinutes": 2,
         "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
         "contentStatus": "ready",
         "sections": [
@@ -468,7 +468,7 @@
         "id": "f-m1-l6",
         "order": 6,
         "title": "Basic Emergency Actions",
-        "estimatedMinutes": 9,
+        "estimatedMinutes": 3,
         "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
         "contentStatus": "ready",
         "sections": [
@@ -564,7 +564,7 @@
         "id": "f-m1-l7",
         "order": 7,
         "title": "Hierarchy of Controls",
-        "estimatedMinutes": 9,
+        "estimatedMinutes": 2,
         "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
         "contentStatus": "ready",
         "sections": [
@@ -654,7 +654,7 @@
         "id": "f-m1-l8",
         "order": 8,
         "title": "Personal Protective Equipment (PPE)",
-        "estimatedMinutes": 9,
+        "estimatedMinutes": 2,
         "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
         "contentStatus": "ready",
         "sections": [
@@ -733,7 +733,7 @@
         "id": "f-m1-l9",
         "order": 9,
         "title": "Safe Systems of Work and Permit to Work",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
         "contentStatus": "ready",
         "sections": [
@@ -816,7 +816,7 @@
         "id": "f-m1-l10",
         "order": 10,
         "title": "Safety Signs and Workplace Communication",
-        "estimatedMinutes": 8,
+        "estimatedMinutes": 2,
         "summary": "This foundation module introduces the essential ideas every worker needs before starting or supporting workplace activities. It uses simple English, practical examples and short knowledge checks.",
         "contentStatus": "ready",
         "sections": [
@@ -1209,7 +1209,7 @@
         "id": "f-m2-l1",
         "order": 1,
         "title": "Introduction to Hazard Identification",
-        "estimatedMinutes": 8,
+        "estimatedMinutes": 2,
         "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -1289,7 +1289,7 @@
         "id": "f-m2-l2",
         "order": 2,
         "title": "Hazard, Unsafe Act and Unsafe Condition",
-        "estimatedMinutes": 8,
+        "estimatedMinutes": 2,
         "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -1375,7 +1375,7 @@
         "id": "f-m2-l3",
         "order": 3,
         "title": "Methods of Identifying Hazards",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -1467,7 +1467,7 @@
         "id": "f-m2-l4",
         "order": 4,
         "title": "Who Might Be Harmed and How",
-        "estimatedMinutes": 9,
+        "estimatedMinutes": 2,
         "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -1553,7 +1553,7 @@
         "id": "f-m2-l5",
         "order": 5,
         "title": "Likelihood and Severity",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -1639,7 +1639,7 @@
         "id": "f-m2-l6",
         "order": 6,
         "title": "Using a 5x5 Risk Matrix",
-        "estimatedMinutes": 11,
+        "estimatedMinutes": 2,
         "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -1725,7 +1725,7 @@
         "id": "f-m2-l7",
         "order": 7,
         "title": "Initial and Residual Risk",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -1811,7 +1811,7 @@
         "id": "f-m2-l8",
         "order": 8,
         "title": "Selecting Controls Using the Hierarchy",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -1897,7 +1897,7 @@
         "id": "f-m2-l9",
         "order": 9,
         "title": "Recording and Reviewing Risk Assessments",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -1983,7 +1983,7 @@
         "id": "f-m2-l10",
         "order": 10,
         "title": "Practical Risk Assessment Scenario",
-        "estimatedMinutes": 14,
+        "estimatedMinutes": 2,
         "summary": "This module teaches a practical, systematic approach to identifying workplace hazards, evaluating risk, selecting controls, recording findings and reviewing effectiveness. It uses a generic 5x5 model for learning; organizations must apply their approved matrix, procedures and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -2381,7 +2381,7 @@
         "id": "f-m3-l1",
         "order": 1,
         "title": "Personal Protective Equipment",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -2443,7 +2443,7 @@
         "id": "f-m3-l2",
         "order": 2,
         "title": "Housekeeping, Slips and Trips",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -2505,7 +2505,7 @@
         "id": "f-m3-l3",
         "order": 3,
         "title": "Manual Handling and Ergonomics",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -2567,7 +2567,7 @@
         "id": "f-m3-l4",
         "order": 4,
         "title": "Hand and Power Tool Safety",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -2629,7 +2629,7 @@
         "id": "f-m3-l5",
         "order": 5,
         "title": "Electrical Safety",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -2691,7 +2691,7 @@
         "id": "f-m3-l6",
         "order": 6,
         "title": "Fire Safety and Hot Work",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -2753,7 +2753,7 @@
         "id": "f-m3-l7",
         "order": 7,
         "title": "Work at Height",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -2815,7 +2815,7 @@
         "id": "f-m3-l8",
         "order": 8,
         "title": "Lifting Operations",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -2877,7 +2877,7 @@
         "id": "f-m3-l9",
         "order": 9,
         "title": "Mobile Plant and Pedestrian Safety",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -2939,7 +2939,7 @@
         "id": "f-m3-l10",
         "order": 10,
         "title": "Chemical Safety and SDS",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces ten essential workplace safety practices. It is generic learning content and must be applied together with site-specific risk assessments, approved procedures, competent supervision, manufacturer instructions and applicable legal requirements.",
         "contentStatus": "ready",
         "sections": [
@@ -3313,7 +3313,7 @@
         "id": "f-m4-l1",
         "order": 1,
         "title": "Emergency Planning and Responsibilities",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces general workplace emergency preparedness, first response boundaries, evacuation, reporting, investigation and learning. Site-specific plans, local emergency numbers, legal reporting rules and responder competence always take precedence.",
         "contentStatus": "ready",
         "sections": [
@@ -3375,7 +3375,7 @@
         "id": "f-m4-l2",
         "order": 2,
         "title": "Emergency Alarms and Communication",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces general workplace emergency preparedness, first response boundaries, evacuation, reporting, investigation and learning. Site-specific plans, local emergency numbers, legal reporting rules and responder competence always take precedence.",
         "contentStatus": "ready",
         "sections": [
@@ -3437,7 +3437,7 @@
         "id": "f-m4-l3",
         "order": 3,
         "title": "Evacuation, Assembly and Accountability",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces general workplace emergency preparedness, first response boundaries, evacuation, reporting, investigation and learning. Site-specific plans, local emergency numbers, legal reporting rules and responder competence always take precedence.",
         "contentStatus": "ready",
         "sections": [
@@ -3499,7 +3499,7 @@
         "id": "f-m4-l4",
         "order": 4,
         "title": "Fire Emergency Response",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces general workplace emergency preparedness, first response boundaries, evacuation, reporting, investigation and learning. Site-specific plans, local emergency numbers, legal reporting rules and responder competence always take precedence.",
         "contentStatus": "ready",
         "sections": [
@@ -3561,7 +3561,7 @@
         "id": "f-m4-l5",
         "order": 5,
         "title": "Medical Emergencies and First Aid",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces general workplace emergency preparedness, first response boundaries, evacuation, reporting, investigation and learning. Site-specific plans, local emergency numbers, legal reporting rules and responder competence always take precedence.",
         "contentStatus": "ready",
         "sections": [
@@ -3623,7 +3623,7 @@
         "id": "f-m4-l6",
         "order": 6,
         "title": "Chemical Spill and Release Response",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces general workplace emergency preparedness, first response boundaries, evacuation, reporting, investigation and learning. Site-specific plans, local emergency numbers, legal reporting rules and responder competence always take precedence.",
         "contentStatus": "ready",
         "sections": [
@@ -3685,7 +3685,7 @@
         "id": "f-m4-l7",
         "order": 7,
         "title": "Rescue Planning and Responder Safety",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces general workplace emergency preparedness, first response boundaries, evacuation, reporting, investigation and learning. Site-specific plans, local emergency numbers, legal reporting rules and responder competence always take precedence.",
         "contentStatus": "ready",
         "sections": [
@@ -3747,7 +3747,7 @@
         "id": "f-m4-l8",
         "order": 8,
         "title": "Incident and Near-Miss Reporting",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces general workplace emergency preparedness, first response boundaries, evacuation, reporting, investigation and learning. Site-specific plans, local emergency numbers, legal reporting rules and responder competence always take precedence.",
         "contentStatus": "ready",
         "sections": [
@@ -3809,7 +3809,7 @@
         "id": "f-m4-l9",
         "order": 9,
         "title": "Scene Preservation and Basic Investigation",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces general workplace emergency preparedness, first response boundaries, evacuation, reporting, investigation and learning. Site-specific plans, local emergency numbers, legal reporting rules and responder competence always take precedence.",
         "contentStatus": "ready",
         "sections": [
@@ -3871,7 +3871,7 @@
         "id": "f-m4-l10",
         "order": 10,
         "title": "Emergency Drills, Review and Improvement",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces general workplace emergency preparedness, first response boundaries, evacuation, reporting, investigation and learning. Site-specific plans, local emergency numbers, legal reporting rules and responder competence always take precedence.",
         "contentStatus": "ready",
         "sections": [
@@ -4245,7 +4245,7 @@
         "id": "f-m5-l1",
         "order": 1,
         "title": "Site Induction, Access and Daily Coordination",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces common construction controls. Requirements vary by jurisdiction, client, equipment and task. Always apply the approved site system, competent design, manufacturer instructions and applicable law.",
         "contentStatus": "ready",
         "sections": [
@@ -4307,7 +4307,7 @@
         "id": "f-m5-l2",
         "order": 2,
         "title": "Permit to Work and Pre-task Briefing",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces common construction controls. Requirements vary by jurisdiction, client, equipment and task. Always apply the approved site system, competent design, manufacturer instructions and applicable law.",
         "contentStatus": "ready",
         "sections": [
@@ -4369,7 +4369,7 @@
         "id": "f-m5-l3",
         "order": 3,
         "title": "Excavation and Trenching Safety",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces common construction controls. Requirements vary by jurisdiction, client, equipment and task. Always apply the approved site system, competent design, manufacturer instructions and applicable law.",
         "contentStatus": "ready",
         "sections": [
@@ -4431,7 +4431,7 @@
         "id": "f-m5-l4",
         "order": 4,
         "title": "Scaffolding Safety",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces common construction controls. Requirements vary by jurisdiction, client, equipment and task. Always apply the approved site system, competent design, manufacturer instructions and applicable law.",
         "contentStatus": "ready",
         "sections": [
@@ -4493,7 +4493,7 @@
         "id": "f-m5-l5",
         "order": 5,
         "title": "Ladders and Stepladders",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces common construction controls. Requirements vary by jurisdiction, client, equipment and task. Always apply the approved site system, competent design, manufacturer instructions and applicable law.",
         "contentStatus": "ready",
         "sections": [
@@ -4555,7 +4555,7 @@
         "id": "f-m5-l6",
         "order": 6,
         "title": "Confined Space Entry",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces common construction controls. Requirements vary by jurisdiction, client, equipment and task. Always apply the approved site system, competent design, manufacturer instructions and applicable law.",
         "contentStatus": "ready",
         "sections": [
@@ -4617,7 +4617,7 @@
         "id": "f-m5-l7",
         "order": 7,
         "title": "Hot Work, Welding and Cutting",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces common construction controls. Requirements vary by jurisdiction, client, equipment and task. Always apply the approved site system, competent design, manufacturer instructions and applicable law.",
         "contentStatus": "ready",
         "sections": [
@@ -4679,7 +4679,7 @@
         "id": "f-m5-l8",
         "order": 8,
         "title": "Lifting and Rigging on Construction Sites",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces common construction controls. Requirements vary by jurisdiction, client, equipment and task. Always apply the approved site system, competent design, manufacturer instructions and applicable law.",
         "contentStatus": "ready",
         "sections": [
@@ -4741,7 +4741,7 @@
         "id": "f-m5-l9",
         "order": 9,
         "title": "Temporary Electrical Installations",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces common construction controls. Requirements vary by jurisdiction, client, equipment and task. Always apply the approved site system, competent design, manufacturer instructions and applicable law.",
         "contentStatus": "ready",
         "sections": [
@@ -4803,7 +4803,7 @@
         "id": "f-m5-l10",
         "order": 10,
         "title": "Heat Stress and Extreme Weather",
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 2,
         "summary": "This module introduces common construction controls. Requirements vary by jurisdiction, client, equipment and task. Always apply the approved site system, competent design, manufacturer instructions and applicable law.",
         "contentStatus": "ready",
         "sections": [

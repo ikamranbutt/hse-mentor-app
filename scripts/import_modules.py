@@ -1,4 +1,5 @@
 import json
+import math
 import re
 from pathlib import Path
 from docx import Document
@@ -67,9 +68,6 @@ def parse_module(path, module_number):
         match = re.match(r'^Lesson (\d+): (.+)$', title_line)
         order, title = int(match.group(1)), match.group(2)
         body = paragraphs[start + 1:end]
-        time_text = next((t for t, _ in body if t.lower().startswith('estimated time:')), 'Estimated time: 10 minutes')
-        numbers = [int(n) for n in re.findall(r'\d+', time_text)]
-        estimated = round(sum(numbers[:2]) / min(2, len(numbers))) if numbers else 10
         questions = parse_inline_questions(body, f'f-m{module_number}-l{order}')
 
         sections = []
@@ -87,6 +85,10 @@ def parse_module(path, module_number):
                 current['points'].append(text)
         if current['points']:
             sections.append(current)
+        word_count = len(re.findall(r"\b[\w'-]+\b", ' '.join(
+            point for section in sections for point in section['points']
+        )))
+        estimated = max(2, min(5, math.ceil(word_count / 130)))
         summary = next((s['points'][0] for s in sections if s['heading'] == 'Lesson Summary' and s['points']), description)
         lessons.append({
             'id': f'f-m{module_number}-l{order}', 'order': order, 'title': title,
