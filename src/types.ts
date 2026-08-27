@@ -13,6 +13,7 @@ export type Lesson = {
   estimatedMinutes: number;
   summary: string;
   contentStatus: 'ready' | 'import_pending';
+  sections: { heading: string; points: string[] }[];
   questions: Question[];
 };
 
@@ -24,4 +25,5 @@ export type Module = {
   description: string;
   passingScore: number;
   lessons: Lesson[];
+  finalAssessment: Question[];
 };
