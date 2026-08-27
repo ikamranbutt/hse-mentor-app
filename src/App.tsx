@@ -10,6 +10,30 @@ function ModuleCard({ module, onOpen }: { module: Module; onOpen: () => void }) 
   </button>;
 }
 
+function SafetyHero({ modules, lessons }: { modules: number; lessons: number }) {
+  return <section className="safety-hero">
+    <svg className="site-silhouette" viewBox="0 0 800 260" aria-hidden="true">
+      <g fill="none" stroke="currentColor" strokeWidth="3"><path d="M38 228V88h92v140M38 120h92M65 88V45h38v43M210 228V52M170 52h226M210 52l65 176M328 52v35M315 87h26M480 228V115h104v113M480 148h104M622 228V82h122v146M622 120h122" /><path d="M0 228h800M95 228l42-70 42 70M540 228l37-57 37 57" /></g>
+    </svg>
+    <div className="hero-grid">
+      <div className="hero-copy">
+        <div className="hero-brand"><div className="reflective-check"><span>✓</span></div><div><small>PROFESSIONAL SAFETY LEARNING</small><h1>HSE Mentor</h1></div></div>
+        <h2>Learn safely.<br /><em>Think practically.</em></h2>
+        <p>Real workplace knowledge for safer decisions, stronger skills and confident HSE professionals.</p>
+      </div>
+      <div className="ppe-stage" aria-label="Animated construction safety equipment">
+        <div className="orbit orbit-one" /><div className="orbit orbit-two" />
+        <div className="ppe-card helmet-card"><svg viewBox="0 0 100 80"><path d="M18 51c1-21 14-37 32-37s31 16 32 37" /><path d="M11 51h78v12H11zM50 14v37M29 20l8 31M71 20l-8 31" /></svg><span>HEAD</span></div>
+        <div className="ppe-card vest-card"><svg viewBox="0 0 100 90"><path d="M30 13h15l5 17 5-17h15l17 18-13 14v34H26V45L13 31z" /><path d="M26 51h48M42 31l-8 48M58 31l8 48" /></svg><span>BODY</span></div>
+        <div className="ppe-card glove-card"><svg viewBox="0 0 100 90"><path d="M31 74c-9-12-13-25-15-40-1-7 8-9 10-2l4 15-2-27c0-8 10-8 11-1l2 24 1-29c1-7 11-7 11 1l1 28 3-24c1-7 11-6 10 2l-2 27 5-15c3-7 12-3 9 5l-9 28c-3 9-10 13-20 13-8 0-14-1-19-5z" /></svg><span>HANDS</span></div>
+        <div className="worker"><div className="worker-helmet" /><div className="worker-head" /><div className="worker-vest">HSE</div><div className="worker-legs" /></div>
+      </div>
+    </div>
+    <div className="hero-stats"><strong>{modules}<small>Modules</small></strong><strong>{lessons}<small>Lessons</small></strong><strong>275<small>Questions</small></strong></div>
+    <div className="safety-stripe"><span>PLAN</span><i /> <span>LEARN</span><i /> <span>CONTROL</span><i /> <span>PROTECT</span></div>
+  </section>;
+}
+
 function QuestionCard({ question, number }: { question: Question; number: number }) {
   const [selected, setSelected] = useState<number | null>(null);
   const answered = selected !== null;
@@ -167,8 +191,7 @@ export default function App() {
     })}<button className={examUnlocked ? 'exam-button' : 'exam-button exam-locked'} onClick={() => examUnlocked ? setExam(true) : showLocked('Complete all 10 lessons before starting the final assessment.')}><span>{examUnlocked ? 'FINAL ASSESSMENT' : '🔒 FINAL ASSESSMENT LOCKED'}</span><strong>{examUnlocked ? '25 Questions · 80% to pass' : 'Complete all lessons to unlock'}</strong></button></section>
   </main>;
   }
-  return <main><header className="brand"><div className="mark">✓</div><div><h1>HSE Mentor</h1><p>Learn safely. Think practically.</p></div></header>
-    <section className="welcome"><span>FOUNDATION LEVEL</span><h2>Build strong safety knowledge</h2><p>Study practical lessons, complete quizzes and prepare for real workplace situations.</p><div className="stats"><strong>{totals.modules}<small>Modules</small></strong><strong>{totals.lessons}<small>Lessons</small></strong><strong>275<small>Questions</small></strong></div></section>
+  return <main><SafetyHero modules={totals.modules} lessons={totals.lessons} />
     <section className="section"><div className="section-title"><h2>Your learning path</h2><span>Foundation</span></div><div className="module-grid">{catalog.map(m => <ModuleCard key={m.id} module={m} onOpen={() => setSelected(m)} />)}</div></section>
     <nav className="bottom-nav"><button className="active">⌂<span>Learn</span></button><button>✓<span>Practice</span></button><button>◎<span>Progress</span></button><button>☻<span>Profile</span></button></nav>
   </main>;
