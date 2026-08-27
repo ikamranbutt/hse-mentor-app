@@ -10,6 +10,7 @@ import './curriculum.css';
 import './interview.css';
 import './voice.css';
 import './agent.css';
+import './home-interview.css';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode><App /></React.StrictMode>
