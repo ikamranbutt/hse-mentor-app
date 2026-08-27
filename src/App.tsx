@@ -23,10 +23,28 @@ function SafetyHero({ modules, lessons }: { modules: number; lessons: number }) 
       </div>
       <div className="ppe-stage" aria-label="Animated construction safety equipment">
         <div className="orbit orbit-one" /><div className="orbit orbit-two" />
-        <div className="ppe-card helmet-card"><svg viewBox="0 0 100 80"><path d="M18 51c1-21 14-37 32-37s31 16 32 37" /><path d="M11 51h78v12H11zM50 14v37M29 20l8 31M71 20l-8 31" /></svg><span>HEAD</span></div>
+        <div className="ppe-card helmet-card"><svg viewBox="0 0 100 80"><path d="M18 51c1-21 14-37 32-37s31 16 32 37" /><path d="M11 51h78v12H11zM50 14v37M29 20l8 31M71 20l-8 31" /></svg><span>HELMET</span></div>
         <div className="ppe-card vest-card"><svg viewBox="0 0 100 90"><path d="M30 13h15l5 17 5-17h15l17 18-13 14v34H26V45L13 31z" /><path d="M26 51h48M42 31l-8 48M58 31l8 48" /></svg><span>BODY</span></div>
         <div className="ppe-card glove-card"><svg viewBox="0 0 100 90"><path d="M31 74c-9-12-13-25-15-40-1-7 8-9 10-2l4 15-2-27c0-8 10-8 11-1l2 24 1-29c1-7 11-7 11 1l1 28 3-24c1-7 11-6 10 2l-2 27 5-15c3-7 12-3 9 5l-9 28c-3 9-10 13-20 13-8 0-14-1-19-5z" /></svg><span>HANDS</span></div>
-        <div className="worker"><div className="worker-helmet" /><div className="worker-head" /><div className="worker-vest">HSE</div><div className="worker-legs" /></div>
+        <div className="ppe-card boot-card"><svg viewBox="0 0 110 85"><path d="M18 12h39v34c7 8 15 12 29 14 9 1 13 6 11 13H14c-4-9-2-18 4-27z" /><path d="M16 58h42M60 60l-5 13M26 18h28M26 29h28" /></svg><span>FOOTWEAR</span></div>
+        <svg className="hse-officer" viewBox="0 0 180 300" role="img" aria-label="HSE Officer wearing green helmet, high visibility vest and safety shoes">
+          <ellipse className="officer-shadow" cx="90" cy="285" rx="57" ry="10" />
+          <path className="officer-leg" d="M59 188h29l-5 81H51zM92 188h29l9 81H96z" />
+          <path className="officer-shoe" d="M50 263h34l7 15c1 5-2 8-8 8H43c-7 0-8-8-2-13zM97 263h34l12 11c5 5 1 12-7 12H98c-6 0-9-5-6-10z" />
+          <path className="officer-shirt" d="M47 98c12-14 25-19 43-19s32 5 44 19l-9 99H54z" />
+          <path className="officer-arm" d="M50 102c-12 8-20 35-25 63-2 11 12 15 17 5l19-50M131 101c15 14 20 33 24 60 2 11-12 15-17 4l-19-47" />
+          <path className="officer-hand" d="M22 162c8-6 19-2 21 7 1 7-6 14-14 12-9-2-13-12-7-19zM138 162c7-7 18-5 22 4 3 8-3 16-11 17-9 1-17-12-11-21z" />
+          <rect className="clipboard" x="17" y="126" width="40" height="54" rx="5" transform="rotate(8 37 153)" />
+          <path className="clipboard-paper" d="M25 136l27 4-5 33-27-4zM29 147l17 3M28 154l17 3M27 161l12 2" />
+          <path className="officer-neck" d="M77 70h27v22H77z" /><ellipse className="officer-face" cx="90" cy="57" rx="31" ry="35" />
+          <path className="officer-ear" d="M59 54c-9-3-10 17 2 17M120 54c9-3 10 17-2 17" /><path className="officer-detail" d="M78 58h7M96 58h7M83 72c5 4 10 4 15 0" />
+          <path className="green-helmet" d="M56 48c1-27 14-43 34-43s34 16 35 43z" /><path className="helmet-rim" d="M48 44h84v13H48z" /><path className="helmet-detail" d="M90 7v39M68 14l8 32M112 14l-8 32" />
+          <path className="safety-vest" d="M60 88h21l9 22 9-22h22l13 105H47z" /><path className="vest-opening" d="M81 88l9 22 9-22 8 105H73z" />
+          <path className="reflective-band" d="M52 126h77l3 15H50zM57 166h70l2 15H54z" /><path className="vest-stripe" d="M67 91l-8 102M113 91l8 102" />
+          <rect className="hse-badge" x="78" y="143" width="25" height="17" rx="3" /><text x="90.5" y="155">HSE</text>
+          <path className="radio" d="M112 91h15v29h-15zM119 91l6-13" /><circle className="radio-dot" cx="119.5" cy="112" r="3" />
+          <text className="officer-label" x="90" y="298">HSE OFFICER</text>
+        </svg>
       </div>
     </div>
     <div className="hero-stats"><strong>{modules}<small>Modules</small></strong><strong>{lessons}<small>Lessons</small></strong><strong>275<small>Questions</small></strong></div>
