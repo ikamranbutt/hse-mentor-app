@@ -1,0 +1,34 @@
+.exam-shell{padding:20px 16px;min-height:calc(100vh - 80px);background:linear-gradient(180deg,#eef7f7,#f8fbfb)}
+.exam-status{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:14px}
+.exam-status span,.exam-status strong,.timer small,.timer strong{display:block}
+.exam-status span{font-size:12px;color:#65808a;margin-bottom:4px}.exam-status>div:first-child strong{font-size:16px}
+.timer{min-width:96px;text-align:center;padding:9px 12px;border-radius:12px;background:#123b5d;color:#fff;box-shadow:0 6px 16px #123b5d2e}
+.timer small{font-size:9px;letter-spacing:.09em;opacity:.72}.timer strong{font-size:18px;margin-top:2px;font-variant-numeric:tabular-nums}
+.timer.urgent{background:#c44747;animation:pulse 1s infinite}
+.progress-track{height:8px;border-radius:10px;background:#d8e6e7;overflow:hidden;margin-bottom:24px}
+.progress-track div{height:100%;border-radius:inherit;background:linear-gradient(90deg,#12a594,#f4a624);transition:width .5s ease}
+.exam-question{position:relative;background:#fff;border:1px solid #d7e5e7;border-radius:22px;padding:26px 20px;box-shadow:0 14px 38px #123b5d12;animation:questionIn .4s ease}
+.question-badge{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,#123b5d,#176c78);color:#fff;font-weight:900;box-shadow:0 7px 16px #123b5d2b}
+.exam-question h1{font-size:22px;line-height:1.45;margin:18px 0 22px}.exam-options{display:grid;gap:12px}
+.exam-options button{display:flex;align-items:center;gap:12px;width:100%;min-height:58px;padding:10px 12px;border:1.5px solid #dce7ea;border-radius:14px;background:#f9fbfb;color:#294554;text-align:left;cursor:pointer;transition:transform .18s ease,border-color .18s,background .18s}
+.exam-options button:hover{transform:translateY(-2px);border-color:#76bdb7}.exam-options button b{display:grid;place-items:center;min-width:34px;height:34px;border-radius:10px;background:#e8f2f3;color:#43606d}
+.exam-options button span{flex:1;line-height:1.35}.exam-options button i{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;font-style:normal;color:#fff}
+.exam-options button.selected{border-color:#12a594;background:#ebf9f7;transform:translateY(-2px);box-shadow:0 7px 18px #12a59418}
+.exam-options button.selected b,.exam-options button.selected i{background:#12a594;color:#fff}.next-button{margin-top:24px;min-height:52px;cursor:pointer;transition:transform .2s}
+.next-button:not(:disabled):hover{transform:translateY(-2px)}.exam-help{text-align:center;color:#738992;font-size:12px;line-height:1.5}
+.exam-result-screen{min-height:calc(100vh - 80px);padding:35px 22px;text-align:center;background:radial-gradient(circle at top,#dff6f1,#f7fafb 48%);animation:resultIn .55s ease}
+.result-burst{display:grid;place-items:center;width:72px;height:72px;margin:0 auto 18px;border-radius:24px;background:linear-gradient(135deg,#12a594,#0c7c74);color:#fff;font-size:38px;font-weight:900;box-shadow:0 12px 28px #12a59442;animation:pop .7s cubic-bezier(.2,1.4,.4,1)}
+.exam-result-screen>span{font-size:11px;font-weight:900;letter-spacing:.13em;color:#d28a19}.exam-result-screen h1{font-size:28px;margin:9px 0}
+.exam-result-screen>p{max-width:470px;margin:0 auto;color:#627b85;line-height:1.55}
+.score-ring{position:relative;display:grid;place-items:center;width:184px;height:184px;margin:30px auto;border-radius:50%;background:conic-gradient(#12a594 var(--score),#dfeaec 0);box-shadow:0 14px 30px #123b5d17;animation:spinIn .9s ease}
+.score-ring:before{content:"";position:absolute;width:142px;height:142px;border-radius:50%;background:#fff}.score-ring div{position:relative;z-index:1}
+.score-ring strong,.score-ring small{display:block}.score-ring strong{font-size:38px;color:#123b5d}.score-ring small{font-size:11px;color:#6e858e;text-transform:uppercase;letter-spacing:.1em}
+.result-counts{display:flex;gap:13px;max-width:410px;margin:0 auto 18px}.result-counts div{flex:1;padding:17px;border-radius:15px;background:#fff;box-shadow:0 8px 22px #123b5d10}
+.result-counts strong,.result-counts span{display:block}.result-counts strong{font-size:26px}.result-counts span{font-size:11px;margin-top:4px}
+.right-count strong{color:#1b9b69}.wrong-count strong{color:#d15353}
+.privacy-note{max-width:480px;margin:0 auto 20px;padding:13px;border-radius:12px;background:#edf3f4;color:#657b84;font-size:12px;line-height:1.5}
+.result-action,.secondary{max-width:480px;display:block;margin:10px auto;cursor:pointer}.secondary{width:100%;border:1px solid #cddcdf;border-radius:14px;padding:14px;background:#fff;color:#36515e;font-weight:700}
+@keyframes questionIn{from{opacity:0;transform:translateX(18px)}to{opacity:1;transform:none}}
+@keyframes resultIn{from{opacity:0}to{opacity:1}}@keyframes pop{0%{opacity:0;transform:scale(.4) rotate(-15deg)}100%{opacity:1;transform:scale(1) rotate(0)}}
+@keyframes spinIn{from{opacity:0;transform:scale(.65) rotate(-80deg)}to{opacity:1;transform:scale(1) rotate(0)}}@keyframes pulse{50%{transform:scale(1.04)}}
+@media(min-width:650px){.exam-shell{padding:28px}.exam-question{padding:34px}.exam-question h1{font-size:25px}}

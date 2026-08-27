@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { catalog } from './data/catalog';
 import type { Lesson, Module, Question } from './types';
 
@@ -47,21 +47,60 @@ function LessonView({ lesson, onBack }: { lesson: Lesson; onBack: () => void }) 
 function ExamView({ module, onBack }: { module: Module; onBack: () => void }) {
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [current, setCurrent] = useState(0);
+  const [timeLeft, setTimeLeft] = useState(60 * 60);
+  useEffect(() => {
+    if (submitted) return;
+    const timer = window.setInterval(() => setTimeLeft(value => {
+      if (value <= 1) {
+        window.clearInterval(timer);
+        setSubmitted(true);
+        return 0;
+      }
+      return value - 1;
+    }), 1000);
+    return () => window.clearInterval(timer);
+  }, [submitted]);
   const score = module.finalAssessment.reduce((total, q) => total + (answers[q.id] === q.correctIndex ? 1 : 0), 0);
   const percentage = Math.round((score / module.finalAssessment.length) * 100);
+  const wrong = module.finalAssessment.length - score;
+  const question = module.finalAssessment[current];
+  const selected = answers[question.id];
+  const minutes = Math.floor(timeLeft / 60).toString().padStart(2, '0');
+  const seconds = (timeLeft % 60).toString().padStart(2, '0');
+  const reset = () => { setAnswers({}); setSubmitted(false); setCurrent(0); setTimeLeft(60 * 60); scrollTo({ top: 0, behavior: 'smooth' }); };
+
+  if (submitted) return <main><Header onBack={onBack} />
+    <section className="exam-result-screen">
+      <div className="result-burst">✓</div>
+      <span>MODULE {module.order} RESULT</span>
+      <h1>{percentage >= module.passingScore ? 'Assessment Passed' : 'Keep Learning'}</h1>
+      <p>{percentage >= module.passingScore ? 'Excellent work. You achieved the required passing score.' : 'Review the lessons and try again when you are ready.'}</p>
+      <div className="score-ring" style={{ '--score': `${percentage * 3.6}deg` } as React.CSSProperties}><div><strong>{percentage}%</strong><small>Score</small></div></div>
+      <div className="result-counts"><div className="right-count"><strong>{score}</strong><span>Correct</span></div><div className="wrong-count"><strong>{wrong}</strong><span>Incorrect</span></div></div>
+      <div className="privacy-note">Answers are not displayed after submission. Start a new attempt to test your knowledge again.</div>
+      <button className="primary result-action" onClick={reset}>Start New Attempt</button>
+      <button className="secondary" onClick={onBack}>Back to Module</button>
+    </section>
+  </main>;
+
   return <main><Header onBack={onBack} />
-    <section className="module-hero"><span>FINAL ASSESSMENT</span><h1>Module {module.order} Exam</h1><p>25 questions · Pass score {module.passingScore}% (20/25)</p></section>
-    <section className="reader">
-      {submitted && <div className={percentage >= module.passingScore ? 'result pass' : 'result retry'}><strong>{percentage}%</strong><h2>{percentage >= module.passingScore ? 'Assessment passed' : 'Review and try again'}</h2><p>You scored {score} out of {module.finalAssessment.length}.</p></div>}
-      {module.finalAssessment.map((q, qIndex) => <article className="question-card" key={q.id}>
-        <strong>Question {qIndex + 1} of 25</strong><h3>{q.prompt}</h3>
-        <div className="options">{q.options.map((option, index) => {
-          const reveal = submitted ? index === q.correctIndex ? 'correct' : answers[q.id] === index ? 'wrong' : '' : answers[q.id] === index ? 'chosen' : '';
-          return <button className={reveal} disabled={submitted} key={option} onClick={() => setAnswers({ ...answers, [q.id]: index })}><b>{String.fromCharCode(65 + index)}</b>{option}</button>;
-        })}</div>{submitted && <p className="feedback">{q.explanation}</p>}
-      </article>)}
-      {!submitted ? <button className="primary" disabled={Object.keys(answers).length !== 25} onClick={() => { setSubmitted(true); scrollTo({ top: 0, behavior: 'smooth' }); }}>Submit assessment ({Object.keys(answers).length}/25)</button>
-        : <button className="primary" onClick={() => { setAnswers({}); setSubmitted(false); scrollTo({ top: 0, behavior: 'smooth' }); }}>Try assessment again</button>}
+    <section className="exam-shell">
+      <div className="exam-status"><div><span>Module {module.order} Assessment</span><strong>Question {current + 1} of {module.finalAssessment.length}</strong></div><div className={timeLeft < 300 ? 'timer urgent' : 'timer'}><small>TIME LEFT</small><strong>{minutes}:{seconds}</strong></div></div>
+      <div className="progress-track"><div style={{ width: `${((current + 1) / module.finalAssessment.length) * 100}%` }} /></div>
+      <article className="exam-question" key={question.id}>
+        <div className="question-badge">{current + 1}</div><h1>{question.prompt}</h1>
+        <div className="exam-options">{question.options.map((option, index) =>
+          <button className={selected === index ? 'selected' : ''} key={option} onClick={() => setAnswers({ ...answers, [question.id]: index })}>
+            <b>{String.fromCharCode(65 + index)}</b><span>{option}</span><i>{selected === index ? '✓' : ''}</i>
+          </button>)}
+        </div>
+        <button className="primary next-button" disabled={selected === undefined} onClick={() => {
+          if (current === module.finalAssessment.length - 1) { setSubmitted(true); scrollTo({ top: 0, behavior: 'smooth' }); }
+          else { setCurrent(current + 1); scrollTo({ top: 0, behavior: 'smooth' }); }
+        }}>{current === module.finalAssessment.length - 1 ? 'Submit Assessment' : 'Next Question →'}</button>
+      </article>
+      <p className="exam-help">Select one answer to continue. Answers cannot be reviewed after submission.</p>
     </section>
   </main>;
 }
