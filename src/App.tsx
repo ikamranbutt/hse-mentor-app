@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { catalog } from './data/catalog';
 import type { Lesson, Module, Question } from './types';
 import Interview from './Interview';
+import LiveAgent from './LiveAgent';
 
 function ModuleCard({ module, onOpen }: { module: Module; onOpen: () => void }) {
   return <button className={`module-card ${module.level}`} onClick={onOpen}>
@@ -187,6 +188,7 @@ export default function App() {
   const [lesson, setLesson] = useState<Lesson | null>(null);
   const [exam, setExam] = useState(false);
   const [interview, setInterview] = useState(false);
+  const [liveAgent, setLiveAgent] = useState(false);
   const [lockedMessage, setLockedMessage] = useState('');
   const [completed, setCompleted] = useState<string[]>(() => {
     try { return JSON.parse(localStorage.getItem('hse-mentor-completed-lessons') || '[]'); }
@@ -207,6 +209,7 @@ export default function App() {
     lessons: catalog.reduce((n, m) => n + m.lessons.length, 0),
     questions: catalog.reduce((n, m) => n + m.finalAssessment.length + m.lessons.reduce((q, l) => q + l.questions.length, 0), 0)
   }), []);
+  if (liveAgent) return <LiveAgent onBack={() => setLiveAgent(false)} />;
   if (interview) return <Interview onBack={() => setInterview(false)} />;
   if (selected && lesson) {
     const nextLesson = selected.lessons.find(item => item.order === lesson.order + 1);
@@ -236,7 +239,7 @@ export default function App() {
     { key: 'management', title: 'Management Level', subtitle: 'Leadership and systems' }
   ];
   return <main><SafetyHero modules={totals.modules} lessons={totals.lessons} questions={totals.questions} />
-    <section className="home-interview-launch" onClick={() => setInterview(true)}>
+    <section className="home-interview-launch" onClick={() => setLiveAgent(true)}>
       <div className="home-agent-icon"><span>HSE</span><i /><i /><i /></div>
       <div className="home-interview-copy"><small>NEW · LIVE VOICE PRACTICE</small><h2>Mock HSE Interview</h2><p>Your personal interview agent asks random questions, listens to your answers and gives instant feedback.</p>
         <div><span>Basic</span><b>→</b><span>Scenario</span><b>→</b><span>Management</span></div>
