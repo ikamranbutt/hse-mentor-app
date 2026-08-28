@@ -15,6 +15,7 @@ import './risk-assessment.css';
 import './ra-professional.css';
 import './simulator.css';
 import './scenes.css';
+import './scenes-extra.css';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode><App /></React.StrictMode>
