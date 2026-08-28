@@ -5,6 +5,7 @@ import Interview from './Interview';
 import LiveAgent from './LiveAgent';
 import RiskAssessment from './RiskAssessment';
 import SafetySimulator from './SafetySimulator';
+import ProgressHub from './ProgressHub';
 
 function ModuleCard({ module, onOpen }: { module: Module; onOpen: () => void }) {
   return <button className={`module-card ${module.level}`} onClick={onOpen}>
@@ -149,6 +150,13 @@ function ExamView({ module, onBack }: { module: Module; onBack: () => void }) {
   const minutes = Math.floor(timeLeft / 60).toString().padStart(2, '0');
   const seconds = (timeLeft % 60).toString().padStart(2, '0');
   const reset = () => { setAnswers({}); setSubmitted(false); setCurrent(0); setTimeLeft(60 * 60); scrollTo({ top: 0, behavior: 'smooth' }); };
+  useEffect(() => {
+    if (!submitted || percentage < module.passingScore) return;
+    try {
+      const passed = JSON.parse(localStorage.getItem('hse-mentor-passed-modules') || '[]') as string[];
+      if (!passed.includes(module.id)) localStorage.setItem('hse-mentor-passed-modules', JSON.stringify([...passed, module.id]));
+    } catch { /* Progress storage is optional. */ }
+  }, [submitted, percentage, module.id, module.passingScore]);
 
   if (submitted) return <main><Header onBack={onBack} />
     <section className="exam-result-screen">
@@ -193,6 +201,7 @@ export default function App() {
   const [liveAgent, setLiveAgent] = useState(false);
   const [riskAssessment, setRiskAssessment] = useState(false);
   const [simulator, setSimulator] = useState(false);
+  const [hubMode, setHubMode] = useState<'progress' | 'profile' | null>(null);
   const [lockedMessage, setLockedMessage] = useState('');
   const [completed, setCompleted] = useState<string[]>(() => {
     try { return JSON.parse(localStorage.getItem('hse-mentor-completed-lessons') || '[]'); }
@@ -216,6 +225,7 @@ export default function App() {
   if (liveAgent) return <LiveAgent onBack={() => setLiveAgent(false)} />;
   if (riskAssessment) return <RiskAssessment onBack={() => setRiskAssessment(false)} />;
   if (simulator) return <SafetySimulator onBack={() => setSimulator(false)} />;
+  if (hubMode) return <ProgressHub mode={hubMode} modules={catalog} completedLessons={completed} onBack={() => setHubMode(null)} onMode={setHubMode} />;
   if (interview) return <Interview onBack={() => setInterview(false)} />;
   if (selected && lesson) {
     const nextLesson = selected.lessons.find(item => item.order === lesson.order + 1);
@@ -264,6 +274,6 @@ export default function App() {
         <div className="module-grid">{catalog.filter(m => m.level === level.key).map(m => <ModuleCard key={m.id} module={m} onOpen={() => setSelected(m)} />)}</div>
       </section>)}
     </section>
-    <nav className="bottom-nav"><button className="active">⌂<span>Learn</span></button><button onClick={() => setInterview(true)}>◉<span>Interview</span></button><button>◎<span>Progress</span></button><button>☻<span>Profile</span></button></nav>
+    <nav className="bottom-nav"><button className="active">⌂<span>Learn</span></button><button onClick={() => setInterview(true)}>◉<span>Interview</span></button><button onClick={() => setHubMode('progress')}>◎<span>Progress</span></button><button onClick={() => setHubMode('profile')}>☻<span>Profile</span></button></nav>
   </main>;
 }
