@@ -248,6 +248,9 @@ export default function App() {
     { key: 'management', title: 'Management Level', subtitle: 'Leadership and systems' }
   ];
   return <main><SafetyHero modules={totals.modules} lessons={totals.lessons} questions={totals.questions} />
+    <section className="home-interview-launch scaffold-launch featured-practical" onClick={() => setScaffoldBuilder(true)}>
+      <div className="home-agent-icon"><span>╱╲</span></div><div className="home-interview-copy"><small>NEW · INTERACTIVE PRACTICAL</small><h2>Scaffolding Builder</h2><p>Identify every scaffold component, erect it in the safe sequence, inspect it and dismantle it correctly.</p><div><span>Build</span><b>→</b><span>Inspect</span><b>→</b><span>Dismantle</span></div></div><button className="home-interview-button">Start Building <b>›</b></button>
+    </section>
     <section className="home-interview-launch" onClick={() => setLiveAgent(true)}>
       <div className="home-agent-icon"><span>HSE</span><i /><i /><i /></div>
       <div className="home-interview-copy"><small>NEW · LIVE VOICE PRACTICE</small><h2>Mock HSE Interview</h2><p>Your personal interview agent asks random questions, listens to your answers and gives instant feedback.</p>
@@ -260,9 +263,6 @@ export default function App() {
     </section>
     <section className="home-interview-launch simulator-launch" onClick={() => setSimulator(true)}>
       <div className="home-agent-icon"><span>⚠</span></div><div className="home-interview-copy"><small>NEW · PRACTICAL SAFETY TRAINING</small><h2>Safety Scenario Simulator</h2><p>Inspect real activities, select every critical control and decide whether the work is safe to start.</p><div><span>Inspect</span><b>→</b><span>Control</span><b>→</b><span>Authorize</span></div></div><button className="home-interview-button">Start Simulation <b>›</b></button>
-    </section>
-    <section className="home-interview-launch scaffold-launch" onClick={() => setScaffoldBuilder(true)}>
-      <div className="home-agent-icon"><span>╱╲</span></div><div className="home-interview-copy"><small>NEW · INTERACTIVE PRACTICAL</small><h2>Scaffolding Builder</h2><p>Identify every scaffold component, erect it in the safe sequence, inspect it and dismantle it correctly.</p><div><span>Build</span><b>→</b><span>Inspect</span><b>→</b><span>Dismantle</span></div></div><button className="home-interview-button">Start Building <b>›</b></button>
     </section>
     <section className="section learning-path"><div className="section-title"><h2>Your complete learning path</h2><span>4 Levels</span></div>
       {levels.map((level, index) => <section className={`level-group level-${level.key}`} key={level.key}>
