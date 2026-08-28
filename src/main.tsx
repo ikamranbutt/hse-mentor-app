@@ -17,6 +17,7 @@ import './simulator.css';
 import './scenes.css';
 import './scenes-extra.css';
 import './scaffold-builder.css';
+import './home-feature.css';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode><App /></React.StrictMode>
