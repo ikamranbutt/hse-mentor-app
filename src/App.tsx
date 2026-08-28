@@ -5,7 +5,6 @@ import Interview from './Interview';
 import LiveAgent from './LiveAgent';
 import RiskAssessment from './RiskAssessment';
 import SafetySimulator from './SafetySimulator';
-import ScaffoldBuilder from './ScaffoldBuilder';
 
 function ModuleCard({ module, onOpen }: { module: Module; onOpen: () => void }) {
   return <button className={`module-card ${module.level}`} onClick={onOpen}>
@@ -194,7 +193,6 @@ export default function App() {
   const [liveAgent, setLiveAgent] = useState(false);
   const [riskAssessment, setRiskAssessment] = useState(false);
   const [simulator, setSimulator] = useState(false);
-  const [scaffoldBuilder, setScaffoldBuilder] = useState(false);
   const [lockedMessage, setLockedMessage] = useState('');
   const [completed, setCompleted] = useState<string[]>(() => {
     try { return JSON.parse(localStorage.getItem('hse-mentor-completed-lessons') || '[]'); }
@@ -218,7 +216,6 @@ export default function App() {
   if (liveAgent) return <LiveAgent onBack={() => setLiveAgent(false)} />;
   if (riskAssessment) return <RiskAssessment onBack={() => setRiskAssessment(false)} />;
   if (simulator) return <SafetySimulator onBack={() => setSimulator(false)} />;
-  if (scaffoldBuilder) return <ScaffoldBuilder onBack={() => setScaffoldBuilder(false)} />;
   if (interview) return <Interview onBack={() => setInterview(false)} />;
   if (selected && lesson) {
     const nextLesson = selected.lessons.find(item => item.order === lesson.order + 1);
@@ -248,9 +245,6 @@ export default function App() {
     { key: 'management', title: 'Management Level', subtitle: 'Leadership and systems' }
   ];
   return <main><SafetyHero modules={totals.modules} lessons={totals.lessons} questions={totals.questions} />
-    <section className="home-interview-launch scaffold-launch featured-practical" onClick={() => setScaffoldBuilder(true)}>
-      <div className="home-agent-icon"><span>╱╲</span></div><div className="home-interview-copy"><small>NEW · INTERACTIVE PRACTICAL</small><h2>Scaffolding Builder</h2><p>Identify every scaffold component, erect it in the safe sequence, inspect it and dismantle it correctly.</p><div><span>Build</span><b>→</b><span>Inspect</span><b>→</b><span>Dismantle</span></div></div><button className="home-interview-button">Start Building <b>›</b></button>
-    </section>
     <section className="home-interview-launch" onClick={() => setLiveAgent(true)}>
       <div className="home-agent-icon"><span>HSE</span><i /><i /><i /></div>
       <div className="home-interview-copy"><small>NEW · LIVE VOICE PRACTICE</small><h2>Mock HSE Interview</h2><p>Your personal interview agent asks random questions, listens to your answers and gives instant feedback.</p>
