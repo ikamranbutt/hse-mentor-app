@@ -126,17 +126,76 @@ const scenarios: Scenario[] = [
   }
 ];
 
+const extraWrongControls: Record<string, Control[]> = {
+  'hot-work': [
+    { id: 'hw7', label: 'Keep the fire extinguisher inside a locked store nearby', required: false, reason: 'Fire equipment must be immediately accessible at the work face.' },
+    { id: 'hw8', label: 'Use ordinary cotton clothing because welding will take only 10 minutes', required: false, reason: 'Task duration does not remove burn and ignition hazards.' }
+  ],
+  'work-height': [
+    { id: 'wh7', label: 'Use a ladder from the top two steps to reach the last section', required: false, reason: 'The top steps are not a safe working position and encourage overreaching.' },
+    { id: 'wh8', label: 'Continue work during strong wind if the worker feels confident', required: false, reason: 'Weather limits are based on risk and equipment requirements, not confidence.' }
+  ],
+  excavation: [
+    { id: 'ex7', label: 'Use warning tape alone around the vehicle-side edge', required: false, reason: 'A vehicle interface needs rigid protection, stop blocks and traffic control.' },
+    { id: 'ex8', label: 'Store excavated soil at the edge to save space', required: false, reason: 'Spoil adds surcharge load and can fall back into the excavation.' }
+  ],
+  grinding: [
+    { id: 'gr7', label: 'Wear only safety glasses; a face shield is unnecessary', required: false, reason: 'Safety glasses alone do not protect the full face from disc fragments and sparks.' },
+    { id: 'gr8', label: 'Hold the steel by hand so it can be cut faster', required: false, reason: 'The workpiece must be secured to prevent movement and kickback.' }
+  ],
+  lifting: [
+    { id: 'li7', label: 'Use two signalers at the same time to improve visibility', required: false, reason: 'Conflicting signals can cause unintended crane movement; one designated signaler is required.' },
+    { id: 'li8', label: 'Use a forklift to push and steady the suspended load', required: false, reason: 'Plant must not enter the suspended-load zone or contact the load.' }
+  ],
+  loto: [
+    { id: 'lo7', label: 'Use one supervisor lock for the entire maintenance team', required: false, reason: 'Each exposed worker needs personal control of their own lock.' },
+    { id: 'lo8', label: 'Remove another worker’s lock when their shift ends', required: false, reason: 'A personal lock requires the formal exceptional-removal procedure.' }
+  ],
+  'confined-space': [
+    { id: 'cs7', label: 'Rely on smell to confirm that the atmosphere is safe', required: false, reason: 'Many lethal atmospheres cannot be detected by human senses.' },
+    { id: 'cs8', label: 'Place the gas detector outside the vessel entrance only', required: false, reason: 'Testing must represent the breathing zone and different levels inside the space.' }
+  ],
+  scaffold: [
+    { id: 'sc7', label: 'Use loose bricks instead of sole boards to level the scaffold', required: false, reason: 'Loose masonry is unstable and cannot provide a sound foundation.' },
+    { id: 'sc8', label: 'Climb the outside standards because it is quicker', required: false, reason: 'Workers must use the designed internal access system.' }
+  ],
+  material: [
+    { id: 'ma7', label: 'Release all load restraints from the traffic side at once', required: false, reason: 'Restraints must be released through a controlled plan after checking load stability.' },
+    { id: 'ma8', label: 'Ask one worker to manually carry a long heavy section', required: false, reason: 'The load needs a suitable mechanical aid or planned team lift.' }
+  ]
+};
+
+function Person({ role, className = '' }: { role: string; className?: string }) {
+  return <div className={`scene-person ${className}`}><span className="hard-hat"/><span className="head"/><span className="torso"><i/></span><span className="arm left"/><span className="arm right"/><span className="leg left"/><span className="leg right"/><b>{role}</b></div>;
+}
+
+function ScenarioScene({ id, title, category }: { id: string; title: string; category: string }) {
+  const common = <><div className="scene-sky"><i/><i/><i/></div><div className="scene-ground"/><div className="scene-barrier"><i/><i/><i/><i/></div></>;
+  let action;
+  if (id === 'hot-work') action = <><div className="steel-work"/><Person role="WELDER" className="welder"/><Person role="FIRE WATCH" className="fire-watch"/><div className="weld-tool"/><div className="spark-stream">{[1,2,3,4,5,6,7].map(n=><i key={n}/>)}</div><div className="extinguisher">FIRE</div><div className="fume-cloud"><i/><i/><i/></div></>;
+  else if (id === 'work-height') action = <><div className="scaffold-structure"><i/><i/><i/><i/><i/><i/></div><Person role="TECHNICIAN" className="height-worker"/><Person role="SPOTTER" className="height-spotter"/><div className="lanyard-line"/><div className="tool-drop">🔧</div></>;
+  else if (id === 'excavation') action = <><div className="excavation-pit"><i/><i/><i/></div><div className="excavator"><span/><b/><i/></div><Person role="BANKSMAN" className="banksman"/><Person role="WORKER" className="pit-worker"/><div className="pit-ladder"/></>;
+  else if (id === 'grinding') action = <><div className="grind-bench"/><Person role="OPERATOR" className="grinder-worker"/><Person role="WATCHER" className="grinder-watcher"/><div className="grinder-tool">●</div><div className="grind-sparks">{[1,2,3,4,5,6,7,8].map(n=><i key={n}/>)}</div></>;
+  else if (id === 'lifting') action = <><div className="mobile-crane"><span/><b/><i/><em/></div><div className="crane-hook"/><div className="lift-load">STEEL LOAD</div><Person role="RIGGER" className="rigger"/><Person role="SIGNALER" className="signaler"/><div className="tag-line"/></>;
+  else if (id === 'loto') action = <><div className="electric-panel"><i/><i/><strong>440V</strong><em>🔒</em></div><Person role="ELECTRICIAN" className="electrician"/><Person role="AUTHORIZED" className="loto-supervisor"/><div className="test-meter"><i/><i/></div><div className="electric-pulse">⚡</div></>;
+  else if (id === 'confined-space') action = <><div className="vessel"><i/><strong>VESSEL</strong></div><Person role="ENTRANT" className="entrant"/><Person role="ATTENDANT" className="attendant"/><Person role="RESCUE" className="rescuer"/><div className="tripod"><i/><i/><b/></div><div className="vent-hose"/></>;
+  else if (id === 'scaffold') action = <><div className="full-scaffold"><i/><i/><i/><i/><i/><i/><i/><i/><b/><em/></div><Person role="SCAFFOLDER" className="scaffolder"/><Person role="INSPECTOR" className="scaffold-inspector"/><div className="scaffold-board"/></>;
+  else action = <><div className="delivery-truck"><span/><b/><i/><em/></div><div className="forklift"><span/><b/><i/></div><div className="material-load">STEEL</div><Person role="DRIVER" className="driver"/><Person role="BANKSMAN" className="material-banksman"/><Person role="RIGGER" className="material-rigger"/></>;
+  return <section className={`activity-stage realistic-scene stage-${id}`}>{common}{action}<div className="scene-vignette"/><div className="stage-label"><small>LIVE ACTIVITY · ANIMATED</small><strong>{title}</strong><span>{category}</span></div></section>;
+}
+
 export default function SafetySimulator({ onBack }: { onBack: () => void }) {
   const [active, setActive] = useState<Scenario | null>(null);
   const [selected, setSelected] = useState<string[]>([]);
   const [submitted, setSubmitted] = useState(false);
-  const required = active?.controls.filter(c => c.required) ?? [];
+  const controls = active ? [...active.controls, ...(extraWrongControls[active.id] || [])] : [];
+  const required = controls.filter(c => c.required);
   const correct = required.filter(c => selected.includes(c.id)).length;
-  const unsafe = active?.controls.filter(c => !c.required && selected.includes(c.id)).length ?? 0;
+  const unsafe = controls.filter(c => !c.required && selected.includes(c.id)).length;
   const score = active ? Math.max(0, Math.round(((correct - unsafe) / required.length) * 100)) : 0;
   const safe = active ? correct === required.length && unsafe === 0 : false;
-  const progress = active ? Math.round((selected.length / active.controls.length) * 100) : 0;
-  const feedback = useMemo(() => active?.controls.filter(c => (c.required && !selected.includes(c.id)) || (!c.required && selected.includes(c.id))) ?? [], [active, selected]);
+  const progress = active ? Math.round((selected.length / controls.length) * 100) : 0;
+  const feedback = useMemo(() => controls.filter(c => (c.required && !selected.includes(c.id)) || (!c.required && selected.includes(c.id))), [active, selected]);
 
   const open = (scenario: Scenario) => { setActive(scenario); setSelected([]); setSubmitted(false); scrollTo({ top: 0, behavior: 'smooth' }); };
   if (!active) return <main className="simulator-page">
@@ -147,13 +206,10 @@ export default function SafetySimulator({ onBack }: { onBack: () => void }) {
 
   return <main className="simulator-page">
     <header className="sim-top"><button onClick={() => setActive(null)}>←</button><div><strong>{active.title}</strong><small>Scenario inspection</small></div></header>
-    <section className={`activity-stage stage-${active.id}`}>
-      <div className="site-grid"/><div className="danger-zone"/><div className="worker"><i>⛑</i><b>HSE</b></div><div className="activity-machine">{active.icon}</div><div className="hazard-pulse one">!</div><div className="hazard-pulse two">!</div>
-      <div className="stage-label"><small>LIVE ACTIVITY</small><strong>{active.title}</strong><span>{active.category}</span></div>
-    </section>
+    <ScenarioScene id={active.id} title={active.title} category={active.category}/>
     <section className="scenario-brief"><span className={`risk-${active.risk.toLowerCase()}`}>{active.risk} RISK</span><h1>Make the activity safe</h1><p>{active.description}</p><div className="hazard-tags">{active.hazards.map(h => <span key={h}>⚠ {h}</span>)}</div></section>
-    <section className="control-panel"><div className="control-title"><div><small>YOUR SAFETY PLAN</small><h2>Select the required controls</h2></div><b>{selected.length}/{active.controls.length}</b></div><div className="sim-progress"><i style={{width:`${progress}%`}}/></div>
-      <div className="control-options">{active.controls.map((c, index) => {
+    <section className="control-panel"><div className="control-title"><div><small>YOUR SAFETY PLAN</small><h2>Think carefully—select only safe controls</h2></div><b>{selected.length}/{controls.length}</b></div><div className="sim-progress"><i style={{width:`${progress}%`}}/></div>
+      <div className="control-options">{controls.map((c, index) => {
         const chosen = selected.includes(c.id); const state = submitted ? c.required ? chosen ? 'correct' : 'missed' : chosen ? 'danger' : 'neutral' : chosen ? 'chosen' : '';
         return <button disabled={submitted} className={state} key={c.id} onClick={() => setSelected(chosen ? selected.filter(id => id !== c.id) : [...selected, c.id])}><span>{submitted ? c.required ? chosen ? '✓' : '!' : chosen ? '×' : '—' : chosen ? '✓' : index + 1}</span><p>{c.label}</p></button>;
       })}</div>
