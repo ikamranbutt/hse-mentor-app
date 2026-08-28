@@ -5,6 +5,7 @@ import Interview from './Interview';
 import LiveAgent from './LiveAgent';
 import RiskAssessment from './RiskAssessment';
 import SafetySimulator from './SafetySimulator';
+import ScaffoldBuilder from './ScaffoldBuilder';
 
 function ModuleCard({ module, onOpen }: { module: Module; onOpen: () => void }) {
   return <button className={`module-card ${module.level}`} onClick={onOpen}>
@@ -193,6 +194,7 @@ export default function App() {
   const [liveAgent, setLiveAgent] = useState(false);
   const [riskAssessment, setRiskAssessment] = useState(false);
   const [simulator, setSimulator] = useState(false);
+  const [scaffoldBuilder, setScaffoldBuilder] = useState(false);
   const [lockedMessage, setLockedMessage] = useState('');
   const [completed, setCompleted] = useState<string[]>(() => {
     try { return JSON.parse(localStorage.getItem('hse-mentor-completed-lessons') || '[]'); }
@@ -216,6 +218,7 @@ export default function App() {
   if (liveAgent) return <LiveAgent onBack={() => setLiveAgent(false)} />;
   if (riskAssessment) return <RiskAssessment onBack={() => setRiskAssessment(false)} />;
   if (simulator) return <SafetySimulator onBack={() => setSimulator(false)} />;
+  if (scaffoldBuilder) return <ScaffoldBuilder onBack={() => setScaffoldBuilder(false)} />;
   if (interview) return <Interview onBack={() => setInterview(false)} />;
   if (selected && lesson) {
     const nextLesson = selected.lessons.find(item => item.order === lesson.order + 1);
@@ -257,6 +260,9 @@ export default function App() {
     </section>
     <section className="home-interview-launch simulator-launch" onClick={() => setSimulator(true)}>
       <div className="home-agent-icon"><span>⚠</span></div><div className="home-interview-copy"><small>NEW · PRACTICAL SAFETY TRAINING</small><h2>Safety Scenario Simulator</h2><p>Inspect real activities, select every critical control and decide whether the work is safe to start.</p><div><span>Inspect</span><b>→</b><span>Control</span><b>→</b><span>Authorize</span></div></div><button className="home-interview-button">Start Simulation <b>›</b></button>
+    </section>
+    <section className="home-interview-launch scaffold-launch" onClick={() => setScaffoldBuilder(true)}>
+      <div className="home-agent-icon"><span>╱╲</span></div><div className="home-interview-copy"><small>NEW · INTERACTIVE PRACTICAL</small><h2>Scaffolding Builder</h2><p>Identify every scaffold component, erect it in the safe sequence, inspect it and dismantle it correctly.</p><div><span>Build</span><b>→</b><span>Inspect</span><b>→</b><span>Dismantle</span></div></div><button className="home-interview-button">Start Building <b>›</b></button>
     </section>
     <section className="section learning-path"><div className="section-title"><h2>Your complete learning path</h2><span>4 Levels</span></div>
       {levels.map((level, index) => <section className={`level-group level-${level.key}`} key={level.key}>
