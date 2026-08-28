@@ -13,6 +13,7 @@ import './agent.css';
 import './home-interview.css';
 import './risk-assessment.css';
 import './ra-professional.css';
+import './simulator.css';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode><App /></React.StrictMode>
