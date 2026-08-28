@@ -123,6 +123,110 @@ const scenarios: Scenario[] = [
       { id: 'ma5', label: 'Use a team/mechanical aid and store material securely', required: true, reason: 'Reduce manual load and prevent later collapse or rolling.' },
       { id: 'ma6', label: 'Climb onto an unsecured load to attach slings', required: false, reason: 'This creates fall and load-movement exposure.' }
     ]
+  },
+  {
+    id: 'mewp', title: 'MEWP / Manlift Operation', category: 'Powered Access', risk: 'Extreme', icon: '🏗️',
+    description: 'A technician will use a boom lift beside a structure while vehicles and workers are moving nearby.',
+    hazards: ['Entrapment or crushing', 'Machine overturning', 'Fall from platform', 'Collision and falling objects'],
+    controls: [
+      { id: 'mw1', label: 'Trained authorized operator and machine pre-use inspection', required: true, reason: 'The operator and equipment must be competent and serviceable.' },
+      { id: 'mw2', label: 'Firm level ground, outriggers and travel route assessed', required: true, reason: 'Ground and route conditions directly affect stability.' },
+      { id: 'mw3', label: 'Barricaded operating zone with a ground spotter', required: true, reason: 'The spotter controls interfaces and overhead/entrapment risk.' },
+      { id: 'mw4', label: 'Gate closed, harness attached to designated platform anchor', required: true, reason: 'Platform fall protection must follow manufacturer requirements.' },
+      { id: 'mw5', label: 'Emergency lowering tested and ground person familiar with it', required: true, reason: 'A prompt controlled rescue must be possible after failure.' },
+      { id: 'mw6', label: 'Stand on the platform handrail for extra reach', required: false, reason: 'Standing on rails defeats platform protection and creates a fall risk.' }
+    ]
+  },
+  {
+    id: 'roof-lifeline', title: 'Roof Work & Lifeline', category: 'Roof Safety', risk: 'Extreme', icon: '🏠',
+    description: 'A team will install a lifeline and guardrail near an unprotected roof edge and fragile rooflights.',
+    hazards: ['Fall from roof edge', 'Fall through fragile surface', 'Dropped tools', 'Suspension after a fall'],
+    controls: [
+      { id: 'rf1', label: 'Roof survey, access permit and fragile areas identified', required: true, reason: 'The roof condition, access and fragile zones must be known first.' },
+      { id: 'rf2', label: 'Collective edge protection or restraint selected before arrest', required: true, reason: 'Preventing access to the fall edge is higher in the hierarchy.' },
+      { id: 'rf3', label: 'Certified anchors/lifeline installed to approved design', required: true, reason: 'The system must be engineered and installed by competent persons.' },
+      { id: 'rf4', label: 'Weather limits, exclusion zone and tool tethering applied', required: true, reason: 'Wind, dropped objects and people below must be controlled.' },
+      { id: 'rf5', label: 'Specific rescue plan and equipment available at roof level', required: true, reason: 'Suspension rescue must be achievable without delay.' },
+      { id: 'rf6', label: 'Attach the lanyard to a roof vent or duct support', required: false, reason: 'Building services are not certified fall-protection anchors.' }
+    ]
+  },
+  {
+    id: 'forklift', title: 'Forklift Operation', category: 'Mobile Plant', risk: 'High', icon: '🚜',
+    description: 'A forklift must move a pallet through a warehouse where pedestrians and blind corners are present.',
+    hazards: ['Pedestrian struck by vehicle', 'Forklift overturning', 'Falling load', 'Collision at blind corners'],
+    controls: [
+      { id: 'fk1', label: 'Licensed operator and documented pre-use inspection', required: true, reason: 'Only competent operators may use a serviceable forklift.' },
+      { id: 'fk2', label: 'Pedestrian routes physically separated from forklift lanes', required: true, reason: 'Separation is stronger than relying only on warnings.' },
+      { id: 'fk3', label: 'Load within capacity, stable and carried low', required: true, reason: 'Correct loading preserves stability and visibility.' },
+      { id: 'fk4', label: 'Speed limit, horn at blind corners and seat belt used', required: true, reason: 'Driving controls reduce collision and overturn injury.' },
+      { id: 'fk5', label: 'Banksman used where visibility or reversing is restricted', required: true, reason: 'A controlled signaler is needed when the operator cannot see safely.' },
+      { id: 'fk6', label: 'Carry a coworker standing on the forks for a short trip', required: false, reason: 'Forks are not a personnel platform.' }
+    ]
+  },
+  {
+    id: 'chemical', title: 'Chemical Handling & Transfer', category: 'COSHH / Hazmat', risk: 'High', icon: '🧪',
+    description: 'Workers will transfer a corrosive chemical from a drum into a smaller process container.',
+    hazards: ['Skin and eye burns', 'Toxic inhalation', 'Incompatible reaction', 'Spill and environmental release'],
+    controls: [
+      { id: 'ch1', label: 'Current SDS and chemical risk assessment reviewed', required: true, reason: 'Hazards, incompatibilities and response measures come from verified information.' },
+      { id: 'ch2', label: 'Closed transfer pump, bunding and compatible containers', required: true, reason: 'Engineering containment reduces exposure and release.' },
+      { id: 'ch3', label: 'Ventilation and ignition control suitable for the chemical', required: true, reason: 'Vapour and flammability controls depend on product properties.' },
+      { id: 'ch4', label: 'Chemical gloves, goggles/face shield and protective clothing', required: true, reason: 'PPE must be selected from the SDS and exposure assessment.' },
+      { id: 'ch5', label: 'Eyewash, spill kit, labels and trained response available', required: true, reason: 'Exposure and spill response must be immediate and specific.' },
+      { id: 'ch6', label: 'Use an unlabelled drinking bottle for easier pouring', required: false, reason: 'Unlabelled food containers can cause poisoning and uncontrolled reactions.' }
+    ]
+  },
+  {
+    id: 'pressure-test', title: 'Pressure Testing', category: 'Stored Energy', risk: 'Extreme', icon: '🧯',
+    description: 'A newly installed pipe section will be hydrostatically pressure-tested before handover.',
+    hazards: ['Pipe or fitting rupture', 'Projectile from temporary fittings', 'High-pressure fluid injection', 'Uncontrolled depressurization'],
+    controls: [
+      { id: 'pt1', label: 'Approved test pack, test limits and calibrated gauges', required: true, reason: 'The system, medium, pressure and acceptance criteria must be authorized.' },
+      { id: 'pt2', label: 'Rated fittings, restraints and temporary connections inspected', required: true, reason: 'Every pressure boundary component must withstand the test.' },
+      { id: 'pt3', label: 'Rigid exclusion zone with remote pressurization where possible', required: true, reason: 'People must remain outside the potential line of fire.' },
+      { id: 'pt4', label: 'Pressure raised in controlled stages while checking remotely', required: true, reason: 'Staged pressurization helps identify abnormal behaviour safely.' },
+      { id: 'pt5', label: 'Controlled depressurization and zero energy verified', required: true, reason: 'The system remains hazardous until all stored pressure is released.' },
+      { id: 'pt6', label: 'Tighten a leaking fitting while the line remains pressurized', required: false, reason: 'No adjustment is permitted on an energized pressure boundary.' }
+    ]
+  },
+  {
+    id: 'demolition', title: 'Demolition Work', category: 'Structural Work', risk: 'Extreme', icon: '🏚️',
+    description: 'A crew will demolish part of a block wall inside an area containing hidden services and adjacent workers.',
+    hazards: ['Unplanned structural collapse', 'Hidden electrical or utility services', 'Flying debris and silica dust', 'Noise and falling material'],
+    controls: [
+      { id: 'dm1', label: 'Engineering survey and approved demolition sequence', required: true, reason: 'Structural behaviour and the safe sequence must be established.' },
+      { id: 'dm2', label: 'All services located, isolated and verified dead', required: true, reason: 'Hidden live services can cause fatal contact or release.' },
+      { id: 'dm3', label: 'Rigid exclusion zone and controlled debris route', required: true, reason: 'People must be separated from collapse and falling-material zones.' },
+      { id: 'dm4', label: 'Dust suppression/extraction and suitable respiratory protection', required: true, reason: 'Silica and nuisance dust require source and personal controls.' },
+      { id: 'dm5', label: 'Correct tools, temporary support and continuous supervision', required: true, reason: 'The method must maintain stability throughout demolition.' },
+      { id: 'dm6', label: 'Start from the bottom so the wall falls quickly', required: false, reason: 'Undercutting creates an uncontrolled structural collapse.' }
+    ]
+  },
+  {
+    id: 'roadwork', title: 'Roadwork & Traffic Control', category: 'Traffic Management', risk: 'Extreme', icon: '🚦',
+    description: 'Workers must repair a roadside barrier next to live moving traffic during daytime operations.',
+    hazards: ['Vehicle entering work zone', 'Worker struck by traffic', 'Plant reversing', 'Poor driver warning and visibility'],
+    controls: [
+      { id: 'rd1', label: 'Approved traffic-management plan and road authority permit', required: true, reason: 'The road layout and controls require formal authorization.' },
+      { id: 'rd2', label: 'Advance warning signs, taper, barriers and safe buffer zone', required: true, reason: 'Drivers need progressive warning and physical channelization.' },
+      { id: 'rd3', label: 'Trained traffic marshals with agreed communication', required: true, reason: 'Vehicle movement must be coordinated by competent personnel.' },
+      { id: 'rd4', label: 'High-visibility PPE and suitable task lighting/visibility', required: true, reason: 'Workers must remain conspicuous in changing conditions.' },
+      { id: 'rd5', label: 'Plant–people separation and protected site access/egress', required: true, reason: 'Internal movements must not introduce another collision risk.' },
+      { id: 'rd6', label: 'Stand in the live lane and wave vehicles around the worker', required: false, reason: 'A person must not substitute for a planned protected traffic arrangement.' }
+    ]
+  },
+  {
+    id: 'concrete', title: 'Concrete Pouring', category: 'Civil Work', risk: 'High', icon: '🏗️',
+    description: 'A team will place concrete using a pump hose over reinforcement and temporary formwork.',
+    hazards: ['Hose whip and line failure', 'Formwork collapse', 'Cement burns', 'Trips, impalement and plant movement'],
+    controls: [
+      { id: 'cn1', label: 'Formwork inspection and pour authorization completed', required: true, reason: 'The temporary works must support the planned pour load.' },
+      { id: 'cn2', label: 'Pump, pipeline, clamps and hose inspected and secured', required: true, reason: 'Pressure components and end hose must be serviceable and controlled.' },
+      { id: 'cn3', label: 'Exclusion zone with one trained pump signaler', required: true, reason: 'Workers must stay clear of hose-whip and plant zones.' },
+      { id: 'cn4', label: 'Safe access, rebar caps and good hose/cable housekeeping', required: true, reason: 'Access and impalement/trip hazards must be controlled.' },
+      { id: 'cn5', label: 'Waterproof gloves, boots, eye protection and washing facilities', required: true, reason: 'Wet cement can cause serious chemical burns.' },
+      { id: 'cn6', label: 'Kink the delivery hose by hand to stop concrete flow', required: false, reason: 'Manual kinking exposes the worker to pressure release and hose whip.' }
+    ]
   }
 ];
 
@@ -162,6 +266,38 @@ const extraWrongControls: Record<string, Control[]> = {
   material: [
     { id: 'ma7', label: 'Release all load restraints from the traffic side at once', required: false, reason: 'Restraints must be released through a controlled plan after checking load stability.' },
     { id: 'ma8', label: 'Ask one worker to manually carry a long heavy section', required: false, reason: 'The load needs a suitable mechanical aid or planned team lift.' }
+  ],
+  mewp: [
+    { id: 'mw7', label: 'Drive the raised boom quickly to save setup time', required: false, reason: 'Elevated travel is restricted and must follow manufacturer conditions and route assessment.' },
+    { id: 'mw8', label: 'Use the platform to lift loose steel materials', required: false, reason: 'A MEWP is a personnel platform, not a crane or material carrier.' }
+  ],
+  'roof-lifeline': [
+    { id: 'rf7', label: 'Walk directly on rooflights because they appear strong', required: false, reason: 'Rooflights must be treated as fragile unless proven otherwise.' },
+    { id: 'rf8', label: 'Work alone so fewer people are exposed on the roof', required: false, reason: 'Lone work prevents timely assistance and makes fall rescue ineffective.' }
+  ],
+  forklift: [
+    { id: 'fk7', label: 'Travel forward with a high load even when visibility is blocked', required: false, reason: 'The operator must maintain a clear view and use a safe alternative direction or spotter.' },
+    { id: 'fk8', label: 'Leave the forklift parked with forks raised', required: false, reason: 'Forks must be lowered, brake applied and truck secured when unattended.' }
+  ],
+  chemical: [
+    { id: 'ch7', label: 'Mix leftover chemicals together to reduce waste containers', required: false, reason: 'Unknown mixtures can react violently or release toxic gas.' },
+    { id: 'ch8', label: 'Wash a chemical spill into the nearest floor drain', required: false, reason: 'This spreads contamination and can create an environmental release.' }
+  ],
+  'pressure-test': [
+    { id: 'pt7', label: 'Use compressed air instead of water without changing the plan', required: false, reason: 'Pneumatic testing stores far more energy and needs a separate engineered assessment.' },
+    { id: 'pt8', label: 'Stand beside the temporary blind to read the gauge', required: false, reason: 'Temporary fittings and end closures are high-energy line-of-fire locations.' }
+  ],
+  demolition: [
+    { id: 'dm7', label: 'Allow other trades to continue working behind the wall', required: false, reason: 'Adjacent people must be excluded from the collapse and debris zone.' },
+    { id: 'dm8', label: 'Use dry sweeping to remove silica dust', required: false, reason: 'Dry sweeping re-suspends respirable dust; use controlled wet or filtered methods.' }
+  ],
+  roadwork: [
+    { id: 'rd7', label: 'Remove the advance warning signs to prevent traffic slowing down', required: false, reason: 'Drivers need enough distance to perceive, react and merge safely.' },
+    { id: 'rd8', label: 'Park the work vehicle facing traffic without a buffer zone', required: false, reason: 'Vehicle position and buffers must follow the approved traffic plan.' }
+  ],
+  concrete: [
+    { id: 'cn7', label: 'Stand directly in front of the pump hose outlet', required: false, reason: 'The hose outlet is a high-energy line-of-fire location.' },
+    { id: 'cn8', label: 'Clean wet cement from skin only at the end of the shift', required: false, reason: 'Contaminated skin and clothing require immediate washing and removal.' }
   ]
 };
 
@@ -180,6 +316,14 @@ function ScenarioScene({ id, title, category }: { id: string; title: string; cat
   else if (id === 'loto') action = <><div className="electric-panel"><i/><i/><strong>440V</strong><em>🔒</em></div><Person role="ELECTRICIAN" className="electrician"/><Person role="AUTHORIZED" className="loto-supervisor"/><div className="test-meter"><i/><i/></div><div className="electric-pulse">⚡</div></>;
   else if (id === 'confined-space') action = <><div className="vessel"><i/><strong>VESSEL</strong></div><Person role="ENTRANT" className="entrant"/><Person role="ATTENDANT" className="attendant"/><Person role="RESCUE" className="rescuer"/><div className="tripod"><i/><i/><b/></div><div className="vent-hose"/></>;
   else if (id === 'scaffold') action = <><div className="full-scaffold"><i/><i/><i/><i/><i/><i/><i/><i/><b/><em/></div><Person role="SCAFFOLDER" className="scaffolder"/><Person role="INSPECTOR" className="scaffold-inspector"/><div className="scaffold-board"/></>;
+  else if (id === 'mewp') action = <><div className="mewp-machine"><span/><b/><i/><em/></div><div className="mewp-basket"><Person role="OPERATOR" className="mewp-operator"/></div><Person role="SPOTTER" className="mewp-spotter"/><div className="mewp-building"/><div className="mewp-warning">OVERHEAD</div></>;
+  else if (id === 'roof-lifeline') action = <><div className="roof-surface"><i/><i/><i/></div><div className="roof-edge"/><div className="roof-lifeline"><i/><i/><i/></div><Person role="INSTALLER" className="roof-installer"/><Person role="SUPERVISOR" className="roof-supervisor"/><div className="roof-lanyard"/><div className="fragile-light">FRAGILE</div></>;
+  else if (id === 'forklift') action = <><div className="warehouse-rack"><i/><i/><i/><b/><b/><b/></div><div className="forklift warehouse-forklift"><span/><b/><i/></div><div className="pallet-load">PALLET</div><Person role="OPERATOR" className="forklift-operator"/><Person role="BANKSMAN" className="forklift-banksman"/><div className="pedestrian-lane"/></>;
+  else if (id === 'chemical') action = <><div className="chemical-drum">CORROSIVE</div><div className="chemical-container">PROCESS</div><div className="transfer-hose"/><Person role="OPERATOR" className="chemical-worker"/><Person role="WATCHER" className="chemical-watcher"/><div className="chemical-flow"/><div className="eyewash">EYEWASH</div></>;
+  else if (id === 'pressure-test') action = <><div className="test-pipe"><i/><i/><i/><b/></div><div className="pressure-gauge"><i/><b>250</b></div><div className="test-pump">PUMP</div><Person role="TEST ENGINEER" className="test-engineer"/><Person role="WATCHER" className="test-watcher"/><div className="pressure-wave"/></>;
+  else if (id === 'demolition') action = <><div className="demo-wall">{[1,2,3,4,5,6,7,8,9,10,11,12].map(n=><i key={n}/>)}</div><Person role="OPERATOR" className="demo-worker"/><Person role="SPOTTER" className="demo-spotter"/><div className="demo-hammer">▰</div><div className="demo-debris">{[1,2,3,4,5].map(n=><i key={n}/>)}</div><div className="dust-cloud"><i/><i/><i/></div></>;
+  else if (id === 'roadwork') action = <><div className="road-lanes"><i/><i/></div><div className="traffic-car"><i/><b/></div><div className="traffic-cones">{[1,2,3,4,5].map(n=><i key={n}/>)}</div><Person role="MARSHAL" className="road-marshal"/><Person role="WORKER" className="road-worker"/><div className="road-sign">WORK<br/>AHEAD</div></>;
+  else if (id === 'concrete') action = <><div className="concrete-form"><i/><i/><i/></div><div className="pump-boom"><i/><b/></div><div className="pour-hose"/><div className="concrete-flow"/><Person role="PUMP MAN" className="pump-man"/><Person role="SIGNALER" className="pour-signaler"/><Person role="WORKER" className="pour-worker"/></>;
   else action = <><div className="delivery-truck"><span/><b/><i/><em/></div><div className="forklift"><span/><b/><i/></div><div className="material-load">STEEL</div><Person role="DRIVER" className="driver"/><Person role="BANKSMAN" className="material-banksman"/><Person role="RIGGER" className="material-rigger"/></>;
   return <section className={`activity-stage realistic-scene stage-${id}`}>{common}{action}<div className="scene-vignette"/><div className="stage-label"><small>LIVE ACTIVITY · ANIMATED</small><strong>{title}</strong><span>{category}</span></div></section>;
 }
