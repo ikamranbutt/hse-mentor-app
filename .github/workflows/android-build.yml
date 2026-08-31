@@ -54,11 +54,32 @@ jobs:
           name: HSE-Mentor-Unsigned-AAB
           path: android/app/build/outputs/bundle/release/app-release.aab
           retention-days: 7
-      - name: Prepare standard Java signing runtime
-        run: jlink --add-modules java.base,jdk.jartool,jdk.crypto.ec --strip-debug --no-header-files --no-man-pages --output signer-runtime
-      - name: Upload Java signing runtime
+      - name: Create signed Play Store release package
+        run: |
+          mkdir -p play-release
+          openssl rand -base64 24 | tr -d '\n' > play-release/upload-key-password.txt
+          keytool -genkeypair -v \
+            -keystore play-release/hse-mentor-upload-key.jks \
+            -storepass "$(cat play-release/upload-key-password.txt)" \
+            -keypass "$(cat play-release/upload-key-password.txt)" \
+            -alias hse-mentor-upload \
+            -keyalg RSA -keysize 2048 -validity 10000 \
+            -dname "CN=HSE Mentor, OU=Mobile Apps, O=Kamran Butt, L=Riyadh, ST=Riyadh, C=SA"
+          cp android/app/build/outputs/bundle/release/app-release.aab play-release/HSE-Mentor-v1.0.0-build1-signed.aab
+          jarsigner \
+            -keystore play-release/hse-mentor-upload-key.jks \
+            -storepass "$(cat play-release/upload-key-password.txt)" \
+            -keypass "$(cat play-release/upload-key-password.txt)" \
+            -sigalg SHA256withRSA -digestalg SHA-256 \
+            play-release/HSE-Mentor-v1.0.0-build1-signed.aab hse-mentor-upload
+          jarsigner -verify play-release/HSE-Mentor-v1.0.0-build1-signed.aab
+          keytool -list -v \
+            -keystore play-release/hse-mentor-upload-key.jks \
+            -storepass "$(cat play-release/upload-key-password.txt)" \
+            -alias hse-mentor-upload > play-release/upload-key-certificate.txt
+      - name: Upload signed Play Store release and key backup
         uses: actions/upload-artifact@v4
         with:
-          name: HSE-Mentor-Java-Signer
-          path: signer-runtime
-          retention-days: 1
+          name: HSE-Mentor-Play-Release
+          path: play-release
+          retention-days: 7
