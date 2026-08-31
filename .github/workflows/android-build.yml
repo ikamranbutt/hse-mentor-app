@@ -39,9 +39,18 @@ jobs:
       - name: Build installable debug APK
         working-directory: android
         run: ./gradlew assembleDebug
+      - name: Build Play Store release bundle
+        working-directory: android
+        run: ./gradlew bundleRelease
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: HSE-Mentor-Android-APK
           path: android/app/build/outputs/apk/debug/app-debug.apk
           retention-days: 30
+      - name: Upload unsigned Play Store bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: HSE-Mentor-Unsigned-AAB
+          path: android/app/build/outputs/bundle/release/app-release.aab
+          retention-days: 7
