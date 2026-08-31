@@ -54,3 +54,11 @@ jobs:
           name: HSE-Mentor-Unsigned-AAB
           path: android/app/build/outputs/bundle/release/app-release.aab
           retention-days: 7
+      - name: Prepare standard Java signing runtime
+        run: jlink --add-modules java.base,jdk.jartool,jdk.crypto.ec --strip-debug --no-header-files --no-man-pages --output signer-runtime
+      - name: Upload Java signing runtime
+        uses: actions/upload-artifact@v4
+        with:
+          name: HSE-Mentor-Java-Signer
+          path: signer-runtime
+          retention-days: 1
