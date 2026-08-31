@@ -28,6 +28,14 @@ jobs:
         run: npx cap add android
       - name: Sync Android
         run: npx cap sync android
+      - name: Apply HSE Mentor launcher icon
+        run: |
+          rm -f android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+          rm -f android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+          for density in mdpi hdpi xhdpi xxhdpi xxxhdpi; do
+            cp "store-assets/android-icons/mipmap-${density}/ic_launcher.png" "android/app/src/main/res/mipmap-${density}/ic_launcher.png"
+            cp "store-assets/android-icons/mipmap-${density}/ic_launcher_round.png" "android/app/src/main/res/mipmap-${density}/ic_launcher_round.png"
+          done
       - name: Build installable debug APK
         working-directory: android
         run: ./gradlew assembleDebug

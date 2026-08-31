@@ -1,10 +1,23 @@
 {
   "name": "HSE Mentor",
   "short_name": "HSE Mentor",
-  "description": "Practical health and safety learning platform",
+  "description": "HSE lessons, exams, risk assessments, practical scenarios and safety interview practice.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f5f8fa",
   "theme_color": "#123b5d",
-  "icons": []
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
